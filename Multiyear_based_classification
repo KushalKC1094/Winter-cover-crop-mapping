@@ -1,0 +1,11 @@
+var years = [2015, 2016, 2017];
+
+var training_data=
+var testing_data=
+
+var classifier = ee.Classifier.randomForest
+
+var classify = function(i){
+  var year = years[i];
+  var image = ee.Image("users/kessi9400/Landsat_17_18_oct_to_dec")
+}

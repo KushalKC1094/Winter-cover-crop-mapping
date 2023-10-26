@@ -1,0 +1,10642 @@
+/**** Start of imports. If edited, may not auto-convert in the playground. ****/
+var cover_crop = 
+    /* color: #98ff00 */
+    /* shown: false */
+    ee.FeatureCollection(
+        [ee.Feature(
+            ee.Geometry.Point([-84.12257090626552, 41.33871561169398]),
+            {
+              "cover_type": 1,
+              "system:index": "0"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.10265818653896, 41.35314929432897]),
+            {
+              "cover_type": 1,
+              "system:index": "1"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.14008036671474, 41.309322871997814]),
+            {
+              "cover_type": 1,
+              "system:index": "2"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09356013356044, 41.32092685303395]),
+            {
+              "cover_type": 1,
+              "system:index": "3"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.01545420704677, 41.31680122977769]),
+            {
+              "cover_type": 1,
+              "system:index": "4"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.99124995289638, 41.30326219418255]),
+            {
+              "cover_type": 1,
+              "system:index": "5"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0058411699374, 41.339102269895776]),
+            {
+              "cover_type": 1,
+              "system:index": "6"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.20256510792568, 41.39024978556043]),
+            {
+              "cover_type": 1,
+              "system:index": "7"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.24427882252529, 41.35959186961566]),
+            {
+              "cover_type": 1,
+              "system:index": "8"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.24685374317959, 41.39604482595573]),
+            {
+              "cover_type": 1,
+              "system:index": "9"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09356013356044, 41.373892107457145]),
+            {
+              "cover_type": 1,
+              "system:index": "10"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.37611476002529, 41.42218047496495]),
+            {
+              "cover_type": 1,
+              "system:index": "11"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.37371150074794, 41.40724710580133]),
+            {
+              "cover_type": 1,
+              "system:index": "12"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.35809031544521, 41.379946215958554]),
+            {
+              "cover_type": 1,
+              "system:index": "13"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3273629289706, 41.40055172242726]),
+            {
+              "cover_type": 1,
+              "system:index": "14"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.33886424122646, 41.438268624384115]),
+            {
+              "cover_type": 1,
+              "system:index": "15"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.27569285450771, 41.50270991069187]),
+            {
+              "cover_type": 1,
+              "system:index": "16"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.29062739430263, 41.47969333289041]),
+            {
+              "cover_type": 1,
+              "system:index": "17"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.25183192311123, 41.48432302224562]),
+            {
+              "cover_type": 1,
+              "system:index": "18"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.2255677324374, 41.45075028094688]),
+            {
+              "cover_type": 1,
+              "system:index": "19"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.23758402882412, 41.50669519114846]),
+            {
+              "cover_type": 1,
+              "system:index": "20"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.16943446217373, 41.48445162000616]),
+            {
+              "cover_type": 1,
+              "system:index": "21"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.27225962696865, 41.44405938216951]),
+            {
+              "cover_type": 1,
+              "system:index": "22"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.37903300343349, 41.4800791529699]),
+            {
+              "cover_type": 1,
+              "system:index": "23"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09213104790341, 41.229199529468026]),
+            {
+              "cover_type": 1,
+              "system:index": "24"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.08869782036435, 41.19536581046042]),
+            {
+              "cover_type": 1,
+              "system:index": "25"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.16457214897763, 41.190715535218104]),
+            {
+              "cover_type": 1,
+              "system:index": "26"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.2177871758331, 41.20724834638684]),
+            {
+              "cover_type": 1,
+              "system:index": "27"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.17796173637997, 41.25656362333981]),
+            {
+              "cover_type": 1,
+              "system:index": "28"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.14603272026669, 41.269983329012696]),
+            {
+              "cover_type": 1,
+              "system:index": "29"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.04063263481747, 41.249078358895645]),
+            {
+              "cover_type": 1,
+              "system:index": "30"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.01316681450497, 41.27436994231502]),
+            {
+              "cover_type": 1,
+              "system:index": "31"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.9651016289581, 41.27798222606338]),
+            {
+              "cover_type": 1,
+              "system:index": "32"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.91291657036435, 41.27488599508972]),
+            {
+              "cover_type": 1,
+              "system:index": "33"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.95171204155575, 41.229715939181055]),
+            {
+              "cover_type": 1,
+              "system:index": "34"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.95548859184872, 41.178313186315755]),
+            {
+              "cover_type": 1,
+              "system:index": "35"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.87240448540341, 41.20802321944181]),
+            {
+              "cover_type": 1,
+              "system:index": "36"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.87515106743466, 41.235654357709244]),
+            {
+              "cover_type": 1,
+              "system:index": "37"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.89540710991513, 41.256821720609324]),
+            {
+              "cover_type": 1,
+              "system:index": "38"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.27958527153622, 41.18580655298506]),
+            {
+              "cover_type": 1,
+              "system:index": "39"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.30293121880185, 41.18322273029594]),
+            {
+              "cover_type": 1,
+              "system:index": "40"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.2782119805206, 41.25527312169447]),
+            {
+              "cover_type": 1,
+              "system:index": "41"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.19718781059872, 41.18218917267426]),
+            {
+              "cover_type": 1,
+              "system:index": "42"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.11513367241513, 41.172111131029524]),
+            {
+              "cover_type": 1,
+              "system:index": "43"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09934082573544, 41.20724834638684]),
+            {
+              "cover_type": 1,
+              "system:index": "44"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.02655640190731, 41.29475092470538]),
+            {
+              "cover_type": 1,
+              "system:index": "45"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.01797333305966, 41.19304071413085]),
+            {
+              "cover_type": 1,
+              "system:index": "46"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.91394653862606, 41.17521223207378]),
+            {
+              "cover_type": 1,
+              "system:index": "47"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.87927094048153, 41.34915499758722]),
+            {
+              "cover_type": 1,
+              "system:index": "48"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96407166069638, 41.35044364272348]),
+            {
+              "cover_type": 1,
+              "system:index": "49"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.68014374321591, 41.441357512425135]),
+            {
+              "cover_type": 1,
+              "system:index": "50"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.6852935845245, 41.41716057610289]),
+            {
+              "cover_type": 1,
+              "system:index": "51"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.65130463188778, 41.50412448972276]),
+            {
+              "cover_type": 1,
+              "system:index": "52"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.78949204033505, 41.47159100002631]),
+            {
+              "cover_type": 1,
+              "system:index": "53"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.79962006157528, 41.476349882011995]),
+            {
+              "cover_type": 1,
+              "system:index": "54"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.76906433647763, 41.49396756528818]),
+            {
+              "cover_type": 1,
+              "system:index": "55"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.77472916191708, 41.48625238115088]),
+            {
+              "cover_type": 1,
+              "system:index": "56"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.18622576590718, 41.608051519919385]),
+            {
+              "cover_type": 1,
+              "system:index": "57"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.27608559336566, 41.682882222601755]),
+            {
+              "cover_type": 1,
+              "system:index": "58"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3155917552052, 41.712251972755986]),
+            {
+              "cover_type": 1,
+              "system:index": "59"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.32179932725785, 41.42192905952374]),
+            {
+              "cover_type": 1,
+              "system:index": "60"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.36728959215043, 41.49924468029157]),
+            {
+              "cover_type": 1,
+              "system:index": "61"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.489684153918, 41.48805827489457]),
+            {
+              "cover_type": 1,
+              "system:index": "62"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.45071702134965, 41.48612938906018]),
+            {
+              "cover_type": 1,
+              "system:index": "63"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.44556718004105, 41.50695831704932]),
+            {
+              "cover_type": 1,
+              "system:index": "64"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.46015839708207, 41.51981233634222]),
+            {
+              "cover_type": 1,
+              "system:index": "65"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.44041733873246, 41.52431064005392]),
+            {
+              "cover_type": 1,
+              "system:index": "66"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.43286423814652, 41.64090018956167]),
+            {
+              "cover_type": 1,
+              "system:index": "67"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.36827369992103, 41.76428759713126]),
+            {
+              "cover_type": 1,
+              "system:index": "68"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.33517869539241, 41.931929087194256]),
+            {
+              "cover_type": 1,
+              "system:index": "69"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.73137315340023, 41.647151381573046]),
+            {
+              "cover_type": 1,
+              "system:index": "70"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.75403245515804, 41.63996762509057]),
+            {
+              "cover_type": 1,
+              "system:index": "71"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.65189393587093, 41.64099392505147]),
+            {
+              "cover_type": 1,
+              "system:index": "72"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.69655817314994, 41.569530575818746]),
+            {
+              "cover_type": 1,
+              "system:index": "73"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.77174585625541, 41.516210706173865]),
+            {
+              "cover_type": 1,
+              "system:index": "74"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.8017865972222, 41.496284779665764]),
+            {
+              "cover_type": 1,
+              "system:index": "75"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.70371297416479, 41.444678033533975]),
+            {
+              "cover_type": 1,
+              "system:index": "76"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.59951451835424, 41.40026944271392]),
+            {
+              "cover_type": 1,
+              "system:index": "77"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.72311070976049, 41.36613787526316]),
+            {
+              "cover_type": 1,
+              "system:index": "78"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.59831288871557, 41.35776324544173]),
+            {
+              "cover_type": 1,
+              "system:index": "79"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.55797246513158, 41.3684568129727]),
+            {
+              "cover_type": 1,
+              "system:index": "80"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.490645134954, 41.301343674661744]),
+            {
+              "cover_type": 1,
+              "system:index": "81"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.47347899725868, 41.33499364715214]),
+            {
+              "cover_type": 1,
+              "system:index": "82"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.4596268885605, 41.356124646046595]),
+            {
+              "cover_type": 1,
+              "system:index": "83"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.49155590467379, 41.36449948672117]),
+            {
+              "cover_type": 1,
+              "system:index": "84"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.42151806287691, 41.401207219053454]),
+            {
+              "cover_type": 1,
+              "system:index": "85"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.34032223157809, 41.37441905727124]),
+            {
+              "cover_type": 1,
+              "system:index": "86"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.24333355359957, 41.32080962548391]),
+            {
+              "cover_type": 1,
+              "system:index": "87"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.23097393445894, 41.33743842568208]),
+            {
+              "cover_type": 1,
+              "system:index": "88"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.2831589930527, 41.309592456921706]),
+            {
+              "cover_type": 1,
+              "system:index": "89"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.22445080213473, 41.24702459404054]),
+            {
+              "cover_type": 1,
+              "system:index": "90"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.89430426486375, 41.14334172737982]),
+            {
+              "cover_type": 1,
+              "system:index": "91"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.93138312228562, 41.098856969472344]),
+            {
+              "cover_type": 1,
+              "system:index": "92"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.95987891085984, 41.09911568892432]),
+            {
+              "cover_type": 1,
+              "system:index": "93"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.05326269992234, 41.12627555988478]),
+            {
+              "cover_type": 1,
+              "system:index": "94"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.02064703830125, 41.1366192217199]),
+            {
+              "cover_type": 1,
+              "system:index": "95"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.99936102755906, 41.15058057826269]),
+            {
+              "cover_type": 1,
+              "system:index": "96"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.98047827609422, 41.16195430071572]),
+            {
+              "cover_type": 1,
+              "system:index": "97"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.10579108127, 41.08255558956218]),
+            {
+              "cover_type": 1,
+              "system:index": "98"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.14046667941453, 41.082296804890895]),
+            {
+              "cover_type": 1,
+              "system:index": "99"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.15351294406297, 41.09575225655998]),
+            {
+              "cover_type": 1,
+              "system:index": "100"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.14595984347703, 41.11748216513675]),
+            {
+              "cover_type": 1,
+              "system:index": "101"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21634100802781, 41.12860302598242]),
+            {
+              "cover_type": 1,
+              "system:index": "102"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21290778048875, 41.08333193746198]),
+            {
+              "cover_type": 1,
+              "system:index": "103"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.22046088107469, 41.05227086834309]),
+            {
+              "cover_type": 1,
+              "system:index": "104"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09617804416062, 41.05951976351449]),
+            {
+              "cover_type": 1,
+              "system:index": "105"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.12467383273484, 41.05563652615643]),
+            {
+              "cover_type": 1,
+              "system:index": "106"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.06802557834031, 41.074015157378696]),
+            {
+              "cover_type": 1,
+              "system:index": "107"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.9355029953325, 41.07530923358402]),
+            {
+              "cover_type": 1,
+              "system:index": "108"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.9248599899614, 41.08359071805722]),
+            {
+              "cover_type": 1,
+              "system:index": "109"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09617804416062, 41.11722351804353]),
+            {
+              "cover_type": 1,
+              "system:index": "110"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.15488623507859, 41.15471670567474]),
+            {
+              "cover_type": 1,
+              "system:index": "111"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0292301071489, 41.16143735614538]),
+            {
+              "cover_type": 1,
+              "system:index": "112"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96159552462937, 41.01989998669974]),
+            {
+              "cover_type": 1,
+              "system:index": "113"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.00966071017625, 41.04294968653891]),
+            {
+              "cover_type": 1,
+              "system:index": "114"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.02614020236375, 41.003319934024326]),
+            {
+              "cover_type": 1,
+              "system:index": "115"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0534343612993, 40.98660612839794]),
+            {
+              "cover_type": 1,
+              "system:index": "116"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.18664358981492, 40.996194411068736]),
+            {
+              "cover_type": 1,
+              "system:index": "117"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.1852702987993, 41.02313779118111]),
+            {
+              "cover_type": 1,
+              "system:index": "118"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.28346060641648, 40.98349611564627]),
+            {
+              "cover_type": 1,
+              "system:index": "119"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.25771139987351, 40.923599786525735]),
+            {
+              "cover_type": 1,
+              "system:index": "120"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.15677451022508, 40.94123725004677]),
+            {
+              "cover_type": 1,
+              "system:index": "121"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.03352164157273, 40.95705508580203]),
+            {
+              "cover_type": 1,
+              "system:index": "122"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96726035006883, 40.96249969342522]),
+            {
+              "cover_type": 1,
+              "system:index": "123"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.13548849948289, 40.99386225443394]),
+            {
+              "cover_type": 1,
+              "system:index": "124"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0973796737993, 41.01277625655764]),
+            {
+              "cover_type": 1,
+              "system:index": "125"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.11488913424851, 40.950572824487956]),
+            {
+              "cover_type": 1,
+              "system:index": "126"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.93533133395555, 40.916595370121726]),
+            {
+              "cover_type": 1,
+              "system:index": "127"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.8999690903032, 41.007076717778155]),
+            {
+              "cover_type": 1,
+              "system:index": "128"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.87868307956101, 40.973387561295695]),
+            {
+              "cover_type": 1,
+              "system:index": "129"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.88681527513107, 40.86684959313834]),
+            {
+              "cover_type": 1,
+              "system:index": "130"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.94552346604904, 40.8808682212773]),
+            {
+              "cover_type": 1,
+              "system:index": "131"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.97161599534591, 40.852568309538285]),
+            {
+              "cover_type": 1,
+              "system:index": "132"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0862857951506, 40.84971168333023]),
+            {
+              "cover_type": 1,
+              "system:index": "133"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.19443246263107, 40.89099093991393]),
+            {
+              "cover_type": 1,
+              "system:index": "134"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21846505540451, 40.854905457556285]),
+            {
+              "cover_type": 1,
+              "system:index": "135"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.22155496018966, 40.81178479799551]),
+            {
+              "cover_type": 1,
+              "system:index": "136"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.11478158372482, 40.856982853246365]),
+            {
+              "cover_type": 1,
+              "system:index": "137"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0258609904631, 40.869445859336636]),
+            {
+              "cover_type": 1,
+              "system:index": "138"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.04474374192795, 40.89332673201069]),
+            {
+              "cover_type": 1,
+              "system:index": "139"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09212228196701, 40.916939553078116]),
+            {
+              "cover_type": 1,
+              "system:index": "140"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.80124461656251, 40.815115056921094]),
+            {
+              "cover_type": 1,
+              "system:index": "141"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.6738718748633, 40.84550872033684]),
+            {
+              "cover_type": 1,
+              "system:index": "142"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.61688029771486, 40.821090979801355]),
+            {
+              "cover_type": 1,
+              "system:index": "143"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.56263530259767, 40.81407571103135]),
+            {
+              "cover_type": 1,
+              "system:index": "144"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.67249858384767, 40.88341631456398]),
+            {
+              "cover_type": 1,
+              "system:index": "145"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.62031352525392, 40.9415337233074]),
+            {
+              "cover_type": 1,
+              "system:index": "146"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.73498332505861, 40.94957273302008]),
+            {
+              "cover_type": 1,
+              "system:index": "147"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.73189342027345, 40.9306406007]),
+            {
+              "cover_type": 1,
+              "system:index": "148"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.53535939771238, 40.88641506505046]),
+            {
+              "cover_type": 1,
+              "system:index": "149"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.54222585279051, 40.990155602578525]),
+            {
+              "cover_type": 1,
+              "system:index": "150"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.53844930249754, 41.0168424091978]),
+            {
+              "cover_type": 1,
+              "system:index": "151"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.37949086743895, 41.03082923240383]),
+            {
+              "cover_type": 1,
+              "system:index": "152"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.63681127149168, 40.69315464726434]),
+            {
+              "cover_type": 1,
+              "system:index": "153"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.66376210767332, 40.74298565252482]),
+            {
+              "cover_type": 1,
+              "system:index": "154"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.68590642530027, 40.76743213068653]),
+            {
+              "cover_type": 1,
+              "system:index": "155"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.57312490064207, 40.749878388693205]),
+            {
+              "cover_type": 1,
+              "system:index": "156"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.93378545362059, 40.64302583913568]),
+            {
+              "cover_type": 1,
+              "system:index": "157"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.14728097190869, 40.559800268376065]),
+            {
+              "cover_type": 1,
+              "system:index": "158"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.12204674949658, 40.523404342775144]),
+            {
+              "cover_type": 1,
+              "system:index": "159"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.30053029423179, 40.50137221985465]),
+            {
+              "cover_type": 1,
+              "system:index": "160"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.29091725712242, 40.46520575911438]),
+            {
+              "cover_type": 1,
+              "system:index": "161"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.39888075243114, 40.46716473074214]),
+            {
+              "cover_type": 1,
+              "system:index": "162"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.42290699767378, 40.40381020951706]),
+            {
+              "cover_type": 1,
+              "system:index": "163"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.398273590081, 40.417991761010455]),
+            {
+              "cover_type": 1,
+              "system:index": "164"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.37072193908003, 40.51326384494392]),
+            {
+              "cover_type": 1,
+              "system:index": "165"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.33484471129682, 40.513916374384024]),
+            {
+              "cover_type": 1,
+              "system:index": "166"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.4323483734062, 40.5767903969636]),
+            {
+              "cover_type": 1,
+              "system:index": "167"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.51903736876753, 40.63673959907213]),
+            {
+              "cover_type": 1,
+              "system:index": "168"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.63336384581831, 40.60703236810741]),
+            {
+              "cover_type": 1,
+              "system:index": "169"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.81525466272095, 40.64847970313096]),
+            {
+              "cover_type": 1,
+              "system:index": "170"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.7689060909436, 40.584108654618866]),
+            {
+              "cover_type": 1,
+              "system:index": "171"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.9886326534436, 40.70641266188549]),
+            {
+              "cover_type": 1,
+              "system:index": "172"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.00991866418579, 40.67712700868284]),
+            {
+              "cover_type": 1,
+              "system:index": "173"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.01627013513306, 40.70524148289537]),
+            {
+              "cover_type": 1,
+              "system:index": "174"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.9007420284436, 40.68923330592662]),
+            {
+              "cover_type": 1,
+              "system:index": "175"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.97833297082641, 40.69652205860811]),
+            {
+              "cover_type": 1,
+              "system:index": "176"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.9805645687268, 40.73581551514057]),
+            {
+              "cover_type": 1,
+              "system:index": "177"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.91344497033813, 40.7432292279553]),
+            {
+              "cover_type": 1,
+              "system:index": "178"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5979554707217, 40.80396306930488]),
+            {
+              "cover_type": 1,
+              "system:index": "179"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.62765288893459, 40.82020346360471]),
+            {
+              "cover_type": 1,
+              "system:index": "180"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.64430404249904, 40.84124510003605]),
+            {
+              "cover_type": 1,
+              "system:index": "181"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.66335845534084, 40.87461226752037]),
+            {
+              "cover_type": 1,
+              "system:index": "182"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.54525542799709, 40.86993927970945]),
+            {
+              "cover_type": 1,
+              "system:index": "183"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.52482772413967, 40.84566039815457]),
+            {
+              "cover_type": 1,
+              "system:index": "184"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.77322173659084, 40.948297971176856]),
+            {
+              "cover_type": 1,
+              "system:index": "185"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.88274169508693, 40.88992697076805]),
+            {
+              "cover_type": 1,
+              "system:index": "186"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.93698669020412, 40.9532247175667]),
+            {
+              "cover_type": 1,
+              "system:index": "187"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.98985839430568, 40.956595437486975]),
+            {
+              "cover_type": 1,
+              "system:index": "188"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.98333526198147, 40.973446455422746]),
+            {
+              "cover_type": 1,
+              "system:index": "189"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.61906982008693, 40.956595437486975]),
+            {
+              "cover_type": 1,
+              "system:index": "190"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.52980590407131, 40.933774895960866]),
+            {
+              "cover_type": 1,
+              "system:index": "191"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.50886321608303, 40.90861129902156]),
+            {
+              "cover_type": 1,
+              "system:index": "192"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.70936370436428, 40.96281785286662]),
+            {
+              "cover_type": 1,
+              "system:index": "193"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.72075846017732, 41.03786078415802]),
+            {
+              "cover_type": 1,
+              "system:index": "194"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.7691669684781, 41.07358757333788]),
+            {
+              "cover_type": 1,
+              "system:index": "195"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.83199503244295, 41.04303978194557]),
+            {
+              "cover_type": 1,
+              "system:index": "196"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.57862284006013, 41.02439348275707]),
+            {
+              "cover_type": 1,
+              "system:index": "197"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5106449347867, 41.0388966163172]),
+            {
+              "cover_type": 1,
+              "system:index": "198"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.61020853341951, 41.087562339131345]),
+            {
+              "cover_type": 1,
+              "system:index": "199"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.53021433175935, 41.00185549193489]),
+            {
+              "cover_type": 1,
+              "system:index": "200"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.66411020578279, 41.054432142568324]),
+            {
+              "cover_type": 1,
+              "system:index": "201"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.59956552804842, 41.200028442209856]),
+            {
+              "cover_type": 1,
+              "system:index": "202"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.56626322091951, 41.132830512014635]),
+            {
+              "cover_type": 1,
+              "system:index": "203"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.56248667062654, 41.11964129565107]),
+            {
+              "cover_type": 1,
+              "system:index": "204"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.49897196115388, 41.1320547491428]),
+            {
+              "cover_type": 1,
+              "system:index": "205"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.50552997622238, 41.119798966441714]),
+            {
+              "cover_type": 1,
+              "system:index": "206"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.50278339419113, 41.080733092262356]),
+            {
+              "cover_type": 1,
+              "system:index": "207"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.53917560610519, 41.05329548591677]),
+            {
+              "cover_type": 1,
+              "system:index": "208"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.47257099184738, 41.11643659341571]),
+            {
+              "cover_type": 1,
+              "system:index": "209"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.528875923488, 41.1391939089366]),
+            {
+              "cover_type": 1,
+              "system:index": "210"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.48149738344894, 41.057178861472806]),
+            {
+              "cover_type": 1,
+              "system:index": "211"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3747240069841, 41.15289621090794]),
+            {
+              "cover_type": 1,
+              "system:index": "212"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.32597217592941, 41.1428136632021]),
+            {
+              "cover_type": 1,
+              "system:index": "213"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.37300739321456, 41.11203938418427]),
+            {
+              "cover_type": 1,
+              "system:index": "214"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.282971840839, 41.09552249234349]),
+            {
+              "cover_type": 1,
+              "system:index": "215"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.271985512714, 41.08206699361708]),
+            {
+              "cover_type": 1,
+              "system:index": "216"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.31181095216712, 41.05825436144633]),
+            {
+              "cover_type": 1,
+              "system:index": "217"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.22632358644447, 41.2327660650682]),
+            {
+              "cover_type": 1,
+              "system:index": "218"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5186073915781, 41.32942906239399]),
+            {
+              "cover_type": 1,
+              "system:index": "219"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.91572717442718, 41.45986569497956]),
+            {
+              "cover_type": 1,
+              "system:index": "220"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.96585229649749, 41.460122987299705]),
+            {
+              "cover_type": 1,
+              "system:index": "221"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.78698114171233, 41.554223411188154]),
+            {
+              "cover_type": 1,
+              "system:index": "222"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.42443231358733, 41.66203894467606]),
+            {
+              "cover_type": 1,
+              "system:index": "223"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.9132501386263, 41.433216520179506]),
+            {
+              "cover_type": 1,
+              "system:index": "224"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.8257028363802, 41.3979433438514]),
+            {
+              "cover_type": 1,
+              "system:index": "225"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.89917390571614, 41.47001407365082]),
+            {
+              "cover_type": 1,
+              "system:index": "226"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.99362089280146, 41.55178302365573]),
+            {
+              "cover_type": 1,
+              "system:index": "227"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96203519944208, 41.56514189024057]),
+            {
+              "cover_type": 1,
+              "system:index": "228"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.93147947434443, 41.55794899751043]),
+            {
+              "cover_type": 1,
+              "system:index": "229"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.98160459641474, 41.54099115407476]),
+            {
+              "cover_type": 1,
+              "system:index": "230"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.99808408860224, 41.5412481242839]),
+            {
+              "cover_type": 1,
+              "system:index": "231"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.00598051194208, 41.61328794942123]),
+            {
+              "cover_type": 1,
+              "system:index": "232"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.05885221604365, 41.6046884880982]),
+            {
+              "cover_type": 1,
+              "system:index": "233"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.95310880784052, 41.60725561149438]),
+            {
+              "cover_type": 1,
+              "system:index": "234"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.93319608811396, 41.63600041501073]),
+            {
+              "cover_type": 1,
+              "system:index": "235"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.90058042649287, 41.65203547153567]),
+            {
+              "cover_type": 1,
+              "system:index": "236"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.69716169480341, 41.330578716912186]),
+            {
+              "cover_type": 1,
+              "system:index": "237"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.8557768071081, 41.25861139162629]),
+            {
+              "cover_type": 1,
+              "system:index": "238"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.78917219285029, 41.300924384528926]),
+            {
+              "cover_type": 1,
+              "system:index": "239"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.85388853196162, 41.32439110066095]),
+            {
+              "cover_type": 1,
+              "system:index": "240"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.76187803391474, 41.35570986506085]),
+            {
+              "cover_type": 1,
+              "system:index": "241"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.9381742680456, 41.29318625304821]),
+            {
+              "cover_type": 1,
+              "system:index": "242"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.019843210313, 41.23467002678332]),
+            {
+              "cover_type": 1,
+              "system:index": "243"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.14343940171925, 41.18223761023863]),
+            {
+              "cover_type": 1,
+              "system:index": "244"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.14858924302784, 41.18185002221177]),
+            {
+              "cover_type": 1,
+              "system:index": "245"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09949408921925, 41.161821519998796]),
+            {
+              "cover_type": 1,
+              "system:index": "246"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21811210069386, 41.17358093119737]),
+            {
+              "cover_type": 1,
+              "system:index": "247"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.01812659654347, 41.14663032143433]),
+            {
+              "cover_type": 1,
+              "system:index": "248"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.10945044908253, 41.12478075434794]),
+            {
+              "cover_type": 1,
+              "system:index": "249"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.1600905552837, 41.14055454517925]),
+            {
+              "cover_type": 1,
+              "system:index": "250"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.94602881822316, 41.13667609580067]),
+            {
+              "cover_type": 1,
+              "system:index": "251"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.91169654283253, 41.12710827346618]),
+            {
+              "cover_type": 1,
+              "system:index": "252"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.17485343370167, 41.08416519577731]),
+            {
+              "cover_type": 1,
+              "system:index": "253"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.97921215920678, 41.05340315732793]),
+            {
+              "cover_type": 1,
+              "system:index": "254"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.01302945046655, 41.075535290895694]),
+            {
+              "cover_type": 1,
+              "system:index": "255"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21946767035459, 40.98143418980537]),
+            {
+              "cover_type": 1,
+              "system:index": "256"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.1377568549249, 41.031566826619574]),
+            {
+              "cover_type": 1,
+              "system:index": "257"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.1238522833917, 40.978323933152055]),
+            {
+              "cover_type": 1,
+              "system:index": "258"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.00815251532529, 40.96575181827496]),
+            {
+              "cover_type": 1,
+              "system:index": "259"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.15380719367002, 40.9700291983953]),
+            {
+              "cover_type": 1,
+              "system:index": "260"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.4025445288751, 40.90077935626709]),
+            {
+              "cover_type": 1,
+              "system:index": "261"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.34812787238096, 40.949806413346046]),
+            {
+              "cover_type": 1,
+              "system:index": "262"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.29989102545713, 40.92335188452726]),
+            {
+              "cover_type": 1,
+              "system:index": "263"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.4494080847833, 40.92970712532905]),
+            {
+              "cover_type": 1,
+              "system:index": "264"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.37525036993955, 40.95564054489394]),
+            {
+              "cover_type": 1,
+              "system:index": "265"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38743832770322, 40.926594430691594]),
+            {
+              "cover_type": 1,
+              "system:index": "266"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21955350104307, 40.94863952517114]),
+            {
+              "cover_type": 1,
+              "system:index": "267"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.1641068762872, 40.909601721450976]),
+            {
+              "cover_type": 1,
+              "system:index": "268"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.41627743903135, 40.9886908849598]),
+            {
+              "cover_type": 1,
+              "system:index": "269"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.46966412726377, 40.95136223216784]),
+            {
+              "cover_type": 1,
+              "system:index": "270"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.52717068854307, 40.91453135406706]),
+            {
+              "cover_type": 1,
+              "system:index": "271"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.50021985236143, 41.01770967988239]),
+            {
+              "cover_type": 1,
+              "system:index": "272"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5948052710626, 40.98558097052965]),
+            {
+              "cover_type": 1,
+              "system:index": "273"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.53129056158994, 41.036487354640464]),
+            {
+              "cover_type": 1,
+              "system:index": "274"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.63205578986143, 40.993873749740516]),
+            {
+              "cover_type": 1,
+              "system:index": "275"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.65988040801697, 40.885573545054456]),
+            {
+              "cover_type": 1,
+              "system:index": "276"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.53164935943299, 40.893359835499325]),
+            {
+              "cover_type": 1,
+              "system:index": "277"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.46624637481385, 40.87960343522592]),
+            {
+              "cover_type": 1,
+              "system:index": "278"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.40376163360291, 40.87817572048107]),
+            {
+              "cover_type": 1,
+              "system:index": "279"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.28205371734315, 40.90153445434365]),
+            {
+              "cover_type": 1,
+              "system:index": "280"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.28445697662049, 40.87589877216068]),
+            {
+              "cover_type": 1,
+              "system:index": "281"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.26042438384705, 40.85694553524764]),
+            {
+              "cover_type": 1,
+              "system:index": "282"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.28411365386658, 40.8353893748089]),
+            {
+              "cover_type": 1,
+              "system:index": "283"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.19587970611268, 40.96615035382021]),
+            {
+              "cover_type": 1,
+              "system:index": "284"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.20394779082947, 40.97068693278892]),
+            {
+              "cover_type": 1,
+              "system:index": "285"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.28892017242127, 40.973667943426804]),
+            {
+              "cover_type": 1,
+              "system:index": "286"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.29407001372986, 40.95824299927093]),
+            {
+              "cover_type": 1,
+              "system:index": "287"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3807590090912, 40.98118467649858]),
+            {
+              "cover_type": 1,
+              "system:index": "288"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.26214099761658, 41.033130378832155]),
+            {
+              "cover_type": 1,
+              "system:index": "289"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.15176273223572, 41.00424792276766]),
+            {
+              "cover_type": 1,
+              "system:index": "290"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09854770538026, 40.96459488351671]),
+            {
+              "cover_type": 1,
+              "system:index": "291"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.04653430816346, 41.04543071712932]),
+            {
+              "cover_type": 1,
+              "system:index": "292"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.92602802154236, 41.05293926722487]),
+            {
+              "cover_type": 1,
+              "system:index": "293"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.00293231841736, 41.031576488374135]),
+            {
+              "cover_type": 1,
+              "system:index": "294"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.8783061587494, 41.07740083828403]),
+            {
+              "cover_type": 1,
+              "system:index": "295"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.87280604175062, 41.089035526470916]),
+            {
+              "cover_type": 1,
+              "system:index": "296"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.94696375659437, 41.10701679104964]),
+            {
+              "cover_type": 1,
+              "system:index": "297"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.88550898364515, 41.12770855512486]),
+            {
+              "cover_type": 1,
+              "system:index": "298"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.87349268725843, 41.13533699697476]),
+            {
+              "cover_type": 1,
+              "system:index": "299"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.98215433886976, 41.139048743911644]),
+            {
+              "cover_type": 1,
+              "system:index": "300"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.91554972461195, 41.16580440813858]),
+            {
+              "cover_type": 1,
+              "system:index": "301"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.05219218066664, 41.14602953512991]),
+            {
+              "cover_type": 1,
+              "system:index": "302"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96292826465101, 41.165933636051456]),
+            {
+              "cover_type": 1,
+              "system:index": "303"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.893405406985, 41.16993957494187]),
+            {
+              "cover_type": 1,
+              "system:index": "304"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96533152392836, 41.18544412610078]),
+            {
+              "cover_type": 1,
+              "system:index": "305"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.05734202197523, 41.16890580770732]),
+            {
+              "cover_type": 1,
+              "system:index": "306"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.93563410571547, 41.1999117291553]),
+            {
+              "cover_type": 1,
+              "system:index": "307"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.87555262378187, 41.22431855885135]),
+            {
+              "cover_type": 1,
+              "system:index": "308"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.11902851049405, 41.24269513058757]),
+            {
+              "cover_type": 1,
+              "system:index": "309"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.12349170629483, 41.19892362139929]),
+            {
+              "cover_type": 1,
+              "system:index": "310"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.04274630409634, 41.28945254610749]),
+            {
+              "cover_type": 1,
+              "system:index": "311"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.84911227089322, 41.30518668293366]),
+            {
+              "cover_type": 1,
+              "system:index": "312"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.99423389679383, 41.368342926818244]),
+            {
+              "cover_type": 1,
+              "system:index": "313"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.92900257355164, 41.40672228479723]),
+            {
+              "cover_type": 1,
+              "system:index": "314"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.72575550323914, 41.45511491761069]),
+            {
+              "cover_type": 1,
+              "system:index": "315"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.61400394684266, 41.47338147385601]),
+            {
+              "cover_type": 1,
+              "system:index": "316"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.824648063833, 41.6478595836536]),
+            {
+              "cover_type": 1,
+              "system:index": "317"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.95459572618651, 41.663506965141075]),
+            {
+              "cover_type": 1,
+              "system:index": "318"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.99218956773925, 41.63297822003994]),
+            {
+              "cover_type": 1,
+              "system:index": "319"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.02068535631346, 41.61565506494377]),
+            {
+              "cover_type": 1,
+              "system:index": "320"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0702876144435, 41.5625099583753]),
+            {
+              "cover_type": 1,
+              "system:index": "321"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.20589612265721, 41.51763420403133]),
+            {
+              "cover_type": 1,
+              "system:index": "322"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.28846524497166, 41.49758014423338]),
+            {
+              "cover_type": 1,
+              "system:index": "323"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.36777813686854, 41.52598574783714]),
+            {
+              "cover_type": 1,
+              "system:index": "324"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.28188361555284, 41.7256942873268]),
+            {
+              "cover_type": 1,
+              "system:index": "325"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.35731189117325, 41.78412639978227]),
+            {
+              "cover_type": 1,
+              "system:index": "326"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.8209553472133, 41.471691706063964]),
+            {
+              "cover_type": 1,
+              "system:index": "327"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.86034704121319, 41.071751641783436]),
+            {
+              "cover_type": 1,
+              "system:index": "328"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.992869624221, 41.04327454038465]),
+            {
+              "cover_type": 1,
+              "system:index": "329"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.9848015395042, 40.99531975480321]),
+            {
+              "cover_type": 1,
+              "system:index": "330"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.95287252339092, 40.994283237176596]),
+            {
+              "cover_type": 1,
+              "system:index": "331"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.87699819477764, 41.0119018203419]),
+            {
+              "cover_type": 1,
+              "system:index": "332"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.03509832295147, 41.0028262790195]),
+            {
+              "cover_type": 1,
+              "system:index": "333"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.05380941303936, 40.987408153280676]),
+            {
+              "cover_type": 1,
+              "system:index": "334"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.01990629109112, 40.97431935200702]),
+            {
+              "cover_type": 1,
+              "system:index": "335"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.9846101519291, 40.90839548468064]),
+            {
+              "cover_type": 1,
+              "system:index": "336"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.89197167221226, 40.66421369755183]),
+            {
+              "cover_type": 1,
+              "system:index": "337"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5755450967897, 40.66613740474554]),
+            {
+              "cover_type": 1,
+              "system:index": "338"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.60833241978774, 40.6773343973093]),
+            {
+              "cover_type": 1,
+              "system:index": "339"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.51357533970962, 40.667960299104976]),
+            {
+              "cover_type": 1,
+              "system:index": "340"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.49634925994646, 40.71971166633675]),
+            {
+              "cover_type": 1,
+              "system:index": "341"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.41751005214297, 40.68193548752945]),
+            {
+              "cover_type": 1,
+              "system:index": "342"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.33270933192813, 40.62100554396263]),
+            {
+              "cover_type": 1,
+              "system:index": "343"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.53406812709414, 40.61110226885786]),
+            {
+              "cover_type": 1,
+              "system:index": "344"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09517558395883, 40.62619453667169]),
+            {
+              "cover_type": 1,
+              "system:index": "345"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.42700026821741, 40.710435567511155]),
+            {
+              "cover_type": 1,
+              "system:index": "346"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.35682406667262, 40.814891940753526]),
+            {
+              "cover_type": 1,
+              "system:index": "347"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.50101962331324, 40.80449771420323]),
+            {
+              "cover_type": 1,
+              "system:index": "348"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.61259951833277, 40.861256330047006]),
+            {
+              "cover_type": 1,
+              "system:index": "349"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.4740687871316, 40.90504009605993]),
+            {
+              "cover_type": 1,
+              "system:index": "350"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3528758550027, 40.883888938394264]),
+            {
+              "cover_type": 1,
+              "system:index": "351"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.25159564260035, 40.941746594532034]),
+            {
+              "cover_type": 1,
+              "system:index": "352"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3535625005105, 40.97026759609382]),
+            {
+              "cover_type": 1,
+              "system:index": "353"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.41433062795191, 41.02494157076719]),
+            {
+              "cover_type": 1,
+              "system:index": "354"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.43836322072535, 41.03063956396986]),
+            {
+              "cover_type": 1,
+              "system:index": "355"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.25811877492457, 41.07659235853647]),
+            {
+              "cover_type": 1,
+              "system:index": "356"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21486010793238, 41.06921592691708]),
+            {
+              "cover_type": 1,
+              "system:index": "357"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.23425784352808, 41.08733199818225]),
+            {
+              "cover_type": 1,
+              "system:index": "358"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.24383659000091, 41.10240549785111]),
+            {
+              "cover_type": 1,
+              "system:index": "359"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.17214827045082, 41.13523316109076]),
+            {
+              "cover_type": 1,
+              "system:index": "360"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.15618376239418, 41.11389712099576]),
+            {
+              "cover_type": 1,
+              "system:index": "361"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.30821818276056, 41.15482425604457]),
+            {
+              "cover_type": 1,
+              "system:index": "362"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.26083964272149, 41.17898949254589]),
+            {
+              "cover_type": 1,
+              "system:index": "363"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.08042353554376, 41.20727862587363]),
+            {
+              "cover_type": 1,
+              "system:index": "364"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.10891932411798, 41.28434412053371]),
+            {
+              "cover_type": 1,
+              "system:index": "365"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.95354371670871, 41.28801205721197]),
+            {
+              "cover_type": 1,
+              "system:index": "366"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.90641388868664, 41.239301384310735]),
+            {
+              "cover_type": 1,
+              "system:index": "367"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.835517740005, 41.216062316431]),
+            {
+              "cover_type": 1,
+              "system:index": "368"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.84448788089911, 41.16646482817905]),
+            {
+              "cover_type": 1,
+              "system:index": "369"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.97409222049872, 41.127297428355355]),
+            {
+              "cover_type": 1,
+              "system:index": "370"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.90233776493231, 41.11462441753039]),
+            {
+              "cover_type": 1,
+              "system:index": "371"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.10438320560614, 41.10337183706808]),
+            {
+              "cover_type": 1,
+              "system:index": "372"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.00722286625067, 41.11358977800062]),
+            {
+              "cover_type": 1,
+              "system:index": "373"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.02613198612451, 41.03325576348196]),
+            {
+              "cover_type": 1,
+              "system:index": "374"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.99300134037256, 41.019658004364324]),
+            {
+              "cover_type": 1,
+              "system:index": "375"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.86461522767598, 40.97911840931647]),
+            {
+              "cover_type": 1,
+              "system:index": "376"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.84041902440163, 40.88200302366545]),
+            {
+              "cover_type": 1,
+              "system:index": "377"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.74906846284765, 40.831866404774466]),
+            {
+              "cover_type": 1,
+              "system:index": "378"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.73258897066015, 40.81432969105881]),
+            {
+              "cover_type": 1,
+              "system:index": "379"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.58212639312477, 40.869818856750314]),
+            {
+              "cover_type": 1,
+              "system:index": "380"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.55328728179664, 40.92950454502086]),
+            {
+              "cover_type": 1,
+              "system:index": "381"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.49749733428688, 40.9394901477235]),
+            {
+              "cover_type": 1,
+              "system:index": "382"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.6003224990818, 40.93836537347025]),
+            {
+              "cover_type": 1,
+              "system:index": "383"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.49320579986305, 40.9885807610999]),
+            {
+              "cover_type": 1,
+              "system:index": "384"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.41733147124977, 41.00386906586224]),
+            {
+              "cover_type": 1,
+              "system:index": "385"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.42265297393531, 40.995447980680076]),
+            {
+              "cover_type": 1,
+              "system:index": "386"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.52736641387672, 41.02377562218633]),
+            {
+              "cover_type": 1,
+              "system:index": "387"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.58555962066383, 41.024423157710174]),
+            {
+              "cover_type": 1,
+              "system:index": "388"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.49251915435524, 41.0518728054847]),
+            {
+              "cover_type": 1,
+              "system:index": "389"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.54865242461891, 41.05303786741676]),
+            {
+              "cover_type": 1,
+              "system:index": "390"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.72477699737281, 41.018983661424485]),
+            {
+              "cover_type": 1,
+              "system:index": "391"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.78680150611855, 41.027316082569655]),
+            {
+              "cover_type": 1,
+              "system:index": "392"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.87191847441514, 41.057503266077816]),
+            {
+              "cover_type": 1,
+              "system:index": "393"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.95071317154101, 41.049021503827866]),
+            {
+              "cover_type": 1,
+              "system:index": "394"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.71057491447915, 40.97575869354111]),
+            {
+              "cover_type": 1,
+              "system:index": "395"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09719213464612, 40.89256206717701]),
+            {
+              "cover_type": 1,
+              "system:index": "396"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.29757570132152, 40.81205858526376]),
+            {
+              "cover_type": 1,
+              "system:index": "397"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.44101769553532, 40.76370955172242]),
+            {
+              "cover_type": 1,
+              "system:index": "398"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.52410180198063, 40.649407996079056]),
+            {
+              "cover_type": 1,
+              "system:index": "399"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.7921111335293, 40.846630484423045]),
+            {
+              "cover_type": 1,
+              "system:index": "400"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.78696129222071, 40.871168625772974]),
+            {
+              "cover_type": 1,
+              "system:index": "401"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.78202018059982, 40.87809010113506]),
+            {
+              "cover_type": 1,
+              "system:index": "402"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.87385901726974, 40.88185401481584]),
+            {
+              "cover_type": 1,
+              "system:index": "403"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.81359390282569, 41.014109499625455]),
+            {
+              "cover_type": 1,
+              "system:index": "404"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.81565383934912, 41.03133430467345]),
+            {
+              "cover_type": 1,
+              "system:index": "405"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.94875525267133, 41.03039467978428]),
+            {
+              "cover_type": 1,
+              "system:index": "406"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.82673183333324, 41.10870668608894]),
+            {
+              "cover_type": 1,
+              "system:index": "407"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.75222181761241, 41.110398238870204]),
+            {
+              "cover_type": 1,
+              "system:index": "408"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.7160012670753, 41.13251118298926]),
+            {
+              "cover_type": 1,
+              "system:index": "409"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.70552992308116, 41.13212330081198]),
+            {
+              "cover_type": 1,
+              "system:index": "410"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.65334486448741, 41.131218233479906]),
+            {
+              "cover_type": 1,
+              "system:index": "411"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.65574812376475, 41.14013906641576]),
+            {
+              "cover_type": 1,
+              "system:index": "412"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.6530015417335, 41.07262090110561]),
+            {
+              "cover_type": 1,
+              "system:index": "413"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5870835729835, 41.0999210859887]),
+            {
+              "cover_type": 1,
+              "system:index": "414"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.54536985838389, 41.103284304883694]),
+            {
+              "cover_type": 1,
+              "system:index": "415"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.64184355223155, 41.15267789590789]),
+            {
+              "cover_type": 1,
+              "system:index": "416"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.59034513914561, 41.15577991669065]),
+            {
+              "cover_type": 1,
+              "system:index": "417"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.60836958372569, 41.17568105709282]),
+            {
+              "cover_type": 1,
+              "system:index": "418"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.62690901243663, 41.175422639462326]),
+            {
+              "cover_type": 1,
+              "system:index": "419"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.53026365721202, 41.1781359737367]),
+            {
+              "cover_type": 1,
+              "system:index": "420"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.61643766844249, 41.21843512798236]),
+            {
+              "cover_type": 1,
+              "system:index": "421"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5204545348949, 41.2427064931766]),
+            {
+              "cover_type": 1,
+              "system:index": "422"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.48944887182566, 41.27217814211148]),
+            {
+              "cover_type": 1,
+              "system:index": "423"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.48434881189026, 41.308663271113566]),
+            {
+              "cover_type": 1,
+              "system:index": "424"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.00560703389786, 41.52484385955208]),
+            {
+              "cover_type": 1,
+              "system:index": "425"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.62762386417097, 41.298155479276495]),
+            {
+              "cover_type": 1,
+              "system:index": "426"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.7062447748155, 41.290803964092326]),
+            {
+              "cover_type": 1,
+              "system:index": "427"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.79877025699324, 41.28125865576161]),
+            {
+              "cover_type": 1,
+              "system:index": "428"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3268731317491, 41.10196097664196]),
+            {
+              "cover_type": 1,
+              "system:index": "429"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.36687023257917, 41.038805955708064]),
+            {
+              "cover_type": 1,
+              "system:index": "430"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.10851986026472, 40.93514192216928]),
+            {
+              "cover_type": 1,
+              "system:index": "431"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.07830745792097, 40.88467640887544]),
+            {
+              "cover_type": 1,
+              "system:index": "432"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.25700695132917, 40.80234417423963]),
+            {
+              "cover_type": 1,
+              "system:index": "433"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.24550563907331, 40.755808556901584]),
+            {
+              "cover_type": 1,
+              "system:index": "434"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.41961966539337, 40.833839283377266]),
+            {
+              "cover_type": 1,
+              "system:index": "435"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.42416869188263, 40.84254070874745]),
+            {
+              "cover_type": 1,
+              "system:index": "436"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38605986619903, 40.85662940035357]),
+            {
+              "cover_type": 1,
+              "system:index": "437"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.400822744617, 40.90841366191079]),
+            {
+              "cover_type": 1,
+              "system:index": "438"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3975611784549, 40.92352598532232]),
+            {
+              "cover_type": 1,
+              "system:index": "439"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.40133772874786, 40.94090412790154]),
+            {
+              "cover_type": 1,
+              "system:index": "440"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.32818642073755, 40.9349275696967]),
+            {
+              "cover_type": 1,
+              "system:index": "441"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.30372467452173, 40.9308424507019]),
+            {
+              "cover_type": 1,
+              "system:index": "442"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38715210372095, 40.952108240785684]),
+            {
+              "cover_type": 1,
+              "system:index": "443"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.33960190230493, 41.03606705881216]),
+            {
+              "cover_type": 1,
+              "system:index": "444"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21051254683618, 41.025837062251156]),
+            {
+              "cover_type": 1,
+              "system:index": "445"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.30260851522917, 41.07250631934884]),
+            {
+              "cover_type": 1,
+              "system:index": "446"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.26999285360807, 41.13498253276318]),
+            {
+              "cover_type": 1,
+              "system:index": "447"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.13678362509245, 41.13265529297183]),
+            {
+              "cover_type": 1,
+              "system:index": "448"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.13508875691277, 41.18971916724865]),
+            {
+              "cover_type": 1,
+              "system:index": "449"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09045679890495, 41.21735803605565]),
+            {
+              "cover_type": 1,
+              "system:index": "450"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.17041689737573, 41.44100839065708]),
+            {
+              "cover_type": 1,
+              "system:index": "451"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.12372500284448, 41.50249010033216]),
+            {
+              "cover_type": 1,
+              "system:index": "452"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.40944106387768, 41.72719395132321]),
+            {
+              "cover_type": 1,
+              "system:index": "453"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.42257483852103, 41.53865590922971]),
+            {
+              "cover_type": 1,
+              "system:index": "454"
+            })]),
+    no_cover_crop = 
+    /* color: #e53d22 */
+    /* shown: false */
+    ee.FeatureCollection(
+        [ee.Feature(
+            ee.Geometry.Point([-84.15099103579281, 41.5246735977501]),
+            {
+              "cover_type": 2,
+              "system:index": "0"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.06104047426938, 41.50976381844875]),
+            {
+              "cover_type": 2,
+              "system:index": "1"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.06996686587094, 41.53521119710751]),
+            {
+              "cover_type": 2,
+              "system:index": "2"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.92611463198422, 41.57939900607967]),
+            {
+              "cover_type": 2,
+              "system:index": "3"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.974523140285, 41.60892632718136]),
+            {
+              "cover_type": 2,
+              "system:index": "4"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.18738324770688, 41.50256476467323]),
+            {
+              "cover_type": 2,
+              "system:index": "5"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.1829200519061, 41.526986876350904]),
+            {
+              "cover_type": 2,
+              "system:index": "6"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0510841144061, 41.48276323964075]),
+            {
+              "cover_type": 2,
+              "system:index": "7"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.97658307680844, 41.50590728204252]),
+            {
+              "cover_type": 2,
+              "system:index": "8"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0129752887225, 41.52415952460717]),
+            {
+              "cover_type": 2,
+              "system:index": "9"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.10910565981625, 41.521074999981536]),
+            {
+              "cover_type": 2,
+              "system:index": "10"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.10738904604672, 41.44970494167254]),
+            {
+              "cover_type": 2,
+              "system:index": "11"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.12489850649594, 41.418560160122986]),
+            {
+              "cover_type": 2,
+              "system:index": "12"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.06550367007016, 41.48083477878179]),
+            {
+              "cover_type": 2,
+              "system:index": "13"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.00576551089047, 41.42242189486341]),
+            {
+              "cover_type": 2,
+              "system:index": "14"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.02087171206234, 41.43683700890248]),
+            {
+              "cover_type": 2,
+              "system:index": "15"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.2927833331561, 41.40285340649977]),
+            {
+              "cover_type": 2,
+              "system:index": "16"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.2982764972186, 41.45871097629096]),
+            {
+              "cover_type": 2,
+              "system:index": "17"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.20557935366391, 41.470031074286474]),
+            {
+              "cover_type": 2,
+              "system:index": "18"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.23476178774594, 41.48032035749683]),
+            {
+              "cover_type": 2,
+              "system:index": "19"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.2158790362811, 41.42937243871114]),
+            {
+              "cover_type": 2,
+              "system:index": "20"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.18051679262875, 41.4535648239064]),
+            {
+              "cover_type": 2,
+              "system:index": "21"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96285016665219, 41.374520154648934]),
+            {
+              "cover_type": 2,
+              "system:index": "22"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.06447370180844, 41.36550243975087]),
+            {
+              "cover_type": 2,
+              "system:index": "23"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.8588233722186, 41.38997618633987]),
+            {
+              "cover_type": 2,
+              "system:index": "24"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.83101422915219, 41.41032102520052]),
+            {
+              "cover_type": 2,
+              "system:index": "25"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.82964093813656, 41.345659067308155]),
+            {
+              "cover_type": 2,
+              "system:index": "26"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96697003969906, 41.337410691609435]),
+            {
+              "cover_type": 2,
+              "system:index": "27"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.92645795473813, 41.33173932730399]),
+            {
+              "cover_type": 2,
+              "system:index": "28"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.04387433657406, 41.32245784791002]),
+            {
+              "cover_type": 2,
+              "system:index": "29"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.00816877016781, 41.36266804263267]),
+            {
+              "cover_type": 2,
+              "system:index": "30"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.93366773257016, 41.40388347389873]),
+            {
+              "cover_type": 2,
+              "system:index": "31"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.88491590151547, 41.439925545485046]),
+            {
+              "cover_type": 2,
+              "system:index": "32"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.8862891925311, 41.31111202208001]),
+            {
+              "cover_type": 2,
+              "system:index": "33"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.81762464174984, 41.29512137002692]),
+            {
+              "cover_type": 2,
+              "system:index": "34"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.82002790102719, 41.276804678259936]),
+            {
+              "cover_type": 2,
+              "system:index": "35"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.73076398501156, 41.31704304103314]),
+            {
+              "cover_type": 2,
+              "system:index": "36"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.70398481020688, 41.32400485295739]),
+            {
+              "cover_type": 2,
+              "system:index": "37"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.83032758364438, 41.33173932730399]),
+            {
+              "cover_type": 2,
+              "system:index": "38"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.97589643130063, 41.25770856980154]),
+            {
+              "cover_type": 2,
+              "system:index": "39"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.12764508852719, 41.272160192936134]),
+            {
+              "cover_type": 2,
+              "system:index": "40"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.1939063800311, 41.22879572899222]),
+            {
+              "cover_type": 2,
+              "system:index": "41"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.26051099428891, 41.226213603297374]),
+            {
+              "cover_type": 2,
+              "system:index": "42"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.20832593569516, 41.27938480509318]),
+            {
+              "cover_type": 2,
+              "system:index": "43"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.370030952785, 41.17377440793387]),
+            {
+              "cover_type": 2,
+              "system:index": "44"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.128331734035, 41.14120481098115]),
+            {
+              "cover_type": 2,
+              "system:index": "45"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.08678968081234, 41.15154611887871]),
+            {
+              "cover_type": 2,
+              "system:index": "46"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0898795855975, 41.17790907172157]),
+            {
+              "cover_type": 2,
+              "system:index": "47"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.18772657046078, 41.189794776324725]),
+            {
+              "cover_type": 2,
+              "system:index": "48"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.03769452700375, 41.098788398663906]),
+            {
+              "cover_type": 2,
+              "system:index": "49"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.04696424135922, 41.08300456856391]),
+            {
+              "cover_type": 2,
+              "system:index": "50"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38513715395688, 40.99812175997669]),
+            {
+              "cover_type": 2,
+              "system:index": "51"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.87727805246193, 40.996259672772254]),
+            {
+              "cover_type": 2,
+              "system:index": "52"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.88689108957131, 41.04702834643337]),
+            {
+              "cover_type": 2,
+              "system:index": "53"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.92843314279396, 41.05738449164371]),
+            {
+              "cover_type": 2,
+              "system:index": "54"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.70767661203224, 40.99289097892954]),
+            {
+              "cover_type": 2,
+              "system:index": "55"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.63832541574318, 40.9464891541775]),
+            {
+              "cover_type": 2,
+              "system:index": "56"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.59678336252053, 41.02190792479426]),
+            {
+              "cover_type": 2,
+              "system:index": "57"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.7602049933799, 41.03149107213097]),
+            {
+              "cover_type": 2,
+              "system:index": "58"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.90886374582131, 40.93922781685786]),
+            {
+              "cover_type": 2,
+              "system:index": "59"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.03245993722756, 40.93040940540084]),
+            {
+              "cover_type": 2,
+              "system:index": "60"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.82337638009865, 41.02527513548381]),
+            {
+              "cover_type": 2,
+              "system:index": "61"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.84191580880959, 40.934040658559184]),
+            {
+              "cover_type": 2,
+              "system:index": "62"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.79797049630959, 40.977859324593005]),
+            {
+              "cover_type": 2,
+              "system:index": "63"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.10696097482521, 40.9210709808603]),
+            {
+              "cover_type": 2,
+              "system:index": "64"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.03520651925881, 40.8489131554272]),
+            {
+              "cover_type": 2,
+              "system:index": "65"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.1718489753135, 40.85956008271828]),
+            {
+              "cover_type": 2,
+              "system:index": "66"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.23090048898537, 40.85073104462618]),
+            {
+              "cover_type": 2,
+              "system:index": "67"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21854086984474, 40.88084880398959]),
+            {
+              "cover_type": 2,
+              "system:index": "68"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96516867746193, 40.81982014570758]),
+            {
+              "cover_type": 2,
+              "system:index": "69"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.17459555734474, 40.81982014570758]),
+            {
+              "cover_type": 2,
+              "system:index": "70"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.12515708078224, 40.83644628597382]),
+            {
+              "cover_type": 2,
+              "system:index": "71"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.88826438058693, 40.78083629626674]),
+            {
+              "cover_type": 2,
+              "system:index": "72"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.94250937570412, 40.793833456671955]),
+            {
+              "cover_type": 2,
+              "system:index": "73"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.891697608126, 40.83852426039661]),
+            {
+              "cover_type": 2,
+              "system:index": "74"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.84534903634865, 40.875657064079405]),
+            {
+              "cover_type": 2,
+              "system:index": "75"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.33870383371193, 40.797732108747]),
+            {
+              "cover_type": 2,
+              "system:index": "76"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38367911447365, 40.82553585161174]),
+            {
+              "cover_type": 2,
+              "system:index": "77"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38264914621193, 40.857482767849326]),
+            {
+              "cover_type": 2,
+              "system:index": "78"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.39123221505959, 40.76185587415092]),
+            {
+              "cover_type": 2,
+              "system:index": "79"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.45337363351662, 40.790974299640766]),
+            {
+              "cover_type": 2,
+              "system:index": "80"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.44925376046974, 40.758475230249545]),
+            {
+              "cover_type": 2,
+              "system:index": "81"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3805892096885, 40.73376530594927]),
+            {
+              "cover_type": 2,
+              "system:index": "82"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.23055716623146, 40.76315607602342]),
+            {
+              "cover_type": 2,
+              "system:index": "83"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.32291098703224, 40.837745027621374]),
+            {
+              "cover_type": 2,
+              "system:index": "84"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.43277426828224, 40.8491728569377]),
+            {
+              "cover_type": 2,
+              "system:index": "85"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.34419699777443, 40.74208967429787]),
+            {
+              "cover_type": 2,
+              "system:index": "86"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.41884975633188, 40.73859306718489]),
+            {
+              "cover_type": 2,
+              "system:index": "87"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.50056057176157, 40.72636564993985]),
+            {
+              "cover_type": 2,
+              "system:index": "88"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.43738918504282, 40.71023242842732]),
+            {
+              "cover_type": 2,
+              "system:index": "89"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.546565820785, 40.7159575674746]),
+            {
+              "cover_type": 2,
+              "system:index": "90"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.56064205369516, 40.75289889352851]),
+            {
+              "cover_type": 2,
+              "system:index": "91"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.57574825486704, 40.731569080864034]),
+            {
+              "cover_type": 2,
+              "system:index": "92"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.4751546879725, 40.672746635281484]),
+            {
+              "cover_type": 2,
+              "system:index": "93"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.37490444383188, 40.71023242842732]),
+            {
+              "cover_type": 2,
+              "system:index": "94"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.23064208515513, 40.66597611959886]),
+            {
+              "cover_type": 2,
+              "system:index": "95"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.18772674091684, 40.63628189811861]),
+            {
+              "cover_type": 2,
+              "system:index": "96"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.17021728046763, 40.681078633972305]),
+            {
+              "cover_type": 2,
+              "system:index": "97"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0593240309559, 40.60501054838913]),
+            {
+              "cover_type": 2,
+              "system:index": "98"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.00679564960825, 40.66858024544276]),
+            {
+              "cover_type": 2,
+              "system:index": "99"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.12386870869028, 40.5956262889325]),
+            {
+              "cover_type": 2,
+              "system:index": "100"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.10395598896372, 40.55233738459321]),
+            {
+              "cover_type": 2,
+              "system:index": "101"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.24197173603403, 40.551293932915534]),
+            {
+              "cover_type": 2,
+              "system:index": "102"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.27081084736216, 40.53720574387807]),
+            {
+              "cover_type": 2,
+              "system:index": "103"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3061730910145, 40.54998959545315]),
+            {
+              "cover_type": 2,
+              "system:index": "104"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.31269622333872, 40.608138342116376]),
+            {
+              "cover_type": 2,
+              "system:index": "105"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.27699065693247, 40.63862665918202]),
+            {
+              "cover_type": 2,
+              "system:index": "106"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.190816645702, 40.61908446737728]),
+            {
+              "cover_type": 2,
+              "system:index": "107"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.26463103779184, 40.577896871289006]),
+            {
+              "cover_type": 2,
+              "system:index": "108"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21553588398325, 40.550772200979274]),
+            {
+              "cover_type": 2,
+              "system:index": "109"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.06138396747934, 40.517372902499865]),
+            {
+              "cover_type": 2,
+              "system:index": "110"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.18429351337778, 40.503538631825684]),
+            {
+              "cover_type": 2,
+              "system:index": "111"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.24815154560434, 40.47873421207621]),
+            {
+              "cover_type": 2,
+              "system:index": "112"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.24471831806528, 40.4944012280936]),
+            {
+              "cover_type": 2,
+              "system:index": "113"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.33123565204966, 40.44556029941752]),
+            {
+              "cover_type": 2,
+              "system:index": "114"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.34634185322153, 40.425177650126386]),
+            {
+              "cover_type": 2,
+              "system:index": "115"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.41397643574106, 40.48578482185558]),
+            {
+              "cover_type": 2,
+              "system:index": "116"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.52727294453013, 40.58571925255626]),
+            {
+              "cover_type": 2,
+              "system:index": "117"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.46925139911997, 40.60918090749597]),
+            {
+              "cover_type": 2,
+              "system:index": "118"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.60658050068247, 40.592497909696924]),
+            {
+              "cover_type": 2,
+              "system:index": "119"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.62614989765513, 40.62950768133863]),
+            {
+              "cover_type": 2,
+              "system:index": "120"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.46272826679575, 40.62924712081423]),
+            {
+              "cover_type": 2,
+              "system:index": "121"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38376403339731, 40.64357643986787]),
+            {
+              "cover_type": 2,
+              "system:index": "122"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.56332183369028, 40.6732674157072]),
+            {
+              "cover_type": 2,
+              "system:index": "123"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.51937652119028, 40.63107102313495]),
+            {
+              "cover_type": 2,
+              "system:index": "124"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3999002028309, 40.68862860829738]),
+            {
+              "cover_type": 2,
+              "system:index": "125"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.48367095478403, 40.702424627297525]),
+            {
+              "cover_type": 2,
+              "system:index": "126"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.74340903493906, 40.628986559273166]),
+            {
+              "cover_type": 2,
+              "system:index": "127"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.76503836843516, 40.61439349041859]),
+            {
+              "cover_type": 2,
+              "system:index": "128"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.7616051408961, 40.68758728337703]),
+            {
+              "cover_type": 2,
+              "system:index": "129"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.62805258962656, 40.7034657203362]),
+            {
+              "cover_type": 2,
+              "system:index": "130"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.67611777517344, 40.66597611959886]),
+            {
+              "cover_type": 2,
+              "system:index": "131"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.85327231618906, 40.73859306718489]),
+            {
+              "cover_type": 2,
+              "system:index": "132"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.0091408464625, 40.73885320058499]),
+            {
+              "cover_type": 2,
+              "system:index": "133"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.76332175466563, 40.719340372787215]),
+            {
+              "cover_type": 2,
+              "system:index": "134"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.77430808279063, 40.702164351495206]),
+            {
+              "cover_type": 2,
+              "system:index": "135"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.07265555593516, 40.73703224542191]),
+            {
+              "cover_type": 2,
+              "system:index": "136"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.06716239187266, 40.775261835645935]),
+            {
+              "cover_type": 2,
+              "system:index": "137"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.0637291643336, 40.810870980102955]),
+            {
+              "cover_type": 2,
+              "system:index": "138"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.93360984060313, 40.766681596405846]),
+            {
+              "cover_type": 2,
+              "system:index": "139"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.98236167165781, 40.791639215568324]),
+            {
+              "cover_type": 2,
+              "system:index": "140"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.02081382009531, 40.80021623139179]),
+            {
+              "cover_type": 2,
+              "system:index": "141"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.02665030691172, 40.76824172231524]),
+            {
+              "cover_type": 2,
+              "system:index": "142"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.01967239742484, 40.836481075313586]),
+            {
+              "cover_type": 2,
+              "system:index": "143"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.95615768795219, 40.84401341872701]),
+            {
+              "cover_type": 2,
+              "system:index": "144"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.04404831295219, 40.86998045162894]),
+            {
+              "cover_type": 2,
+              "system:index": "145"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.02344894771781, 40.88633445581052]),
+            {
+              "cover_type": 2,
+              "system:index": "146"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.08009720211234, 40.89982995505591]),
+            {
+              "cover_type": 2,
+              "system:index": "147"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.13365555172172, 40.89308254953833]),
+            {
+              "cover_type": 2,
+              "system:index": "148"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.19648361568656, 40.92785027230059]),
+            {
+              "cover_type": 2,
+              "system:index": "149"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.15425491695609, 40.96441447819927]),
+            {
+              "cover_type": 2,
+              "system:index": "150"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-85.2318458593389, 40.94963564137727]),
+            {
+              "cover_type": 2,
+              "system:index": "151"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.99323654537406, 41.02582784240015]),
+            {
+              "cover_type": 2,
+              "system:index": "152"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.8967628515264, 41.06285548555662]),
+            {
+              "cover_type": 2,
+              "system:index": "153"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.90431595211234, 40.99629437810902]),
+            {
+              "cover_type": 2,
+              "system:index": "154"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.65523818995388, 40.98696527069327]),
+            {
+              "cover_type": 2,
+              "system:index": "155"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.77059463526638, 40.99914467540678]),
+            {
+              "cover_type": 2,
+              "system:index": "156"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.60648635889919, 40.9198086186583]),
+            {
+              "cover_type": 2,
+              "system:index": "157"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.54022506739528, 40.892563489838615]),
+            {
+              "cover_type": 2,
+              "system:index": "158"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.52786544825466, 40.83102608540712]),
+            {
+              "cover_type": 2,
+              "system:index": "159"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.52752212550075, 40.80972135082225]),
+            {
+              "cover_type": 2,
+              "system:index": "160"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.40117935206325, 40.83570181852074]),
+            {
+              "cover_type": 2,
+              "system:index": "161"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.42246536280544, 40.88347928590947]),
+            {
+              "cover_type": 2,
+              "system:index": "162"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.48186019923122, 40.8821814406884]),
+            {
+              "cover_type": 2,
+              "system:index": "163"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.44649795557888, 40.80738260956138]),
+            {
+              "cover_type": 2,
+              "system:index": "164"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.69540695216091, 40.87335541825514]),
+            {
+              "cover_type": 2,
+              "system:index": "165"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.60751632716091, 40.893601605165784]),
+            {
+              "cover_type": 2,
+              "system:index": "166"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.31809524561794, 40.94963564137727]),
+            {
+              "cover_type": 2,
+              "system:index": "167"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21818832423122, 40.94211531414834]),
+            {
+              "cover_type": 2,
+              "system:index": "168"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.40735916163356, 40.966229194949754]),
+            {
+              "cover_type": 2,
+              "system:index": "169"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.42452529932888, 40.94211531414834]),
+            {
+              "cover_type": 2,
+              "system:index": "170"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.14506057764919, 40.92266222066433]),
+            {
+              "cover_type": 2,
+              "system:index": "171"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.23192123438747, 40.908652446885455]),
+            {
+              "cover_type": 2,
+              "system:index": "172"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.56975082423122, 41.04499160145814]),
+            {
+              "cover_type": 2,
+              "system:index": "173"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.56494430567653, 41.06026681741688]),
+            {
+              "cover_type": 2,
+              "system:index": "174"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3101988222781, 41.08252603351145]),
+            {
+              "cover_type": 2,
+              "system:index": "175"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.33732131983669, 41.131418060600474]),
+            {
+              "cover_type": 2,
+              "system:index": "176"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.56734756495388, 41.10995144193683]),
+            {
+              "cover_type": 2,
+              "system:index": "177"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.607173004407, 41.14072669996224]),
+            {
+              "cover_type": 2,
+              "system:index": "178"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.52134231593044, 41.232707668782254]),
+            {
+              "cover_type": 2,
+              "system:index": "179"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.45233444239528, 41.23554771932211]),
+            {
+              "cover_type": 2,
+              "system:index": "180"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.47224716212185, 41.26316722757799]),
+            {
+              "cover_type": 2,
+              "system:index": "181"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.53164199854763, 41.30625097626727]),
+            {
+              "cover_type": 2,
+              "system:index": "182"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.56666091944606, 41.303413999721606]),
+            {
+              "cover_type": 2,
+              "system:index": "183"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.69609359766872, 41.32043400752602]),
+            {
+              "cover_type": 2,
+              "system:index": "184"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.64322189356716, 41.344666953156214]),
+            {
+              "cover_type": 2,
+              "system:index": "185"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.72149948145778, 41.303413999721606]),
+            {
+              "cover_type": 2,
+              "system:index": "186"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.81213668848903, 41.22289563573784]),
+            {
+              "cover_type": 2,
+              "system:index": "187"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.87462142969997, 41.20016737986709]),
+            {
+              "cover_type": 2,
+              "system:index": "188"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.72149948145778, 41.258005589917936]),
+            {
+              "cover_type": 2,
+              "system:index": "189"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.78364089991481, 41.21798906705102]),
+            {
+              "cover_type": 2,
+              "system:index": "190"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.8705015566531, 41.12728046353941]),
+            {
+              "cover_type": 2,
+              "system:index": "191"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.82483963038356, 41.08951283758798]),
+            {
+              "cover_type": 2,
+              "system:index": "192"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.75926498438747, 41.114866106839685]),
+            {
+              "cover_type": 2,
+              "system:index": "193"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.62708572413356, 41.404437341446496]),
+            {
+              "cover_type": 2,
+              "system:index": "194"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.56528762843044, 41.41782661758614]),
+            {
+              "cover_type": 2,
+              "system:index": "195"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.50074295069606, 41.44974375455084]),
+            {
+              "cover_type": 2,
+              "system:index": "196"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.51172927882106, 41.47572917950641]),
+            {
+              "cover_type": 2,
+              "system:index": "197"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.49250320460231, 41.40958738961501]),
+            {
+              "cover_type": 2,
+              "system:index": "198"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.40152267481716, 41.51507340276025]),
+            {
+              "cover_type": 2,
+              "system:index": "199"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.4258985903445, 41.547199636090895]),
+            {
+              "cover_type": 2,
+              "system:index": "200"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.29646591212185, 41.531781035205384]),
+            {
+              "cover_type": 2,
+              "system:index": "201"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.32324508692653, 41.56672458653379]),
+            {
+              "cover_type": 2,
+              "system:index": "202"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.54365829493435, 41.49707574354211]),
+            {
+              "cover_type": 2,
+              "system:index": "203"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.40060223085756, 41.63253130021812]),
+            {
+              "cover_type": 2,
+              "system:index": "204"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.43630779726381, 41.74662009574668]),
+            {
+              "cover_type": 2,
+              "system:index": "205"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.51939190370912, 41.77837508117084]),
+            {
+              "cover_type": 2,
+              "system:index": "206"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.41193188173646, 41.8093466505059]),
+            {
+              "cover_type": 2,
+              "system:index": "207"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.42635143740053, 41.85002207301823]),
+            {
+              "cover_type": 2,
+              "system:index": "208"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.28377541568113, 41.74152168007267]),
+            {
+              "cover_type": 2,
+              "system:index": "209"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.33767708804442, 41.7251245600187]),
+            {
+              "cover_type": 2,
+              "system:index": "210"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.24669655825926, 41.73588564218934]),
+            {
+              "cover_type": 2,
+              "system:index": "211"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.18215188052488, 41.77404731997985]),
+            {
+              "cover_type": 2,
+              "system:index": "212"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.92399103914578, 41.03052174530527]),
+            {
+              "cover_type": 2,
+              "system:index": "213"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.80554468904812, 41.01226049279221]),
+            {
+              "cover_type": 2,
+              "system:index": "214"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96192820345242, 41.03764355616104]),
+            {
+              "cover_type": 2,
+              "system:index": "215"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.80348475252468, 41.02365818046961]),
+            {
+              "cover_type": 2,
+              "system:index": "216"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96948130403835, 41.05602721439328]),
+            {
+              "cover_type": 2,
+              "system:index": "217"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.8678577688821, 41.09614270644789]),
+            {
+              "cover_type": 2,
+              "system:index": "218"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.71507914339382, 41.0838518508222]),
+            {
+              "cover_type": 2,
+              "system:index": "219"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.70117457186062, 41.02132699570796]),
+            {
+              "cover_type": 2,
+              "system:index": "220"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.98290984154633, 41.03158973369736]),
+            {
+              "cover_type": 2,
+              "system:index": "221"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0907131862729, 40.997913108502146]),
+            {
+              "cover_type": 2,
+              "system:index": "222"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.09860960961274, 41.03314362384278]),
+            {
+              "cover_type": 2,
+              "system:index": "223"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.11732069970063, 41.040783050266306]),
+            {
+              "cover_type": 2,
+              "system:index": "224"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.16435591698578, 41.03573335925016]),
+            {
+              "cover_type": 2,
+              "system:index": "225"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.18272368431977, 41.045443959664965]),
+            {
+              "cover_type": 2,
+              "system:index": "226"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.1873585414975, 41.044408230547766]),
+            {
+              "cover_type": 2,
+              "system:index": "227"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.9423977565854, 41.03288464469878]),
+            {
+              "cover_type": 2,
+              "system:index": "228"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.91201369286469, 41.061236808823935]),
+            {
+              "cover_type": 2,
+              "system:index": "229"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.91287199974946, 41.045443959664965]),
+            {
+              "cover_type": 2,
+              "system:index": "230"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.85512542699662, 40.98192387738977]),
+            {
+              "cover_type": 2,
+              "system:index": "231"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.84671401952592, 40.996825044715116]),
+            {
+              "cover_type": 2,
+              "system:index": "232"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.81427001928178, 40.986200209058296]),
+            {
+              "cover_type": 2,
+              "system:index": "233"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.94318771337358, 40.96766743587574]),
+            {
+              "cover_type": 2,
+              "system:index": "234"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0211219785103, 40.97285195289229]),
+            {
+              "cover_type": 2,
+              "system:index": "235"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.75421628568398, 40.96339036457997]),
+            {
+              "cover_type": 2,
+              "system:index": "236"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.78151044461953, 40.917746093058646]),
+            {
+              "cover_type": 2,
+              "system:index": "237"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.99026411539077, 40.90033152937271]),
+            {
+              "cover_type": 2,
+              "system:index": "238"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.91467669878004, 40.86772654871106]),
+            {
+              "cover_type": 2,
+              "system:index": "239"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.03792956743239, 40.864610936165775]),
+            {
+              "cover_type": 2,
+              "system:index": "240"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.06848529253004, 40.89926386978029]),
+            {
+              "cover_type": 2,
+              "system:index": "241"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.96531680498121, 40.90029623578128]),
+            {
+              "cover_type": 2,
+              "system:index": "242"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.98934939775465, 40.939313359973404]),
+            {
+              "cover_type": 2,
+              "system:index": "243"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.01533229698848, 40.95043930692999]),
+            {
+              "cover_type": 2,
+              "system:index": "244"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.05996425499629, 40.965088340886545]),
+            {
+              "cover_type": 2,
+              "system:index": "245"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.12862880577754, 40.963921722821816]),
+            {
+              "cover_type": 2,
+              "system:index": "246"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.17693205037925, 40.914047261760565]),
+            {
+              "cover_type": 2,
+              "system:index": "247"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.12045545736167, 40.94906327083062]),
+            {
+              "cover_type": 2,
+              "system:index": "248"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.25019964501136, 40.92900892397639]),
+            {
+              "cover_type": 2,
+              "system:index": "249"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.28642019554847, 40.952479354500895]),
+            {
+              "cover_type": 2,
+              "system:index": "250"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.27313239272453, 40.97355909471529]),
+            {
+              "cover_type": 2,
+              "system:index": "251"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.30832297499992, 40.97342948814407]),
+            {
+              "cover_type": 2,
+              "system:index": "252"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38555825489617, 40.945872448007854]),
+            {
+              "cover_type": 2,
+              "system:index": "253"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.42109215992546, 40.92136200614546]),
+            {
+              "cover_type": 2,
+              "system:index": "254"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38555825489617, 40.969725729225694]),
+            {
+              "cover_type": 2,
+              "system:index": "255"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.36839211720086, 40.91487624127402]),
+            {
+              "cover_type": 2,
+              "system:index": "256"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.34762109058953, 40.902421788897875]),
+            {
+              "cover_type": 2,
+              "system:index": "257"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.30419076222039, 40.91267093625418]),
+            {
+              "cover_type": 2,
+              "system:index": "258"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.39175712178235, 40.89955290854543]),
+            {
+              "cover_type": 2,
+              "system:index": "259"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.47466956685071, 40.91265653447407]),
+            {
+              "cover_type": 2,
+              "system:index": "260"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.49766590929418, 40.87113117759975]),
+            {
+              "cover_type": 2,
+              "system:index": "261"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.49886753893286, 40.896438793859204]),
+            {
+              "cover_type": 2,
+              "system:index": "262"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.50916722155004, 40.85749999135845]),
+            {
+              "cover_type": 2,
+              "system:index": "263"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.53148320055395, 40.87152059883774]),
+            {
+              "cover_type": 2,
+              "system:index": "264"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.46075871324926, 40.842177786390174]),
+            {
+              "cover_type": 2,
+              "system:index": "265"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.54573109484106, 40.82620256412313]),
+            {
+              "cover_type": 2,
+              "system:index": "266"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.41561177111059, 40.83581413475472]),
+            {
+              "cover_type": 2,
+              "system:index": "267"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.49131443834692, 40.82018940330305]),
+            {
+              "cover_type": 2,
+              "system:index": "268"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.36582997179418, 40.78419532630901]),
+            {
+              "cover_type": 2,
+              "system:index": "269"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.43294957018286, 40.77665618900214]),
+            {
+              "cover_type": 2,
+              "system:index": "270"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3943257603684, 40.77587622940774]),
+            {
+              "cover_type": 2,
+              "system:index": "271"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.56517601404832, 40.797794253415844]),
+            {
+              "cover_type": 2,
+              "system:index": "272"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5667209664409, 40.82131124100966]),
+            {
+              "cover_type": 2,
+              "system:index": "273"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.60757637415574, 40.78258822987096]),
+            {
+              "cover_type": 2,
+              "system:index": "274"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.59796333704637, 40.78323813116311]),
+            {
+              "cover_type": 2,
+              "system:index": "275"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.6413936654155, 40.80221244485258]),
+            {
+              "cover_type": 2,
+              "system:index": "276"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.6055164376323, 40.75905752142051]),
+            {
+              "cover_type": 2,
+              "system:index": "277"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.64551353846238, 40.747224017450684]),
+            {
+              "cover_type": 2,
+              "system:index": "278"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.47728538904832, 40.747744215724886]),
+            {
+              "cover_type": 2,
+              "system:index": "279"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.48312187586473, 40.78427796000313]),
+            {
+              "cover_type": 2,
+              "system:index": "280"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3949754134546, 40.71711186413324]),
+            {
+              "cover_type": 2,
+              "system:index": "281"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3620164290796, 40.75301224752192]),
+            {
+              "cover_type": 2,
+              "system:index": "282"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.4634683028589, 40.72491794319844]),
+            {
+              "cover_type": 2,
+              "system:index": "283"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.50672843507498, 40.70181619818053]),
+            {
+              "cover_type": 2,
+              "system:index": "284"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.45368506959646, 40.702987437403664]),
+            {
+              "cover_type": 2,
+              "system:index": "285"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38364722779959, 40.6756531561776]),
+            {
+              "cover_type": 2,
+              "system:index": "286"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.46278312257498, 40.66758089131795]),
+            {
+              "cover_type": 2,
+              "system:index": "287"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5110199694988, 40.65130319264223]),
+            {
+              "cover_type": 2,
+              "system:index": "288"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.47308280519216, 40.658596092777174]),
+            {
+              "cover_type": 2,
+              "system:index": "289"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.31069114259451, 40.658205421907645]),
+            {
+              "cover_type": 2,
+              "system:index": "290"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.32339408448904, 40.6842451384523]),
+            {
+              "cover_type": 2,
+              "system:index": "291"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.51513984254568, 40.61169925450752]),
+            {
+              "cover_type": 2,
+              "system:index": "292"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.57357233538553, 40.586686733673815]),
+            {
+              "cover_type": 2,
+              "system:index": "293"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.64137857928202, 40.56517329524793]),
+            {
+              "cover_type": 2,
+              "system:index": "294"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.6406919337742, 40.627999198554264]),
+            {
+              "cover_type": 2,
+              "system:index": "295"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.66163462176249, 40.62343913959712]),
+            {
+              "cover_type": 2,
+              "system:index": "296"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.70712801149396, 40.636336786876406]),
+            {
+              "cover_type": 2,
+              "system:index": "297"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.67468401124982, 40.65066458431338]),
+            {
+              "cover_type": 2,
+              "system:index": "298"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.76085802248029, 40.586165277592144]),
+            {
+              "cover_type": 2,
+              "system:index": "299"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.78146165411631, 40.63814373652698]),
+            {
+              "cover_type": 2,
+              "system:index": "300"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.79931443731944, 40.65142925639858]),
+            {
+              "cover_type": 2,
+              "system:index": "301"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.676404891421, 40.698688622260704]),
+            {
+              "cover_type": 2,
+              "system:index": "302"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.88325685064952, 40.66015458032873]),
+            {
+              "cover_type": 2,
+              "system:index": "303"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.83381837408702, 40.69113978772634]),
+            {
+              "cover_type": 2,
+              "system:index": "304"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.66147035162608, 40.66796733471843]),
+            {
+              "cover_type": 2,
+              "system:index": "305"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.73442643683116, 40.679554568119]),
+            {
+              "cover_type": 2,
+              "system:index": "306"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.7507342676417, 40.66757671873437]),
+            {
+              "cover_type": 2,
+              "system:index": "307"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.7770884295464, 40.61561969659409]),
+            {
+              "cover_type": 2,
+              "system:index": "308"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.81399562559132, 40.61861669264071]),
+            {
+              "cover_type": 2,
+              "system:index": "309"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.80644252500538, 40.60584594941659]),
+            {
+              "cover_type": 2,
+              "system:index": "310"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.84798457822804, 40.61939849558523]),
+            {
+              "cover_type": 2,
+              "system:index": "311"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.71083720106637, 40.62774097637969]),
+            {
+              "cover_type": 2,
+              "system:index": "312"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5338543214277, 40.57704148404925]),
+            {
+              "cover_type": 2,
+              "system:index": "313"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.4852457795761, 40.60050618354343]),
+            {
+              "cover_type": 2,
+              "system:index": "314"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.36061961990814, 40.580692089155384]),
+            {
+              "cover_type": 2,
+              "system:index": "315"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.36096294266204, 40.62852267253284]),
+            {
+              "cover_type": 2,
+              "system:index": "316"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.24158636703768, 40.53856146254716]),
+            {
+              "cover_type": 2,
+              "system:index": "317"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.30424276962557, 40.52851549941029]),
+            {
+              "cover_type": 2,
+              "system:index": "318"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3629742587278, 40.51416151084829]),
+            {
+              "cover_type": 2,
+              "system:index": "319"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.11444980717047, 40.488471242508446]),
+            {
+              "cover_type": 2,
+              "system:index": "320"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.11496479130133, 40.50961778168216]),
+            {
+              "cover_type": 2,
+              "system:index": "321"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.10380680179938, 40.58156628195322]),
+            {
+              "cover_type": 2,
+              "system:index": "322"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.1791661462818, 40.59968574260165]),
+            {
+              "cover_type": 2,
+              "system:index": "323"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.2751248559986, 40.59342921765234]),
+            {
+              "cover_type": 2,
+              "system:index": "324"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.21126682377204, 40.659093524703174]),
+            {
+              "cover_type": 2,
+              "system:index": "325"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.11134043723942, 40.61639649801264]),
+            {
+              "cover_type": 2,
+              "system:index": "326"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.14859095603825, 40.63164051172264]),
+            {
+              "cover_type": 2,
+              "system:index": "327"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.20008936912419, 40.6596439440238]),
+            {
+              "cover_type": 2,
+              "system:index": "328"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.11443034202458, 40.670581627654855]),
+            {
+              "cover_type": 2,
+              "system:index": "329"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.06756678611637, 40.67487808402468]),
+            {
+              "cover_type": 2,
+              "system:index": "330"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.926117811507, 40.69115002941215]),
+            {
+              "cover_type": 2,
+              "system:index": "331"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.93933573753239, 40.66250874882494]),
+            {
+              "cover_type": 2,
+              "system:index": "332"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.91427317649723, 40.660295046827954]),
+            {
+              "cover_type": 2,
+              "system:index": "333"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.89247218162419, 40.67735167574006]),
+            {
+              "cover_type": 2,
+              "system:index": "334"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.91307154685856, 40.63854477462492]),
+            {
+              "cover_type": 2,
+              "system:index": "335"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.90139857322575, 40.70976026297043]),
+            {
+              "cover_type": 2,
+              "system:index": "336"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.95054597238604, 40.73445952646687]),
+            {
+              "cover_type": 2,
+              "system:index": "337"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.86402863840166, 40.7237925185342]),
+            {
+              "cover_type": 2,
+              "system:index": "338"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.79948396066729, 40.725743928258694]),
+            {
+              "cover_type": 2,
+              "system:index": "339"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.00839585641924, 40.72769528076645]),
+            {
+              "cover_type": 2,
+              "system:index": "340"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.99088639597002, 40.75162721563808]),
+            {
+              "cover_type": 2,
+              "system:index": "341"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.0389515815169, 40.76853045704988]),
+            {
+              "cover_type": 2,
+              "system:index": "342"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.87679172857449, 40.78767450881839]),
+            {
+              "cover_type": 2,
+              "system:index": "343"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.77842975958035, 40.80157994317472]),
+            {
+              "cover_type": 2,
+              "system:index": "344"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.79130436285183, 40.793912820891954]),
+            {
+              "cover_type": 2,
+              "system:index": "345"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.76881672247097, 40.76323547690332]),
+            {
+              "cover_type": 2,
+              "system:index": "346"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.78907276495144, 40.772206165875446]),
+            {
+              "cover_type": 2,
+              "system:index": "347"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.72384144170925, 40.76531574450995]),
+            {
+              "cover_type": 2,
+              "system:index": "348"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.72246815069363, 40.786894678599474]),
+            {
+              "cover_type": 2,
+              "system:index": "349"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.68336029909176, 40.74897875693226]),
+            {
+              "cover_type": 2,
+              "system:index": "350"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.68456192873043, 40.728428212527035]),
+            {
+              "cover_type": 2,
+              "system:index": "351"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.69743653200192, 40.712815962353076]),
+            {
+              "cover_type": 2,
+              "system:index": "352"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.6389000024609, 40.735192383722556]),
+            {
+              "cover_type": 2,
+              "system:index": "353"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.65726776979488, 40.767312805735]),
+            {
+              "cover_type": 2,
+              "system:index": "354"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.67563553712887, 40.70787131977026]),
+            {
+              "cover_type": 2,
+              "system:index": "355"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.59901564626475, 40.72625942066927]),
+            {
+              "cover_type": 2,
+              "system:index": "356"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.67471831350107, 40.69685234567111]),
+            {
+              "cover_type": 2,
+              "system:index": "357"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.5885443022706, 40.67068735453237]),
+            {
+              "cover_type": 2,
+              "system:index": "358"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.57275145559092, 40.66313534805687]),
+            {
+              "cover_type": 2,
+              "system:index": "359"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.56090682058115, 40.706222381036696]),
+            {
+              "cover_type": 2,
+              "system:index": "360"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.57635634450693, 40.71415985177546]),
+            {
+              "cover_type": 2,
+              "system:index": "361"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.55243950453313, 40.74351394305271]),
+            {
+              "cover_type": 2,
+              "system:index": "362"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.52033882704289, 40.75755865171194]),
+            {
+              "cover_type": 2,
+              "system:index": "363"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.52514534559758, 40.765229971047944]),
+            {
+              "cover_type": 2,
+              "system:index": "364"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.59260826674016, 40.77824623134303]),
+            {
+              "cover_type": 2,
+              "system:index": "365"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.56394081678899, 40.8073574731221]),
+            {
+              "cover_type": 2,
+              "system:index": "366"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.63724022474797, 40.81723160146683]),
+            {
+              "cover_type": 2,
+              "system:index": "367"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.70916634169133, 40.80839692425245]),
+            {
+              "cover_type": 2,
+              "system:index": "368"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.48995476332219, 40.79124389860859]),
+            {
+              "cover_type": 2,
+              "system:index": "369"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.49132805433781, 40.80060064390756]),
+            {
+              "cover_type": 2,
+              "system:index": "370"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.4408596095136, 40.80060064390756]),
+            {
+              "cover_type": 2,
+              "system:index": "371"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.47261696424992, 40.8292143934807]),
+            {
+              "cover_type": 2,
+              "system:index": "372"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.48154335585149, 40.829993726525686]),
+            {
+              "cover_type": 2,
+              "system:index": "373"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.54831963148625, 40.851635006920816]),
+            {
+              "cover_type": 2,
+              "system:index": "374"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.62385063734563, 40.86098323599998]),
+            {
+              "cover_type": 2,
+              "system:index": "375"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.49750786390813, 40.849297743534194]),
+            {
+              "cover_type": 2,
+              "system:index": "376"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.59020500746281, 40.84324176951966]),
+            {
+              "cover_type": 2,
+              "system:index": "377"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.51153587733624, 40.88821132475572]),
+            {
+              "cover_type": 2,
+              "system:index": "378"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.4735987130296, 40.88834109859814]),
+            {
+              "cover_type": 2,
+              "system:index": "379"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.47428535853741, 40.89716512279538]),
+            {
+              "cover_type": 2,
+              "system:index": "380"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.45729088221906, 40.90962056512044]),
+            {
+              "cover_type": 2,
+              "system:index": "381"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.62637733851788, 40.895478267982554]),
+            {
+              "cover_type": 2,
+              "system:index": "382"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.60440468226788, 40.88756245172591]),
+            {
+              "cover_type": 2,
+              "system:index": "383"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.662597889055, 40.88172230813819]),
+            {
+              "cover_type": 2,
+              "system:index": "384"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.70019173060773, 40.904171597739285]),
+            {
+              "cover_type": 2,
+              "system:index": "385"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.62947105701173, 40.91786021631292]),
+            {
+              "cover_type": 2,
+              "system:index": "386"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.5863840513965, 40.930960214338576]),
+            {
+              "cover_type": 2,
+              "system:index": "387"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.66534828479493, 40.93238678998843]),
+            {
+              "cover_type": 2,
+              "system:index": "388"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.72233986194337, 40.93420238717559]),
+            {
+              "cover_type": 2,
+              "system:index": "389"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.503986590459, 40.92162186763949]),
+            {
+              "cover_type": 2,
+              "system:index": "390"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.46089958484376, 40.96430871736254]),
+            {
+              "cover_type": 2,
+              "system:index": "391"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.51153969104493, 40.97260417128316]),
+            {
+              "cover_type": 2,
+              "system:index": "392"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.55050682361329, 40.97778830038365]),
+            {
+              "cover_type": 2,
+              "system:index": "393"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.46828102405274, 40.97921386446495]),
+            {
+              "cover_type": 2,
+              "system:index": "394"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.60801338489259, 40.968586191024116]),
+            {
+              "cover_type": 2,
+              "system:index": "395"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.62672447498048, 40.96806772413552]),
+            {
+              "cover_type": 2,
+              "system:index": "396"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.67616295154298, 40.9692342689061]),
+            {
+              "cover_type": 2,
+              "system:index": "397"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.51617454822266, 40.92748505956429]),
+            {
+              "cover_type": 2,
+              "system:index": "398"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.55239509875977, 40.953419351466515]),
+            {
+              "cover_type": 2,
+              "system:index": "399"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.58981727893556, 40.96067912833696]),
+            {
+              "cover_type": 2,
+              "system:index": "400"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.57419609363282, 40.9034867740236]),
+            {
+              "cover_type": 2,
+              "system:index": "401"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.53831886584962, 41.00318654921797]),
+            {
+              "cover_type": 2,
+              "system:index": "402"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.47257255847657, 41.0219683642791]),
+            {
+              "cover_type": 2,
+              "system:index": "403"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.46124290759766, 41.036989961031026]),
+            {
+              "cover_type": 2,
+              "system:index": "404"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.41077446277345, 41.0192485709188]),
+            {
+              "cover_type": 2,
+              "system:index": "405"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.471027606084, 41.00538883219575]),
+            {
+              "cover_type": 2,
+              "system:index": "406"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.58535408313477, 41.01808291081177]),
+            {
+              "cover_type": 2,
+              "system:index": "407"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.66414665515626, 40.98206680617023]),
+            {
+              "cover_type": 2,
+              "system:index": "408"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.57814430530274, 40.97895657934889]),
+            {
+              "cover_type": 2,
+              "system:index": "409"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.52132438953126, 41.01601057524237]),
+            {
+              "cover_type": 2,
+              "system:index": "410"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.54209541614259, 41.04333426109547]),
+            {
+              "cover_type": 2,
+              "system:index": "411"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.58091920225442, 41.03880268059388]),
+            {
+              "cover_type": 2,
+              "system:index": "412"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.60718339292825, 41.025206067077384]),
+            {
+              "cover_type": 2,
+              "system:index": "413"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.5004100164634, 41.07362309693396]),
+            {
+              "cover_type": 2,
+              "system:index": "414"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.52684586851419, 41.06715229520861]),
+            {
+              "cover_type": 2,
+              "system:index": "415"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.7307795843345, 41.01963711970367]),
+            {
+              "cover_type": 2,
+              "system:index": "416"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.70348542539895, 40.97766060822035]),
+            {
+              "cover_type": 2,
+              "system:index": "417"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.83085816709817, 41.00292745226449]),
+            {
+              "cover_type": 2,
+              "system:index": "418"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.86622041075051, 40.99010087994692]),
+            {
+              "cover_type": 2,
+              "system:index": "419"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.84235947935403, 40.961069929001475]),
+            {
+              "cover_type": 2,
+              "system:index": "420"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.86659511324247, 40.91942155774673]),
+            {
+              "cover_type": 2,
+              "system:index": "421"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.74375424283326, 40.93125028464431]),
+            {
+              "cover_type": 2,
+              "system:index": "422"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.74358258145631, 40.941494962830824]),
+            {
+              "cover_type": 2,
+              "system:index": "423"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.91215405362428, 40.9242466790802]),
+            {
+              "cover_type": 2,
+              "system:index": "424"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.93069348233522, 40.92761887812269]),
+            {
+              "cover_type": 2,
+              "system:index": "425"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.82924160855592, 40.95601634057233]),
+            {
+              "cover_type": 2,
+              "system:index": "426"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.770361756261, 40.8892175175257]),
+            {
+              "cover_type": 2,
+              "system:index": "427"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.81001553433717, 40.91257235363358]),
+            {
+              "cover_type": 2,
+              "system:index": "428"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.74959072964967, 40.8587140710695]),
+            {
+              "cover_type": 2,
+              "system:index": "429"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.72160992520631, 40.866892969573804]),
+            {
+              "cover_type": 2,
+              "system:index": "430"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.76830181973756, 40.84443103336343]),
+            {
+              "cover_type": 2,
+              "system:index": "431"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.73362622159303, 40.83027480443189]),
+            {
+              "cover_type": 2,
+              "system:index": "432"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.68521771329225, 40.79922441910423]),
+            {
+              "cover_type": 2,
+              "system:index": "433"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.59629712003053, 40.699479232845825]),
+            {
+              "cover_type": 2,
+              "system:index": "434"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.62170300381959, 40.69440344682327]),
+            {
+              "cover_type": 2,
+              "system:index": "435"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.65071377652467, 40.669799928884544]),
+            {
+              "cover_type": 2,
+              "system:index": "436"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.56883129971803, 40.74174522305611]),
+            {
+              "cover_type": 2,
+              "system:index": "437"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.58119091885865, 40.77334248622265]),
+            {
+              "cover_type": 2,
+              "system:index": "438"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.64024243253053, 40.76827233230845]),
+            {
+              "cover_type": 2,
+              "system:index": "439"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.5920055856067, 40.80809361319718]),
+            {
+              "cover_type": 2,
+              "system:index": "440"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.58119091885865, 40.82615155992744]),
+            {
+              "cover_type": 2,
+              "system:index": "441"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.61204531070504, 40.83806709371585]),
+            {
+              "cover_type": 2,
+              "system:index": "442"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.61153032657418, 40.88727040497864]),
+            {
+              "cover_type": 2,
+              "system:index": "443"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.49016573306832, 40.91685267528831]),
+            {
+              "cover_type": 2,
+              "system:index": "444"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.66526033756051, 40.91620408319252]),
+            {
+              "cover_type": 2,
+              "system:index": "445"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.71183217719101, 40.94347845316946]),
+            {
+              "cover_type": 2,
+              "system:index": "446"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-83.67578328803086, 40.99644196962516]),
+            {
+              "cover_type": 2,
+              "system:index": "447"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.20140620345369, 41.2568927054125]),
+            {
+              "cover_type": 2,
+              "system:index": "448"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.28466197127595, 41.250827156550656]),
+            {
+              "cover_type": 2,
+              "system:index": "449"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.240544997399, 41.22591378537101]),
+            {
+              "cover_type": 2,
+              "system:index": "450"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.30079814070955, 41.2568927054125]),
+            {
+              "cover_type": 2,
+              "system:index": "451"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.28019877547517, 41.315841124257446]),
+            {
+              "cover_type": 2,
+              "system:index": "452"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.45992823714509, 41.33092438831483]),
+            {
+              "cover_type": 2,
+              "system:index": "453"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.46301814193025, 41.31442286005764]),
+            {
+              "cover_type": 2,
+              "system:index": "454"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.33272715682283, 41.3511588379885]),
+            {
+              "cover_type": 2,
+              "system:index": "455"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.31641932601228, 41.36597626089927]),
+            {
+              "cover_type": 2,
+              "system:index": "456"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5126282798697, 41.37293284335942]),
+            {
+              "cover_type": 2,
+              "system:index": "457"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.49082728499666, 41.36391490843148]),
+            {
+              "cover_type": 2,
+              "system:index": "458"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.47314616317048, 41.40216811866338]),
+            {
+              "cover_type": 2,
+              "system:index": "459"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.40928813094392, 41.40886333549478]),
+            {
+              "cover_type": 2,
+              "system:index": "460"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.61802836531892, 41.38130552084882]),
+            {
+              "cover_type": 2,
+              "system:index": "461"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.44310542220369, 41.441042246218124]),
+            {
+              "cover_type": 2,
+              "system:index": "462"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5016419517447, 41.43087543388083]),
+            {
+              "cover_type": 2,
+              "system:index": "463"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.58815928572908, 41.42971708839249]),
+            {
+              "cover_type": 2,
+              "system:index": "464"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.53305598372712, 41.437825072779326]),
+            {
+              "cover_type": 2,
+              "system:index": "465"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.62575312728181, 41.45996890117971]),
+            {
+              "cover_type": 2,
+              "system:index": "466"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3972718345572, 41.46562908741473]),
+            {
+              "cover_type": 2,
+              "system:index": "467"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3804490196158, 41.47759103710606]),
+            {
+              "cover_type": 2,
+              "system:index": "468"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.37856074446931, 41.49610841067855]),
+            {
+              "cover_type": 2,
+              "system:index": "469"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.60373461633999, 41.5264576471266]),
+            {
+              "cover_type": 2,
+              "system:index": "470"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.48288500696499, 41.53738043465464]),
+            {
+              "cover_type": 2,
+              "system:index": "471"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3788582125314, 41.53172651607145]),
+            {
+              "cover_type": 2,
+              "system:index": "472"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.49335635095913, 41.49599260553104]),
+            {
+              "cover_type": 2,
+              "system:index": "473"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38383639246304, 41.566541662405754]),
+            {
+              "cover_type": 2,
+              "system:index": "474"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.44048464685757, 41.56731226530219]),
+            {
+              "cover_type": 2,
+              "system:index": "475"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.47035372644741, 41.59812884410082]),
+            {
+              "cover_type": 2,
+              "system:index": "476"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.44340289026577, 41.592095088799915]),
+            {
+              "cover_type": 2,
+              "system:index": "477"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.35791552454312, 41.604803831011026]),
+            {
+              "cover_type": 2,
+              "system:index": "478"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.55758544664937, 41.626107822679046]),
+            {
+              "cover_type": 2,
+              "system:index": "479"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5816180394228, 41.65253552140301]),
+            {
+              "cover_type": 2,
+              "system:index": "480"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.55981704454976, 41.66830999919653]),
+            {
+              "cover_type": 2,
+              "system:index": "481"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3915888951357, 41.670361679769705]),
+            {
+              "cover_type": 2,
+              "system:index": "482"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.48342773180562, 41.69061851435857]),
+            {
+              "cover_type": 2,
+              "system:index": "483"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.54411428534512, 41.7131939827442]),
+            {
+              "cover_type": 2,
+              "system:index": "484"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.46343343817715, 41.72639131938879]),
+            {
+              "cover_type": 2,
+              "system:index": "485"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.39167898261074, 41.72805681002829]),
+            {
+              "cover_type": 2,
+              "system:index": "486"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.53947942816738, 41.73715218936995]),
+            {
+              "cover_type": 2,
+              "system:index": "487"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.4497005280209, 41.71191254358548]),
+            {
+              "cover_type": 2,
+              "system:index": "488"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.47991293036465, 41.697174157162905]),
+            {
+              "cover_type": 2,
+              "system:index": "489"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.42412298285488, 41.76046122322981]),
+            {
+              "cover_type": 2,
+              "system:index": "490"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.37777441107754, 41.757131879408206]),
+            {
+              "cover_type": 2,
+              "system:index": "491"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.48111456000332, 41.77659328877989]),
+            {
+              "cover_type": 2,
+              "system:index": "492"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.43304937445644, 41.780433658843435]),
+            {
+              "cover_type": 2,
+              "system:index": "493"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.61518209540371, 41.772752688741676]),
+            {
+              "cover_type": 2,
+              "system:index": "494"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.65620916449551, 41.74970425923872]),
+            {
+              "cover_type": 2,
+              "system:index": "495"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.45038717352871, 41.80193548110371]),
+            {
+              "cover_type": 2,
+              "system:index": "496"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.55063741766934, 41.799504089119544]),
+            {
+              "cover_type": 2,
+              "system:index": "497"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.3566600617123, 41.79246532912324]),
+            {
+              "cover_type": 2,
+              "system:index": "498"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.33812063300137, 41.783505789310134]),
+            {
+              "cover_type": 2,
+              "system:index": "499"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.35837667548184, 41.80641411957645]),
+            {
+              "cover_type": 2,
+              "system:index": "500"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.31065481268887, 41.815882210249185]),
+            {
+              "cover_type": 2,
+              "system:index": "501"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.26138799750332, 41.817545378953916]),
+            {
+              "cover_type": 2,
+              "system:index": "502"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.43562429511074, 41.816010147836806]),
+            {
+              "cover_type": 2,
+              "system:index": "503"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.30842321478848, 41.86097883206164]),
+            {
+              "cover_type": 2,
+              "system:index": "504"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.38343923651699, 41.860595288137446]),
+            {
+              "cover_type": 2,
+              "system:index": "505"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.46223180853848, 41.85944464256185]),
+            {
+              "cover_type": 2,
+              "system:index": "506"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.66479442908839, 41.775646830666645]),
+            {
+              "cover_type": 2,
+              "system:index": "507"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.65277813270167, 41.79369483665948]),
+            {
+              "cover_type": 2,
+              "system:index": "508"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.63320873572901, 41.79369483665948]),
+            {
+              "cover_type": 2,
+              "system:index": "509"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.61938462428674, 41.68340141496895]),
+            {
+              "cover_type": 2,
+              "system:index": "510"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.69697556666955, 41.63563494856027]),
+            {
+              "cover_type": 2,
+              "system:index": "511"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.72667298488244, 41.61292235421227]),
+            {
+              "cover_type": 2,
+              "system:index": "512"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.71551499538049, 41.588147526448196]),
+            {
+              "cover_type": 2,
+              "system:index": "513"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.75637040309533, 41.58275485305501]),
+            {
+              "cover_type": 2,
+              "system:index": "514"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.78434531280612, 41.58340127080418]),
+            {
+              "cover_type": 2,
+              "system:index": "515"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.67499701568698, 41.584043272922806]),
+            {
+              "cover_type": 2,
+              "system:index": "516"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.74400488922214, 41.553219971306234]),
+            {
+              "cover_type": 2,
+              "system:index": "517"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.7965332705698, 41.547695909704984]),
+            {
+              "cover_type": 2,
+              "system:index": "518"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.7086426455698, 41.54551184817645]),
+            {
+              "cover_type": 2,
+              "system:index": "519"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.72083060333347, 41.57531149720486]),
+            {
+              "cover_type": 2,
+              "system:index": "520"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.78245703765964, 41.53818827995072]),
+            {
+              "cover_type": 2,
+              "system:index": "521"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.76185767242526, 41.550779165084265]),
+            {
+              "cover_type": 2,
+              "system:index": "522"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.74469153472995, 41.51968293957716]),
+            {
+              "cover_type": 2,
+              "system:index": "523"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.77541892120456, 41.50412922084596]),
+            {
+              "cover_type": 2,
+              "system:index": "524"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.68890158722019, 41.50952845576433]),
+            {
+              "cover_type": 2,
+              "system:index": "525"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.69525305816745, 41.53844526129732]),
+            {
+              "cover_type": 2,
+              "system:index": "526"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.69490973541355, 41.55013683233988]),
+            {
+              "cover_type": 2,
+              "system:index": "527"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.6789452273569, 41.50785731211749]),
+            {
+              "cover_type": 2,
+              "system:index": "528"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.72455135454827, 41.48177271191373]),
+            {
+              "cover_type": 2,
+              "system:index": "529"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.72094646563225, 41.473284361393375]),
+            {
+              "cover_type": 2,
+              "system:index": "530"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.76540676226311, 41.48164410883665]),
+            {
+              "cover_type": 2,
+              "system:index": "531"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.80042568316155, 41.48190131473558]),
+            {
+              "cover_type": 2,
+              "system:index": "532"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.78205791582756, 41.47135503578058]),
+            {
+              "cover_type": 2,
+              "system:index": "533"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.77639309038811, 41.48871689907523]),
+            {
+              "cover_type": 2,
+              "system:index": "534"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.82154003252678, 41.50568844562341]),
+            {
+              "cover_type": 2,
+              "system:index": "535"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.8775016414135, 41.47662838976305]),
+            {
+              "cover_type": 2,
+              "system:index": "536"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.82686153521233, 41.45913464013824]),
+            {
+              "cover_type": 2,
+              "system:index": "537"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.80780712237053, 41.45051466038357]),
+            {
+              "cover_type": 2,
+              "system:index": "538"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.8632537471264, 41.46119297332044]),
+            {
+              "cover_type": 2,
+              "system:index": "539"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.65331188311272, 41.48061527503224]),
+            {
+              "cover_type": 2,
+              "system:index": "540"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.6684180842846, 41.41802999805018]),
+            {
+              "cover_type": 2,
+              "system:index": "541"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.5999251948803, 41.41519789017887]),
+            {
+              "cover_type": 2,
+              "system:index": "542"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.79046932329827, 41.42729785129754]),
+            {
+              "cover_type": 2,
+              "system:index": "543"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.85964885821038, 41.44775967465548]),
+            {
+              "cover_type": 2,
+              "system:index": "544"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.6160613643139, 41.40013415093316]),
+            {
+              "cover_type": 2,
+              "system:index": "545"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.76420513262444, 41.38017253716339]),
+            {
+              "cover_type": 2,
+              "system:index": "546"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.76283184160881, 41.40579955663363]),
+            {
+              "cover_type": 2,
+              "system:index": "547"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.66172329058342, 41.36316813711695]),
+            {
+              "cover_type": 2,
+              "system:index": "548"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.60696331133538, 41.35002532925262]),
+            {
+              "cover_type": 2,
+              "system:index": "549"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.65502849688225, 41.38133176621628]),
+            {
+              "cover_type": 2,
+              "system:index": "550"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.86239544024163, 41.3698673707593]),
+            {
+              "cover_type": 2,
+              "system:index": "551"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.73244777788811, 41.390733638329706]),
+            {
+              "cover_type": 2,
+              "system:index": "552"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.78858104815178, 41.35002532925262]),
+            {
+              "cover_type": 2,
+              "system:index": "553"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([-84.64398739841744, 41.328061333331945]),
+            {
+              "cover_type": 2,
+              "system:index": "554"
+            })]),
+    cover_crop_polygon = /* color: #98ff00 */ee.FeatureCollection(
+        [ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.3356822219968, 41.93286635713291],
+                  [-84.33600408707859, 41.93088691809615],
+                  [-84.33394415055515, 41.93067939270411],
+                  [-84.33375103150608, 41.93186068207289],
+                  [-84.3339870658994, 41.93275461624261]]]),
+            {
+              "cover_type": 1,
+              "system:index": "0"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.33593971406223, 41.99467692358623],
+                  [-84.33250648652317, 41.995314820064074],
+                  [-84.33267814790013, 41.997228471136495],
+                  [-84.33611137543919, 41.997228471136495]]]),
+            {
+              "cover_type": 1,
+              "system:index": "1"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.37044365082981, 41.87174199643356],
+                  [-84.36769706879856, 41.870847207682345],
+                  [-84.36735374604466, 41.87442628753421],
+                  [-84.37044365082981, 41.87468192842638]]]),
+            {
+              "cover_type": 1,
+              "system:index": "2"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.58793861542942, 41.82788261850796],
+                  [-84.58759529267552, 41.82634763521764],
+                  [-84.58381874238255, 41.8271151314632],
+                  [-84.5836470810056, 41.82865009635185]]]),
+            {
+              "cover_type": 1,
+              "system:index": "3"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.35997230683567, 41.786169158824315],
+                  [-84.36014396821263, 41.78271314526072],
+                  [-84.35636741791966, 41.78130508632814],
+                  [-84.3558524337888, 41.78578516651654]]]),
+            {
+              "cover_type": 1,
+              "system:index": "4"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.17268974457981, 41.75557056527422],
+                  [-84.16736824189427, 41.756338909408896],
+                  [-84.16839821015598, 41.76146096857238],
+                  [-84.17371971284153, 41.760692685759885]]]),
+            {
+              "cover_type": 1,
+              "system:index": "5"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.25594551240208, 41.65599228623181],
+                  [-84.25302726899388, 41.65842911574008],
+                  [-84.25216896210911, 41.662789527896415],
+                  [-84.25783378754856, 41.66266128469431]]]),
+            {
+              "cover_type": 1,
+              "system:index": "6"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4360182968259, 41.643550193439935],
+                  [-84.43636161957981, 41.63880360739933],
+                  [-84.43035347138645, 41.63893189810549],
+                  [-84.42898018037083, 41.643037065858785]]]),
+            {
+              "cover_type": 1,
+              "system:index": "7"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.18735227683837, 41.60997925503886],
+                  [-84.18726644614989, 41.606385405406925],
+                  [-84.18306074241454, 41.60619287209841],
+                  [-84.18331823447997, 41.60953003478316]]]),
+            {
+              "cover_type": 1,
+              "system:index": "8"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.12083349326903, 41.6203746213407],
+                  [-84.12100515464599, 41.61851384555118],
+                  [-84.11516866782958, 41.61844967991117],
+                  [-84.11516866782958, 41.620695439326184]]]),
+            {
+              "cover_type": 1,
+              "system:index": "9"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.05671796897704, 41.62114458182449],
+                  [-84.05482969383056, 41.62140123327615],
+                  [-84.05517301658446, 41.62621325886211],
+                  [-84.05791959861571, 41.626020784733676]]]),
+            {
+              "cover_type": 1,
+              "system:index": "10"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.92018382887339, 41.5988761806442],
+                  [-83.92018382887339, 41.59637291153327],
+                  [-83.9121157441566, 41.59624453614108],
+                  [-83.91202991346812, 41.59868362492896]]]),
+            {
+              "cover_type": 1,
+              "system:index": "11"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.99548016592355, 41.634630013659255],
+                  [-83.99556599661203, 41.632448891346016],
+                  [-83.990158663238, 41.63225643583382],
+                  [-83.99024449392648, 41.63450171438974]]]),
+            {
+              "cover_type": 1,
+              "system:index": "12"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.82708035513254, 41.6460476258269],
+                  [-83.82338963552805, 41.64636831605965],
+                  [-83.82338963552805, 41.65021647434774],
+                  [-83.82699452444406, 41.65015234025981]]]),
+            {
+              "cover_type": 1,
+              "system:index": "13"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.91050778433176, 41.67477513463494],
+                  [-83.90861950918527, 41.67471102500257],
+                  [-83.9085336784968, 41.677147146142055],
+                  [-83.91059361502023, 41.67708303887238]]]),
+            {
+              "cover_type": 1,
+              "system:index": "14"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.21625053431862, 41.69757756612203],
+                  [-84.21024238612526, 41.69751347920689],
+                  [-84.21127235438698, 41.70231982062495],
+                  [-84.214877243303, 41.70225573843563]]]),
+            {
+              "cover_type": 1,
+              "system:index": "15"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.75494020273123, 41.64185955993131],
+                  [-84.75502603341971, 41.63871650690135],
+                  [-84.75189321329032, 41.63878065237308],
+                  [-84.75163572122489, 41.64176334629676]]]),
+            {
+              "cover_type": 1,
+              "system:index": "16"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.70025791936968, 41.57075939197424],
+                  [-84.70034375005815, 41.56928247382117],
+                  [-84.69296231084917, 41.568961400189494],
+                  [-84.69296231084917, 41.57037411223304]]]),
+            {
+              "cover_type": 1,
+              "system:index": "17"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.64103474432085, 41.54898748401198],
+                  [-84.64112057500932, 41.54404122017508],
+                  [-84.6368290405855, 41.54397698049337],
+                  [-84.6368290405855, 41.54776701251684]]]),
+            {
+              "cover_type": 1,
+              "system:index": "18"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.80411305242632, 41.499186398624545],
+                  [-84.80376972967241, 41.49507207960872],
+                  [-84.79990734869097, 41.495393520193545],
+                  [-84.79999317937944, 41.49764355962165]]]),
+            {
+              "cover_type": 1,
+              "system:index": "19"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.83552708440874, 41.500922048570295],
+                  [-84.83569874578569, 41.49603639657761],
+                  [-84.8323513489351, 41.496293545344614],
+                  [-84.83183636480425, 41.50066491818023]]]),
+            {
+              "cover_type": 1,
+              "system:index": "20"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.70785522847773, 41.44732141601162],
+                  [-84.70776939778925, 41.44365418044316],
+                  [-84.70150375753046, 41.44391153706977],
+                  [-84.70141792684198, 41.44693540097546]]]),
+            {
+              "cover_type": 1,
+              "system:index": "21"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.62108040242792, 41.42634460495338],
+                  [-84.6211662331164, 41.42447824125165],
+                  [-84.61481476216913, 41.424864389867196],
+                  [-84.61507225423456, 41.42634460495338]]]),
+            {
+              "cover_type": 1,
+              "system:index": "22"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.69926402067718, 41.39816118760751],
+                  [-84.69205424284515, 41.39803241873765],
+                  [-84.69188258146819, 41.40054336568194],
+                  [-84.6995215127426, 41.40035021936118]]]),
+            {
+              "cover_type": 1,
+              "system:index": "23"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.60098788237151, 41.35612098698604],
+                  [-84.59472224211272, 41.35554115040337],
+                  [-84.59412142729339, 41.35850470533613],
+                  [-84.60107371305999, 41.361339283790386]]]),
+            {
+              "cover_type": 1,
+              "system:index": "24"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.55875918364104, 41.36765221935731],
+                  [-84.55618426298675, 41.36771663391047],
+                  [-84.55575510954436, 41.368811671557104],
+                  [-84.55944582914886, 41.368940498303836]]]),
+            {
+              "cover_type": 1,
+              "system:index": "25"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.72827479338225, 41.33627475438098],
+                  [-84.72449824308929, 41.336339199989084],
+                  [-84.72432658171233, 41.338272538582494],
+                  [-84.7281031320053, 41.33846586928553]]]),
+            {
+              "cover_type": 1,
+              "system:index": "26"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.62986166905426, 41.29932519897925],
+                  [-84.62926085423493, 41.29706828345659],
+                  [-84.62651427220368, 41.29713276784102],
+                  [-84.62625678013825, 41.29984105441899],
+                  [-84.62994749974274, 41.29984105441899]]]),
+            {
+              "cover_type": 1,
+              "system:index": "27"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.70815329771102, 41.292174514356326],
+                  [-84.70789580564559, 41.28940141748541],
+                  [-84.70300345640243, 41.28946590944908],
+                  [-84.70317511777938, 41.29211002507017]]]),
+            {
+              "cover_type": 1,
+              "system:index": "28"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.799284991602, 41.28187311477017],
+                  [-84.79971414504438, 41.27993810298431],
+                  [-84.79628091750531, 41.2796155954421],
+                  [-84.79610925612836, 41.28380806918309],
+                  [-84.79739671645551, 41.28425955029074]]]),
+            {
+              "cover_type": 1,
+              "system:index": "29"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.94190486305499, 41.308848759232426],
+                  [-84.94053157203936, 41.309042177250305],
+                  [-84.94061740272784, 41.31046055851527],
+                  [-84.94207652443194, 41.31046055851527]]]),
+            {
+              "cover_type": 1,
+              "system:index": "30"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.81061142703378, 41.41818611482718],
+                  [-84.81074017306649, 41.41602986728097],
+                  [-84.80520409365975, 41.4160942339159],
+                  [-84.80494660159432, 41.41815393255422]]]),
+            {
+              "cover_type": 1,
+              "system:index": "31"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.8211686017164, 41.45878743382728],
+                  [-84.82142609378182, 41.45750093552612],
+                  [-84.81473130008065, 41.457565261047264],
+                  [-84.8145596387037, 41.45878743382728]]]),
+            {
+              "cover_type": 1,
+              "system:index": "32"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.90021866580331, 41.47152239010061],
+                  [-84.90013283511483, 41.468885559040764],
+                  [-84.8969570996412, 41.46901418743435],
+                  [-84.89669960757577, 41.47145807842396]]]),
+            {
+              "cover_type": 1,
+              "system:index": "33"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.91875809451425, 41.45801553790887],
+                  [-84.9123207928785, 41.45801553790887],
+                  [-84.91240662356698, 41.461167388409464],
+                  [-84.91858643313729, 41.46103874444879]]]),
+            {
+              "cover_type": 1,
+              "system:index": "34"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.91566818972909, 41.4329882695298],
+                  [-84.91369408389413, 41.43324566845382],
+                  [-84.91335076114022, 41.43479004056423],
+                  [-84.91626900454843, 41.43453264776414]]]),
+            {
+              "cover_type": 1,
+              "system:index": "35"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.9665292186647, 41.4574735287445],
+                  [-84.96378263663345, 41.45740920313238],
+                  [-84.96386846732193, 41.46339121213106],
+                  [-84.96670088004166, 41.46306961277973]]]),
+            {
+              "cover_type": 1,
+              "system:index": "36"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-85.17293273482636, 41.34720199727651],
+                  [-85.17344771895722, 41.344817865019664],
+                  [-85.16992866072968, 41.34430236548626],
+                  [-85.1698428300412, 41.34675095192337]]]),
+            {
+              "cover_type": 1,
+              "system:index": "37"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-85.19224463973359, 41.314203008126064],
+                  [-85.1925879624875, 41.310076959261494],
+                  [-85.18898307357148, 41.3100124876759],
+                  [-85.18906890425995, 41.313687266299475]]]),
+            {
+              "cover_type": 1,
+              "system:index": "38"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.84751182532139, 41.3286217530013],
+                  [-84.84373527502842, 41.328944018261296],
+                  [-84.84407859778233, 41.33107092899894],
+                  [-84.84751182532139, 41.331006478178566]]]),
+            {
+              "cover_type": 1,
+              "system:index": "39"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.51883878341924, 41.326614117651225],
+                  [-84.5164355241419, 41.326614117651225],
+                  [-84.5167788468958, 41.33177032941127],
+                  [-84.5193537675501, 41.33177032941127]]]),
+            {
+              "cover_type": 1,
+              "system:index": "40"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.47695340744268, 41.33396159583892],
+                  [-84.47369184128057, 41.33525054165866],
+                  [-84.47334851852666, 41.33692613309398],
+                  [-84.47695340744268, 41.33666835260182]]]),
+            {
+              "cover_type": 1,
+              "system:index": "41"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.48690976730596, 41.30688784217738],
+                  [-84.48313321701299, 41.30650099278585],
+                  [-84.48296155563604, 41.31075620985726],
+                  [-84.4863947831751, 41.31049832581921]]]),
+            {
+              "cover_type": 1,
+              "system:index": "42"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.49089242517776, 41.26859499509024],
+                  [-84.48823167383499, 41.268982069292505],
+                  [-84.4885749965889, 41.27414283937563],
+                  [-84.49123574793167, 41.2740783322675]]]),
+            {
+              "cover_type": 1,
+              "system:index": "43"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.52428056299514, 41.241235940813525],
+                  [-84.51664163172073, 41.24284941049526],
+                  [-84.51664163172073, 41.24497912947947],
+                  [-84.52436639368362, 41.24465644924644]]]),
+            {
+              "cover_type": 1,
+              "system:index": "44"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.44282589855464, 41.232005624372164],
+                  [-84.43870602550777, 41.23245746370019],
+                  [-84.43887768688472, 41.2377502061211],
+                  [-84.44437085094722, 41.23768566306307]]]),
+            {
+              "cover_type": 1,
+              "system:index": "45"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.53320561352047, 41.179183468064075],
+                  [-84.53354893627437, 41.17666398740111],
+                  [-84.52530919018062, 41.17666398740111],
+                  [-84.52522335949214, 41.179118867206434]]]),
+            {
+              "cover_type": 1,
+              "system:index": "46"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4305521101025, 41.190035507601685],
+                  [-84.42437230053218, 41.189777146607966],
+                  [-84.42420063915523, 41.19300658575045],
+                  [-84.4305521101025, 41.19287741124336]]]),
+            {
+              "cover_type": 1,
+              "system:index": "47"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.22666745902627, 41.23005235876698],
+                  [-84.2243500304374, 41.229826431181976],
+                  [-84.2243500304374, 41.23379618793682],
+                  [-84.22709661246866, 41.23379618793682]]]),
+            {
+              "cover_type": 1,
+              "system:index": "48"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.23207576001398, 41.33705497122026],
+                  [-84.22838504040949, 41.337377194763384],
+                  [-84.22855670178645, 41.33840829938909],
+                  [-84.23207576001398, 41.33827941220356]]]),
+            {
+              "cover_type": 1,
+              "system:index": "49"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.34094327980735, 41.3736718893522],
+                  [-84.33742422157981, 41.373543071974545],
+                  [-84.33733839089133, 41.37650580712076],
+                  [-84.34137243324973, 41.37650580712076]]]),
+            {
+              "cover_type": 1,
+              "system:index": "50"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.36008352333762, 41.378824375277546],
+                  [-84.35656446511008, 41.37908198885962],
+                  [-84.35630697304465, 41.380692050628824],
+                  [-84.35999769264915, 41.38082085384841]]]),
+            {
+              "cover_type": 1,
+              "system:index": "51"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.24927610451438, 41.395245200108825],
+                  [-84.2433537870095, 41.3951164254618],
+                  [-84.2433537870095, 41.3972411745139],
+                  [-84.24901861244895, 41.39730555976455]]]),
+            {
+              "cover_type": 1,
+              "system:index": "52"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.32884115273215, 41.39955900335508],
+                  [-84.32540792519309, 41.39949462033679],
+                  [-84.32540792519309, 41.40206989131952],
+                  [-84.32918447548606, 41.40213427178655]]]),
+            {
+              "cover_type": 1,
+              "system:index": "53"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.32402395024407, 41.42140934565181],
+                  [-84.32127736821282, 41.42102317649011],
+                  [-84.32016156926262, 41.42334015701487],
+                  [-84.32385228886712, 41.42340451640492]]]),
+            {
+              "cover_type": 1,
+              "system:index": "54"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.34110812310044, 41.43607556656744],
+                  [-84.33776072624985, 41.436590338910314],
+                  [-84.33801821831528, 41.44090139700424],
+                  [-84.34119395378892, 41.440965738985945]]]),
+            {
+              "cover_type": 1,
+              "system:index": "55"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.27441767815415, 41.44360370531018],
+                  [-84.27089861992661, 41.44289596877348],
+                  [-84.27072695854966, 41.445533856631634],
+                  [-84.27467517021958, 41.44534084408315]]]),
+            {
+              "cover_type": 1,
+              "system:index": "56"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.37964610222642, 41.4225613324063],
+                  [-84.3797319329149, 41.42120975427016],
+                  [-84.37406710747544, 41.420952307626294],
+                  [-84.37389544609849, 41.422754412700804]]]),
+            {
+              "cover_type": 1,
+              "system:index": "57"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.42345933271633, 41.40097317390103],
+                  [-84.42011193586575, 41.40071564704901],
+                  [-84.41985444380032, 41.40213203210632],
+                  [-84.42371682478176, 41.40213203210632]]]),
+            {
+              "cover_type": 1,
+              "system:index": "58"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.47796181989895, 41.426334567770795],
+                  [-84.47736100507962, 41.42305230565785],
+                  [-84.47186784101712, 41.42298794591869],
+                  [-84.4722969944595, 41.426012784703246]]]),
+            {
+              "cover_type": 1,
+              "system:index": "59"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.45307092024075, 41.48776589027302],
+                  [-84.4532425816177, 41.485644103121615],
+                  [-84.44929436994778, 41.485708400722835],
+                  [-84.4492085392593, 41.4873801159592]]]),
+            {
+              "cover_type": 1,
+              "system:index": "60"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.37994317365872, 41.47844236802792],
+                  [-84.37539414716946, 41.47882819555477],
+                  [-84.37513665510403, 41.48082160118537],
+                  [-84.37994317365872, 41.48082160118537]]]),
+            {
+              "cover_type": 1,
+              "system:index": "61"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.44723443342434, 41.50499480020508],
+                  [-84.44380120588528, 41.50505907860015],
+                  [-84.44431619001614, 41.50782298922218],
+                  [-84.44757775617825, 41.507887264809554]]]),
+            {
+              "cover_type": 1,
+              "system:index": "62"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4631131107925, 41.518748922410296],
+                  [-84.45933656049954, 41.51900598098415],
+                  [-84.45907906843411, 41.52099815031214],
+                  [-84.4631131107925, 41.52106241281782]]]),
+            {
+              "cover_type": 1,
+              "system:index": "63"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.44302872968899, 41.52344008066566],
+                  [-84.43899468733059, 41.52311877930496],
+                  [-84.43916634870754, 41.52806664336187],
+                  [-84.44277123762356, 41.52568914551952]]]),
+            {
+              "cover_type": 1,
+              "system:index": "64"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.42380265547024, 41.5360980845163],
+                  [-84.42165688825833, 41.53686905040843],
+                  [-84.42182854963528, 41.54181586287175],
+                  [-84.42380265547024, 41.54136616828373]]]),
+            {
+              "cover_type": 1,
+              "system:index": "65"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.36878518415676, 41.52376138043098],
+                  [-84.3664677555679, 41.523889899890385],
+                  [-84.3664677555679, 41.52716705985812],
+                  [-84.36887101484524, 41.527102803414955]]]),
+            {
+              "cover_type": 1,
+              "system:index": "66"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.46259812666165, 41.543807329885425],
+                  [-84.45959405256497, 41.54367884999342],
+                  [-84.4598515446304, 41.54605568667136],
+                  [-84.46294144941555, 41.546312636754536]]]),
+            {
+              "cover_type": 1,
+              "system:index": "67"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.32403123548002, 41.54510678637319],
+                  [-84.32179963757963, 41.54536374022735],
+                  [-84.32162797620268, 41.54658425708959],
+                  [-84.32488954236479, 41.54639154543255]]]),
+            {
+              "cover_type": 1,
+              "system:index": "68"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.29175889661283, 41.49684560794171],
+                  [-84.28935563733549, 41.49684560794171],
+                  [-84.28884065320463, 41.4999312872108],
+                  [-84.29124391248197, 41.50005985398992]]]),
+            {
+              "cover_type": 1,
+              "system:index": "69"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.23837220838041, 41.502117895830466],
+                  [-84.23631227185697, 41.50224645826853],
+                  [-84.23648393323393, 41.50738874649299],
+                  [-84.23854386975736, 41.50738874649299]]]),
+            {
+              "cover_type": 1,
+              "system:index": "70"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.17142427136869, 41.48244483592039],
+                  [-84.16850602796049, 41.48244483592039],
+                  [-84.1688493507144, 41.48578839166223],
+                  [-84.17193925549955, 41.48578839166223]]]),
+            {
+              "cover_type": 1,
+              "system:index": "71"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.12593400647611, 41.50160364352587],
+                  [-84.122672440314, 41.50160364352587],
+                  [-84.12250077893705, 41.504174864210555],
+                  [-84.12610566785307, 41.504174864210555]]]),
+            {
+              "cover_type": 1,
+              "system:index": "72"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.22738588025541, 41.45002912549818],
+                  [-84.22360932996244, 41.45002912549818],
+                  [-84.2237809913394, 41.45144443524479],
+                  [-84.22755754163236, 41.451315771998274]]]),
+            {
+              "cover_type": 1,
+              "system:index": "73"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.17193925549955, 41.439220287453686],
+                  [-84.16713273694486, 41.43934897468677],
+                  [-84.16730439832182, 41.44205134763739],
+                  [-84.17228257825346, 41.44218002925671]]]),
+            {
+              "cover_type": 1,
+              "system:index": "74"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.07429005007029, 41.56029222898714],
+                  [-84.06845356325388, 41.56119135176152],
+                  [-84.06811024049998, 41.56388864502536],
+                  [-84.0746333728242, 41.56376020504204]]]),
+            {
+              "cover_type": 1,
+              "system:index": "75"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.2097308764863, 41.516476958079735],
+                  [-84.2038943896699, 41.51596281982105],
+                  [-84.2038943896699, 41.52007581153586],
+                  [-84.20870090822459, 41.52046139110811]]]),
+            {
+              "cover_type": 1,
+              "system:index": "76"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.79116003163794, 41.47028226878253],
+                  [-83.78824178822974, 41.47028226878253],
+                  [-83.78824178822974, 41.47336921328451],
+                  [-83.79150335439185, 41.473240593531806]]]),
+            {
+              "cover_type": 1,
+              "system:index": "77"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.68883907792998, 41.416598907397955],
+                  [-83.68471920488311, 41.4167276394762],
+                  [-83.68471920488311, 41.41865859003226],
+                  [-83.69021236894561, 41.41891604576893]]]),
+            {
+              "cover_type": 1,
+              "system:index": "78"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.65416347978545, 41.500606633191026],
+                  [-83.64918529985381, 41.50099232874042],
+                  [-83.6488419770999, 41.50600616184117],
+                  [-83.65450680253936, 41.50587760686767]]]),
+            {
+              "cover_type": 1,
+              "system:index": "79"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.65404575327958, 41.64279657539877],
+                  [-84.65413158396805, 41.6386272467642],
+                  [-84.65121334055985, 41.6385631011398],
+                  [-84.65129917124833, 41.64286071680929]]]),
+            {
+              "cover_type": 1,
+              "system:index": "80"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.61799686411942, 41.21691797814094],
+                  [-84.61319034556473, 41.21691797814094],
+                  [-84.61319034556473, 41.22156639167042],
+                  [-84.61834018687333, 41.2220828616691]]]),
+            {
+              "cover_type": 1,
+              "system:index": "81"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.63035648326004, 41.17377528015845],
+                  [-84.62314670542801, 41.17403370428769],
+                  [-84.62383335093583, 41.178168351708884],
+                  [-84.63035648326004, 41.17842675850725]]]),
+            {
+              "cover_type": 1,
+              "system:index": "82"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.65885227183426, 41.13758584062485],
+                  [-84.65301578501786, 41.13758584062485],
+                  [-84.65335910777176, 41.14146423620987],
+                  [-84.65885227183426, 41.14146423620987]]]),
+            {
+              "cover_type": 1,
+              "system:index": "83"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.86209934214676, 41.07084154416775],
+                  [-84.8560911939534, 41.0718768571468],
+                  [-84.85626285533036, 41.07304156476062],
+                  [-84.86398761729325, 41.07291215382249]]]),
+            {
+              "cover_type": 1,
+              "system:index": "84"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.76974552134598, 41.07148861669021],
+                  [-84.76648395518387, 41.07135920269519],
+                  [-84.76631229380692, 41.07524151173321],
+                  [-84.76957385996903, 41.07524151173321]]]),
+            {
+              "cover_type": 1,
+              "system:index": "85"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.75481098155106, 41.107973197821714],
+                  [-84.75120609263504, 41.10810253971912],
+                  [-84.751377754012, 41.11353466933877],
+                  [-84.75515430430497, 41.11353466933877]]]),
+            {
+              "cover_type": 1,
+              "system:index": "86"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.82793872813309, 41.10745582768419],
+                  [-84.82381885508622, 41.10771451326252],
+                  [-84.82416217784012, 41.10991329953064],
+                  [-84.82811038951004, 41.1103013129932]]]),
+            {
+              "cover_type": 1,
+              "system:index": "87"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.56993167857254, 41.13500011615799],
+                  [-84.56941669444168, 41.13008695886387],
+                  [-84.56443851451004, 41.13034555526315],
+                  [-84.564610175887, 41.13487082725907]]]),
+            {
+              "cover_type": 1,
+              "system:index": "88"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.53096454600418, 41.1370687038857],
+                  [-84.52598636607254, 41.137327272764935],
+                  [-84.52581470469559, 41.142627710163836],
+                  [-84.53130786875809, 41.14223988780595]]]),
+            {
+              "cover_type": 1,
+              "system:index": "89"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.50481472018932, 41.082401326991196],
+                  [-84.50447139743541, 41.078260640251],
+                  [-84.5015531540272, 41.078390040660246],
+                  [-84.5012098312733, 41.08253071924842]]]),
+            {
+              "cover_type": 1,
+              "system:index": "90"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.37740887275487, 41.11128806345185],
+                  [-84.37140072456151, 41.11154673393192],
+                  [-84.37140072456151, 41.113357398755966],
+                  [-84.3791254865244, 41.113357398755966]]]),
+            {
+              "cover_type": 1,
+              "system:index": "91"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.32831371894628, 41.10094040855801],
+                  [-84.32453716865331, 41.10094040855801],
+                  [-84.3238505231455, 41.1033981242407],
+                  [-84.33020199409276, 41.10326877307672]]]),
+            {
+              "cover_type": 1,
+              "system:index": "92"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.17729044073084, 41.0832454580878],
+                  [-84.17059564702967, 41.0832454580878],
+                  [-84.17042398565272, 41.0858332215896],
+                  [-84.17849207036951, 41.0857038358347]]]),
+            {
+              "cover_type": 1,
+              "system:index": "93"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.12629720179447, 41.05718754708399],
+                  [-84.12578221766361, 41.05485754956773],
+                  [-84.1221773287476, 41.054469208624674],
+                  [-84.1221773287476, 41.05705810494267]]]),
+            {
+              "cover_type": 1,
+              "system:index": "94"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.26396962611088, 41.032329985555826],
+                  [-84.26139470545658, 41.0324594763461],
+                  [-84.26139470545658, 41.03466078081306],
+                  [-84.26482793299564, 41.03453129435255]]]),
+            {
+              "cover_type": 1,
+              "system:index": "95"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.18758031336674, 41.021710874053],
+                  [-84.18431874720463, 41.02158136212389],
+                  [-84.18449040858158, 41.02352401431925],
+                  [-84.18706532923588, 41.02339450595564]]]),
+            {
+              "cover_type": 1,
+              "system:index": "96"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.09917470423588, 41.013939707532174],
+                  [-84.09917470423588, 41.01057191731857],
+                  [-84.09659978358158, 41.01057191731857],
+                  [-84.09608479945072, 41.01419876118717]]]),
+            {
+              "cover_type": 1,
+              "system:index": "97"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.18723699061283, 40.993471249886575],
+                  [-84.18363210169682, 40.99606254531268],
+                  [-84.18431874720463, 40.998524181621136],
+                  [-84.18758031336674, 40.99839462410728]]]),
+            {
+              "cover_type": 1,
+              "system:index": "98"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.13934346644291, 41.02896313561225],
+                  [-84.13676854578861, 41.02999910777863],
+                  [-84.13659688441166, 41.03336590474673],
+                  [-84.13985845057377, 41.03336590474673]]]),
+            {
+              "cover_type": 1,
+              "system:index": "99"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.0485345980347, 41.04411260449125],
+                  [-84.04492970911869, 41.04488940634697],
+                  [-84.04544469324955, 41.046701908351274],
+                  [-84.0485345980347, 41.04683137086983]]]),
+            {
+              "cover_type": 1,
+              "system:index": "100"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.99463292567143, 41.01847299942229],
+                  [-83.99154302088627, 41.01873203525028],
+                  [-83.99154302088627, 41.02067477148915],
+                  [-83.99497624842533, 41.02028622882554]]]),
+            {
+              "cover_type": 1,
+              "system:index": "101"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.87870502141091, 41.05646183219141],
+                  [-83.86754703190896, 41.0565912755061],
+                  [-83.86771869328591, 41.05827401541745],
+                  [-83.87939166691872, 41.05814457541415]]]),
+            {
+              "cover_type": 1,
+              "system:index": "102"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.93775716064755, 41.19798857266291],
+                  [-83.93277898071591, 41.19785940798673],
+                  [-83.932435657962, 41.20354241260773],
+                  [-83.93775716064755, 41.2032841049215]]]),
+            {
+              "cover_type": 1,
+              "system:index": "103"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.83596196411435, 41.21258253927135],
+                  [-83.833558704837, 41.212969945359],
+                  [-83.83338704346005, 41.218651637732144],
+                  [-83.83716359375302, 41.21890988475028]]]),
+            {
+              "cover_type": 1,
+              "system:index": "104"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.85965123413388, 41.256473957773814],
+                  [-83.85432973144833, 41.25686110382713],
+                  [-83.85381474731747, 41.26137763823189],
+                  [-83.85879292724911, 41.26137763823189]]]),
+            {
+              "cover_type": 1,
+              "system:index": "105"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.30502093705122, 41.181065829736134],
+                  [-84.30124438675826, 41.181065829736134],
+                  [-84.3007294026274, 41.18507084335594],
+                  [-84.30502093705122, 41.18545841232051]]]),
+            {
+              "cover_type": 1,
+              "system:index": "106"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.41727108185644, 41.02319651314114],
+                  [-84.41040462677832, 41.02358503863598],
+                  [-84.41057628815527, 41.02591614347022],
+                  [-84.41864437287207, 41.02617515002482]]]),
+            {
+              "cover_type": 1,
+              "system:index": "107"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.34071010773535, 41.03511025230238],
+                  [-84.33813518708105, 41.03523973762409],
+                  [-84.33847850983496, 41.0378293905724],
+                  [-84.3408817691123, 41.0376999103446]]]),
+            {
+              "cover_type": 1,
+              "system:index": "108"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.50396007721777, 41.01568456971768],
+                  [-84.49743694489355, 41.01607313952601],
+                  [-84.49709362213964, 41.01840451024317],
+                  [-84.50481838410253, 41.01840451024317]]]),
+            {
+              "cover_type": 1,
+              "system:index": "109"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.63476604645605, 40.990681762068625],
+                  [-84.63116115754003, 40.99094090715907],
+                  [-84.63081783478613, 40.99599403283669],
+                  [-84.63528103058691, 40.99612359506886]]]),
+            {
+              "cover_type": 1,
+              "system:index": "110"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.61983150666113, 40.956141568890374],
+                  [-84.61656994049902, 40.956530489711064],
+                  [-84.61674160187597, 40.95990104084044],
+                  [-84.61987442200537, 40.96014410277811]]]),
+            {
+              "cover_type": 1,
+              "system:index": "111"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4174427432334, 40.986470511592714],
+                  [-84.41400951569433, 40.98685925367353],
+                  [-84.41418117707128, 40.98983953349028],
+                  [-84.4177860659873, 40.98970995890796]]]),
+            {
+              "cover_type": 1,
+              "system:index": "112"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.37796062653418, 40.954456218856144],
+                  [-84.37195247834082, 40.954715506277324],
+                  [-84.37178081696386, 40.956789768985224],
+                  [-84.3789905947959, 40.95730832447834]]]),
+            {
+              "cover_type": 1,
+              "system:index": "113"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.38860363190527, 40.92592838563664],
+                  [-84.38602871125097, 40.92592838563664],
+                  [-84.38688701813574, 40.928392639153785],
+                  [-84.38877529328222, 40.928262943891305]]]),
+            {
+              "cover_type": 1,
+              "system:index": "114"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.30071300690527, 40.922426393611204],
+                  [-84.29779476349707, 40.922426393611204],
+                  [-84.29762310212011, 40.92502047959706],
+                  [-84.30122799103613, 40.924761075580484]]]),
+            {
+              "cover_type": 1,
+              "system:index": "115"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.22329372589941, 40.94758473112817],
+                  [-84.21728557770605, 40.94888129298318],
+                  [-84.217457239083, 40.94978887113378],
+                  [-84.22380871003027, 40.94978887113378]]]),
+            {
+              "cover_type": 1,
+              "system:index": "116"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.13648978891531, 40.992776866984634],
+                  [-84.13271323862234, 40.99316557188601],
+                  [-84.13305656137625, 40.99497949779],
+                  [-84.13648978891531, 40.995109062016155]]]),
+            {
+              "cover_type": 1,
+              "system:index": "117"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.15708915414969, 40.939632306403865],
+                  [-84.15451423349539, 40.93885426338995],
+                  [-84.15537254038016, 40.94287405364696],
+                  [-84.1577757996575, 40.94235538478033]]]),
+            {
+              "cover_type": 1,
+              "system:index": "118"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.1958846253411, 40.88994884972472],
+                  [-84.19193641367117, 40.89033816026555],
+                  [-84.19176475229422, 40.891895379522644],
+                  [-84.19571296396414, 40.891895379522644]]]),
+            {
+              "cover_type": 1,
+              "system:index": "119"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.28549186411063, 40.87502355217476],
+                  [-84.28291694345633, 40.87541295051885],
+                  [-84.28291694345633, 40.87735990788266],
+                  [-84.28583518686453, 40.87748970300429]]]),
+            {
+              "cover_type": 1,
+              "system:index": "120"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.04671088876883, 40.891506078144296],
+                  [-84.04327766122977, 40.891506078144296],
+                  [-84.04362098398367, 40.89410137739905],
+                  [-84.04671088876883, 40.89410137739905]]]),
+            {
+              "cover_type": 1,
+              "system:index": "121"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.11571876230398, 40.8546128966248],
+                  [-84.11297218027273, 40.854742736337315],
+                  [-84.11280051889578, 40.858637809385094],
+                  [-84.11589042368094, 40.858637809385094]]]),
+            {
+              "cover_type": 1,
+              "system:index": "122"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.9735831421868, 40.85188620388068],
+                  [-83.96826163950125, 40.85253542661737],
+                  [-83.9684333008782, 40.8546128966248],
+                  [-83.97495643320242, 40.854483056657834]]]),
+            {
+              "cover_type": 1,
+              "system:index": "123"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.93633262338797, 40.91353395649376],
+                  [-83.93324271860281, 40.91353395649376],
+                  [-83.93324271860281, 40.91872272465527],
+                  [-83.93667594614188, 40.91872272465527]]]),
+            {
+              "cover_type": 1,
+              "system:index": "124"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.8889540833489, 40.86435016890796],
+                  [-83.88586417856375, 40.86409052689038],
+                  [-83.88620750131766, 40.86954279549594],
+                  [-83.88946906747977, 40.86954279549594]]]),
+            {
+              "cover_type": 1,
+              "system:index": "125"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.05607631695028, 40.98535806080395],
+                  [-84.05298641216513, 40.985617226817816],
+                  [-84.0519564439034, 40.98807925314987],
+                  [-84.0574496079659, 40.98807925314987]]]),
+            {
+              "cover_type": 1,
+              "system:index": "126"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.03496196758505, 40.9559361002655],
+                  [-84.02861049663778, 40.956325022296696],
+                  [-84.02861049663778, 40.95775105014059],
+                  [-84.03599193584677, 40.95801032462064]]]),
+            {
+              "cover_type": 1,
+              "system:index": "127"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.87926509868856, 40.971620804585164],
+                  [-83.87669017803427, 40.973176109273226],
+                  [-83.87703350078817, 40.97460177302821],
+                  [-83.88029506695028, 40.97460177302821]]]),
+            {
+              "cover_type": 1,
+              "system:index": "128"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.71233169941121, 40.97421295869591],
+                  [-83.70924179462605, 40.97473137729641],
+                  [-83.70889847187215, 40.978489790314],
+                  [-83.71284668354207, 40.978489790314]]]),
+            {
+              "cover_type": 1,
+              "system:index": "129"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.7339610329073, 40.93235004824708],
+                  [-83.7339610329073, 40.92962655739902],
+                  [-83.72863953022176, 40.9298859423165],
+                  [-83.72898285297566, 40.93273910920392]]]),
+            {
+              "cover_type": 1,
+              "system:index": "130"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.54324524311238, 40.986925868160895],
+                  [-83.54015533832722, 40.986018800657135],
+                  [-83.54101364521199, 40.99223844154927],
+                  [-83.54496185688191, 40.99184973118161]]]),
+            {
+              "cover_type": 1,
+              "system:index": "131"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.49971126962443, 40.93863738444627],
+                  [-83.49765133310099, 40.93863738444627],
+                  [-83.49627804208536, 40.94019346641864],
+                  [-83.49936794687052, 40.94019346641864]]]),
+            {
+              "cover_type": 1,
+              "system:index": "132"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.38079263741989, 41.03029274315406],
+                  [-83.37821771676559, 41.03042223795122],
+                  [-83.3789043622734, 41.032235138369444],
+                  [-83.3811359601738, 41.032235138369444]]]),
+            {
+              "cover_type": 1,
+              "system:index": "133"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.63793606025916, 40.69166573098152],
+                  [-83.63467449409706, 40.691405413141936],
+                  [-83.63433117134315, 40.69596082850385],
+                  [-83.63793606025916, 40.69596082850385]]]),
+            {
+              "cover_type": 1,
+              "system:index": "134"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.57493633491737, 40.74852078836665],
+                  [-83.5715031073783, 40.748780882940395],
+                  [-83.57167476875526, 40.750341429019436],
+                  [-83.57562298042518, 40.750341429019436]]]),
+            {
+              "cover_type": 1,
+              "system:index": "135"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.68874782783729, 40.76867510204399],
+                  [-83.6890911505912, 40.766594939591556],
+                  [-83.68222469551307, 40.76607488880439],
+                  [-83.68342632515174, 40.76841508529838]]]),
+            {
+              "cover_type": 1,
+              "system:index": "136"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.73587877548427, 40.81374263491762],
+                  [-83.73055727279872, 40.81374263491762],
+                  [-83.73055727279872, 40.81517173849283],
+                  [-83.73605043686122, 40.81504182125806]]]),
+            {
+              "cover_type": 1,
+              "system:index": "137"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.53623659408778, 40.88451119569251],
+                  [-83.5314300755331, 40.88451119569251],
+                  [-83.531773398287, 40.888404517945084],
+                  [-83.53675157821864, 40.8889236102722]]]),
+            {
+              "cover_type": 1,
+              "system:index": "138"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.6218547409128, 40.82274413430692],
+                  [-83.62125392609346, 40.819886222631105],
+                  [-83.6149024551462, 40.8198212686619],
+                  [-83.61550326996553, 40.822224523161445]]]),
+            {
+              "cover_type": 1,
+              "system:index": "139"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.9367675369333, 40.641934258324326],
+                  [-83.93247600250947, 40.642325024465336],
+                  [-83.93264766388643, 40.64401831797458],
+                  [-83.93659587555635, 40.64388806615281]]]),
+            {
+              "cover_type": 1,
+              "system:index": "140"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.92217631989229, 40.73396154465991],
+                  [-83.91857143097627, 40.734481846664416],
+                  [-83.91839976959932, 40.73942451276757],
+                  [-83.9225196426462, 40.73903431563716]]]),
+            {
+              "cover_type": 1,
+              "system:index": "141"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.24749583932088, 40.755186104243855],
+                  [-84.243375966274, 40.75531613862199],
+                  [-84.243375966274, 40.75687653132168],
+                  [-84.24715251656697, 40.75674649999555]]]),
+            {
+              "cover_type": 1,
+              "system:index": "142"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.3583890888326, 40.81250658689553],
+                  [-84.35512752267049, 40.81276643103978],
+                  [-84.35529918404744, 40.816014396978865],
+                  [-84.3587324115865, 40.81588448139427]]]),
+            {
+              "cover_type": 1,
+              "system:index": "143"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.28508968087361, 40.83368054627373],
+                  [-84.28234309884236, 40.833420784054354],
+                  [-84.28337306710408, 40.83679761352109],
+                  [-84.28680629464314, 40.83640798813007]]]),
+            {
+              "cover_type": 1,
+              "system:index": "144"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.28320140572713, 40.900794940206886],
+                  [-84.28096980782674, 40.90092468936751],
+                  [-84.28131313058064, 40.90390884981257],
+                  [-84.28371638985799, 40.90364936294505]]]),
+            {
+              "cover_type": 1,
+              "system:index": "145"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.51212445710938, 40.90689287561154],
+                  [-84.50577298616211, 40.90676313815927],
+                  [-84.50525800203125, 40.90974703516443],
+                  [-84.51366940950196, 40.90974703516443]]]),
+            {
+              "cover_type": 1,
+              "system:index": "146"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.53117886995118, 40.9325758763876],
+                  [-84.52534238313477, 40.93309462204777],
+                  [-84.52551404451172, 40.93503988199753],
+                  [-84.5325521609668, 40.93503988199753]]]),
+            {
+              "cover_type": 1,
+              "system:index": "147"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.25720731233399, 40.91947619866043],
+                  [-84.25446073030274, 40.91973562342034],
+                  [-84.25514737581055, 40.92518330817232],
+                  [-84.25823728059571, 40.92505360661089]]]),
+            {
+              "cover_type": 1,
+              "system:index": "148"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.54767810090297, 40.86954782363213],
+                  [-84.5435582278561, 40.86889876762516],
+                  [-84.54372988923305, 40.87240359448032],
+                  [-84.54733477814906, 40.87240359448032]]]),
+            {
+              "cover_type": 1,
+              "system:index": "149"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4065724490475, 40.877595589545734],
+                  [-84.4007359622311, 40.877855178610275],
+                  [-84.40039263947719, 40.879412691619805],
+                  [-84.40708743317836, 40.87928290026874]]]),
+            {
+              "cover_type": 1,
+              "system:index": "150"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.50199419381745, 40.80649233604777],
+                  [-84.50130754830964, 40.80220437213313],
+                  [-84.49959093454011, 40.80194448662826],
+                  [-84.49993425729402, 40.80623246733332]]]),
+            {
+              "cover_type": 1,
+              "system:index": "151"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.44259935739167, 40.76451035096859],
+                  [-84.44259935739167, 40.76269009831551],
+                  [-84.43899446847566, 40.76282011801541],
+                  [-84.43916612985261, 40.764380334575186]]]),
+            {
+              "cover_type": 1,
+              "system:index": "152"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4979541881194, 40.715712174463604],
+                  [-84.49503594471119, 40.716362729694715],
+                  [-84.49486428333424, 40.72117664082467],
+                  [-84.49915581775807, 40.72130674169938]]]),
+            {
+              "cover_type": 1,
+              "system:index": "153"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.41979574034863, 40.67871037184534],
+                  [-84.41687749694043, 40.679100922608676],
+                  [-84.41687749694043, 40.683787353294974],
+                  [-84.42048238585645, 40.683787353294974]]]),
+            {
+              "cover_type": 1,
+              "system:index": "154"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.42992376158887, 40.707604947848196],
+                  [-84.4261472112959, 40.708125455913844],
+                  [-84.4264905340498, 40.71228937397672],
+                  [-84.42940877745801, 40.71228937397672]]]),
+            {
+              "cover_type": 1,
+              "system:index": "155"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.61308645079785, 40.67545569316958],
+                  [-84.60553335021191, 40.676106641616286],
+                  [-84.60519002745801, 40.67936128851306],
+                  [-84.61222814391309, 40.679100922608676]]]),
+            {
+              "cover_type": 1,
+              "system:index": "156"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.66544317076855, 40.63651742263334],
+                  [-84.65806173155957, 40.63703848592617],
+                  [-84.65840505431348, 40.63990426134177],
+                  [-84.66561483214551, 40.63990426134177]]]),
+            {
+              "cover_type": 1,
+              "system:index": "157"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.53927205870801, 40.61358661175595],
+                  [-84.53910039733105, 40.608895248772576],
+                  [-84.5330922491377, 40.60915588869022],
+                  [-84.53240560362988, 40.61371692269273]]]),
+            {
+              "cover_type": 1,
+              "system:index": "158"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.43387197325879, 40.57591610179567],
+                  [-84.43043874571973, 40.576437637780145],
+                  [-84.43095372985059, 40.578784499399596],
+                  [-84.43404363463574, 40.57839336151353]]]),
+            {
+              "cover_type": 1,
+              "system:index": "159"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.3384427218153, 40.622316882596586],
+                  [-84.33792773768444, 40.619971548780136],
+                  [-84.3300313143446, 40.62023214549289],
+                  [-84.3303746370985, 40.6227077635601]]]),
+            {
+              "cover_type": 1,
+              "system:index": "160"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.30205050990124, 40.50038088840536],
+                  [-84.29793063685436, 40.50051141987234],
+                  [-84.29861728236217, 40.50338304788642],
+                  [-84.30187884852428, 40.50338304788642]]]),
+            {
+              "cover_type": 1,
+              "system:index": "161"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.40092746302624, 40.468001242925254],
+                  [-84.40109912440319, 40.46682588144426],
+                  [-84.39732257411022, 40.46643408971299],
+                  [-84.39715091273327, 40.46787064822091]]]),
+            {
+              "cover_type": 1,
+              "system:index": "162"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.31626394626976, 40.43191492143101],
+                  [-84.31300238010765, 40.43191492143101],
+                  [-84.31368902561546, 40.436618686888686],
+                  [-84.31677893040062, 40.436618686888686]]]),
+            {
+              "cover_type": 1,
+              "system:index": "163"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.39999178287864, 40.41943528276119],
+                  [-84.4001634442556, 40.41757293919902],
+                  [-84.39728811619163, 40.41744224648695],
+                  [-84.39690187809349, 40.41897786982013]]]),
+            {
+              "cover_type": 1,
+              "system:index": "164"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.09864023563743, 40.625899991675894],
+                  [-84.09297541019798, 40.62511826482431],
+                  [-84.09331873295189, 40.62772398541357],
+                  [-84.09846857426048, 40.627463417929576]]]),
+            {
+              "cover_type": 1,
+              "system:index": "165"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.12490442631126, 40.52245265666821],
+                  [-84.12061289188743, 40.52284412143635],
+                  [-84.12061289188743, 40.52584527537337],
+                  [-84.12524774906517, 40.52584527537337]]]),
+            {
+              "cover_type": 1,
+              "system:index": "166"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.90198018015525, 40.6881490244747],
+                  [-84.89889027537009, 40.68840935503581],
+                  [-84.89906193674705, 40.689580829975704],
+                  [-84.9021518415322, 40.689580829975704]]]),
+            {
+              "cover_type": 1,
+              "system:index": "167"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-85.03965260447166, 40.80467526631274],
+                  [-85.03467442454001, 40.80571475945565],
+                  [-85.03484608591697, 40.808053559496884],
+                  [-85.04068257273337, 40.808053559496884]]]),
+            {
+              "cover_type": 1,
+              "system:index": "168"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.85580326975486, 40.797918164022136],
+                  [-84.85116841257712, 40.798048114784024],
+                  [-84.85134007395408, 40.80116685675144],
+                  [-84.855288285624, 40.80103691209502]]]),
+            {
+              "cover_type": 1,
+              "system:index": "169"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.76035954416892, 40.75736110571414],
+                  [-84.75692631662986, 40.757751195323],
+                  [-84.75692631662986, 40.75918150430463],
+                  [-84.76053120554587, 40.75931153086784]]]),
+            {
+              "cover_type": 1,
+              "system:index": "170"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.81542213376625, 40.64600323462803],
+                  [-84.81250389035804, 40.64600323462803],
+                  [-84.81319053586586, 40.650301274314096],
+                  [-84.81610877927406, 40.650301274314096]]]),
+            {
+              "cover_type": 1,
+              "system:index": "171"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.7603188317643, 40.61343695681328],
+                  [-84.75585563596351, 40.61330664533046],
+                  [-84.75671394284828, 40.618258303011416],
+                  [-84.76049049314125, 40.61786739601102]]]),
+            {
+              "cover_type": 1,
+              "system:index": "172"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.64682486811647, 40.58357332165616],
+                  [-84.64287665644655, 40.583964429254955],
+                  [-84.6427049950696, 40.5857895678109],
+                  [-84.64613822260866, 40.5857895678109]]]),
+            {
+              "cover_type": 1,
+              "system:index": "173"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.5163622216321, 40.66969209427721],
+                  [-84.5163622216321, 40.66682759801523],
+                  [-84.51138404170045, 40.66643697535538],
+                  [-84.5115557030774, 40.668650473509146],
+                  [-84.51567557612428, 40.66878067699493]]]),
+            {
+              "cover_type": 1,
+              "system:index": "174"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.99390931969958, 40.83419362736331],
+                  [-84.98721452599841, 40.83432350708621],
+                  [-84.9868712032445, 40.83808990836823],
+                  [-84.9945959652074, 40.837960036024164]]]),
+            {
+              "cover_type": 1,
+              "system:index": "175"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.87511964684802, 40.88145303533924],
+                  [-84.87168641930896, 40.88119346038431],
+                  [-84.87168641930896, 40.88430829265504],
+                  [-84.87546296960193, 40.88404872889823]]]),
+            {
+              "cover_type": 1,
+              "system:index": "176"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.98807283288318, 40.91038925772046],
+                  [-84.98824449426013, 40.90675670491742],
+                  [-84.98343797570544, 40.90740538969657],
+                  [-84.98378129845935, 40.91000006517952]]]),
+            {
+              "cover_type": 1,
+              "system:index": "177"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.78413911706286, 40.87431435314843],
+                  [-84.78001924401599, 40.874833555993476],
+                  [-84.7803625667699, 40.879895570339656],
+                  [-84.78379579430896, 40.879895570339656]]]),
+            {
+              "cover_type": 1,
+              "system:index": "178"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.71118303185779, 40.96122404176401],
+                  [-84.70826478844958, 40.961353672310416],
+                  [-84.70792146569568, 40.96498322424015],
+                  [-84.71066804772693, 40.96498322424015]]]),
+            {
+              "cover_type": 1,
+              "system:index": "179"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.77366777306872, 40.94748176002951],
+                  [-84.77006288415271, 40.94722244419913],
+                  [-84.77023454552966, 40.95266786278442],
+                  [-84.77401109582263, 40.95253821518003]]]),
+            {
+              "cover_type": 1,
+              "system:index": "180"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.7451719844945, 41.00062000113989],
+                  [-84.74156709557849, 41.00074955427964],
+                  [-84.74173875695544, 41.003340563597305],
+                  [-84.7451719844945, 41.003340563597305]]]),
+            {
+              "cover_type": 1,
+              "system:index": "181"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.7254309261449, 41.035072160603455],
+                  [-84.71804948693591, 41.03520164600012],
+                  [-84.71804948693591, 41.03999242662427],
+                  [-84.7254309261449, 41.03999242662427]]]),
+            {
+              "cover_type": 1,
+              "system:index": "182"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.8188147152074, 41.01227876381656],
+                  [-84.81246324426013, 41.01227876381656],
+                  [-84.81246324426013, 41.016164559648615],
+                  [-84.82035966759997, 41.016164559648615]]]),
+            {
+              "cover_type": 1,
+              "system:index": "183"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.83443590051013, 41.042064007550245],
+                  [-84.82825609093982, 41.042064007550245],
+                  [-84.82877107507068, 41.04491232485732],
+                  [-84.83460756188708, 41.04491232485732]]]),
+            {
+              "cover_type": 1,
+              "system:index": "184"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.95037736949266, 41.02900522497461],
+                  [-84.94333925303758, 41.02913472230402],
+                  [-84.94351091441453, 41.03198359911525],
+                  [-84.95157899913133, 41.03198359911525]]]),
+            {
+              "cover_type": 1,
+              "system:index": "185"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.98644514262482, 40.994110816316955],
+                  [-84.98369856059357, 40.9943699479292],
+                  [-84.98318357646271, 40.997738566197775],
+                  [-84.98764677226349, 40.99760900713974]]]),
+            {
+              "cover_type": 1,
+              "system:index": "186"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-85.03691358744904, 41.00188432159913],
+                  [-85.03399534404083, 41.00227297279881],
+                  [-85.03416700541779, 41.00421619441876],
+                  [-85.03725691020294, 41.00395710151328]]]),
+            {
+              "cover_type": 1,
+              "system:index": "187"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.9388949412088, 40.9509512004918],
+                  [-84.93511839091583, 40.9509512004918],
+                  [-84.93511839091583, 40.95406274752351],
+                  [-84.93940992533966, 40.95406274752351]]]),
+            {
+              "cover_type": 1,
+              "system:index": "188"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.78851957499786, 40.932278838868726],
+                  [-84.7876612681131, 40.92825840382649],
+                  [-84.7847430247049, 40.92825840382649],
+                  [-84.78439970195099, 40.93137102008124],
+                  [-84.78834791362091, 40.931241330664754]]]),
+            {
+              "cover_type": 1,
+              "system:index": "189"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.79552080203821, 40.84554143180351],
+                  [-84.79071428348352, 40.84567128929306],
+                  [-84.79174425174524, 40.85073553290978],
+                  [-84.79534914066126, 40.85060568534407]]]),
+            {
+              "cover_type": 1,
+              "system:index": "190"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-85.02245714237024, 40.97267968108729],
+                  [-85.01799394656946, 40.97358693205],
+                  [-85.01919557620813, 40.97617900891077],
+                  [-85.02400209476282, 40.97553099924382]]]),
+            {
+              "cover_type": 1,
+              "system:index": "191"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.95362093021204, 40.993931997016],
+                  [-84.95070268680384, 40.993802430476435],
+                  [-84.95087434818079, 40.9961345892276],
+                  [-84.9544792370968, 40.996005027017006]]]),
+            {
+              "cover_type": 1,
+              "system:index": "192"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.99018480350306, 40.95323559100863],
+                  [-84.98778154422571, 40.95323559100863],
+                  [-84.98795320560266, 40.96114354542906],
+                  [-84.99052812625696, 40.960884283256256]]]),
+            {
+              "cover_type": 1,
+              "system:index": "193"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-85.06005098392298, 40.977215811137576],
+                  [-85.05678941776087, 40.97747500914807],
+                  [-85.05644609500696, 40.98149244807022],
+                  [-85.06073762943079, 40.981362857085685]]]),
+            {
+              "cover_type": 1,
+              "system:index": "194"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.88169481326868, 41.010384877740925],
+                  [-84.8743133740597, 41.010514411684774],
+                  [-84.87448503543665, 41.014400311581404],
+                  [-84.88220979739954, 41.01401173190576]]]),
+            {
+              "cover_type": 1,
+              "system:index": "195"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.68273927738001, 41.005462399169296],
+                  [-84.67913438846399, 41.00585102926828],
+                  [-84.67930604984095, 41.010903011988404],
+                  [-84.68342592288782, 41.01103254491362]]]),
+            {
+              "cover_type": 1,
+              "system:index": "196"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.53322221805384, 41.00157597212452],
+                  [-84.52944566776087, 41.001705523385176],
+                  [-84.52978899051477, 41.004426041033724],
+                  [-84.5337372021847, 41.00429649512082]]]),
+            {
+              "cover_type": 1,
+              "system:index": "197"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.76359178592493, 41.05881280828275],
+                  [-84.75535203983118, 41.05933056150758],
+                  [-84.75500871707727, 41.06178983366805],
+                  [-84.76410677005579, 41.061919266497625]]]),
+            {
+              "cover_type": 1,
+              "system:index": "198"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.0458805008444, 41.28862953220229],
+                  [-84.040044014028, 41.288758517591845],
+                  [-84.040044014028, 41.29056428627076],
+                  [-84.04622382359831, 41.29043530445121]]]),
+            {
+              "cover_type": 1,
+              "system:index": "199"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.73757666783659, 41.33504779327451],
+                  [-83.72968024449675, 41.335176686854886],
+                  [-83.73019522862761, 41.338012281094855],
+                  [-83.73671836095183, 41.33814116880898]]]),
+            {
+              "cover_type": 1,
+              "system:index": "200"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.96468466954558, 41.346647194007396],
+                  [-83.96142310338347, 41.34690493500252],
+                  [-83.96159476476042, 41.35244611961949],
+                  [-83.96485633092253, 41.35244611961949]]]),
+            {
+              "cover_type": 1,
+              "system:index": "201"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.33238333897917, 41.566796597379685],
+                  [-84.32637519078581, 41.567181898456475],
+                  [-84.32654685216276, 41.56910836937359],
+                  [-84.33255500035612, 41.56872307978576]]]),
+            {
+              "cover_type": 1,
+              "system:index": "202"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.35933417516081, 41.688565549476934],
+                  [-84.34851950841276, 41.688565549476934],
+                  [-84.34834784703581, 41.69228300210547],
+                  [-84.35881919102995, 41.69228300210547]]]),
+            {
+              "cover_type": 1,
+              "system:index": "203"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.43944300752344, 42.00331626424436],
+                  [-84.43935717683496, 42.00114766282515],
+                  [-84.43605269532861, 42.00114766282515],
+                  [-84.43605269532861, 42.00325248290463]]]),
+            {
+              "cover_type": 1,
+              "system:index": "204"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.66162844474597, 40.88488568036505],
+                  [-84.65836687858386, 40.88488568036505],
+                  [-84.65871020133777, 40.88761101457077],
+                  [-84.66231509025378, 40.88761101457077]]]),
+            {
+              "cover_type": 1,
+              "system:index": "205"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.61459322746082, 40.86230002226883],
+                  [-84.61407824332996, 40.86009296435628],
+                  [-84.6109883385448, 40.86048245050834],
+                  [-84.6109883385448, 40.862040372213876]]]),
+            {
+              "cover_type": 1,
+              "system:index": "206"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.6465222435741, 40.83996639724723],
+                  [-84.63999911124988, 40.840356001723364],
+                  [-84.63982744987293, 40.8432130312416],
+                  [-84.64738055045886, 40.84295330637439]]]),
+            {
+              "cover_type": 1,
+              "system:index": "207"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.62815447624011, 40.81944399196973],
+                  [-84.62506457145496, 40.819314083101595],
+                  [-84.62506457145496, 40.82165240380129],
+                  [-84.62815447624011, 40.82178230808983]]]),
+            {
+              "cover_type": 1,
+              "system:index": "208"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.75449724967761, 40.98355216356638],
+                  [-84.7512356835155, 40.98355216356638],
+                  [-84.75140734489246, 40.98847627850561],
+                  [-84.75466891105457, 40.98834670124424]]]),
+            {
+              "cover_type": 1,
+              "system:index": "209"
+            })]),
+    no_cover_crop_polygon = /* color: #ed4114 */ee.FeatureCollection(
+        [ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.46481313069718, 41.85894251239663],
+                  [-84.46120824178116, 41.85875073461525],
+                  [-84.46155156453507, 41.86143557121828],
+                  [-84.46524228413956, 41.861243800913506]]]),
+            {
+              "cover_type": 2,
+              "system:index": "0"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4094523366298, 41.9085935922203],
+                  [-84.40224255879777, 41.9085935922203],
+                  [-84.40327252705949, 41.91217055777015],
+                  [-84.4097956593837, 41.91140408202587]]]),
+            {
+              "cover_type": 2,
+              "system:index": "1"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4065340932216, 41.980860467213894],
+                  [-84.40310086568253, 41.98111568195631],
+                  [-84.40361584981339, 41.983412568607015],
+                  [-84.40773572286027, 41.98315736307083]]]),
+            {
+              "cover_type": 2,
+              "system:index": "2"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.62969388326066, 41.87575279594235],
+                  [-84.6295222218837, 41.87383549645218],
+                  [-84.62454404195206, 41.87370767444117],
+                  [-84.62437238057511, 41.875880613863345]]]),
+            {
+              "cover_type": 2,
+              "system:index": "3"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.6681799361466, 41.77812953692946],
+                  [-84.66835159752355, 41.77364892185242],
+                  [-84.66388840172277, 41.773520899679326],
+                  [-84.66337341759191, 41.77774549647391]]]),
+            {
+              "cover_type": 2,
+              "system:index": "4"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4839872786759, 41.69627700153121],
+                  [-84.4784941146134, 41.69614882504511],
+                  [-84.47797913048254, 41.69845596271156],
+                  [-84.48467392418371, 41.698327790568065]]]),
+            {
+              "cover_type": 2,
+              "system:index": "5"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.5621535506653, 41.623469729348805],
+                  [-84.55545875696413, 41.623469729348805],
+                  [-84.55494377283327, 41.62834575642572],
+                  [-84.56232521204225, 41.62860237921483]]]),
+            {
+              "cover_type": 2,
+              "system:index": "6"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.72900840906374, 41.611149702634876],
+                  [-84.724373551886, 41.61050797009831],
+                  [-84.72385856775514, 41.613074861941],
+                  [-84.73003837732546, 41.613074861941]]]),
+            {
+              "cover_type": 2,
+              "system:index": "7"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.69587776331178, 41.551569733117574],
+                  [-84.69622108606569, 41.54527467400137],
+                  [-84.69295951990358, 41.54617400568822],
+                  [-84.69227287439577, 41.55182666128618]]]),
+            {
+              "cover_type": 2,
+              "system:index": "8"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.77810356287233, 41.50257669729467],
+                  [-84.7734687056946, 41.50154819588866],
+                  [-84.77329704431764, 41.50527643576488],
+                  [-84.77741691736452, 41.50527643576488]]]),
+            {
+              "cover_type": 2,
+              "system:index": "9"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.79853126672975, 41.547172223961276],
+                  [-84.79441139368288, 41.54794305783548],
+                  [-84.79406807092897, 41.549613166368026],
+                  [-84.79938957361452, 41.54871388251928]]]),
+            {
+              "cover_type": 2,
+              "system:index": "10"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.72368690637819, 41.47583035196501],
+                  [-84.72368690637819, 41.47145730324048],
+                  [-84.7185370650696, 41.4713286796942],
+                  [-84.7185370650696, 41.47557312197139]]]),
+            {
+              "cover_type": 2,
+              "system:index": "11"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.7980162825989, 41.43847762288701],
+                  [-84.7980162825989, 41.435131626975135],
+                  [-84.79200813440553, 41.434616843063345],
+                  [-84.79114982752077, 41.43899237617875]]]),
+            {
+              "cover_type": 2,
+              "system:index": "12"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.6431128330444, 41.500653160058214],
+                  [-84.63916462137448, 41.501295984235796],
+                  [-84.63882129862057, 41.50361009844075],
+                  [-84.64328449442135, 41.50361009844075]]]),
+            {
+              "cover_type": 2,
+              "system:index": "13"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.54560917093502, 41.49692465399656],
+                  [-84.54148929788815, 41.497053226744384],
+                  [-84.5416609592651, 41.49911035599776],
+                  [-84.54560917093502, 41.49911035599776]]]),
+            {
+              "cover_type": 2,
+              "system:index": "14"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.50406711771237, 41.44701916777012],
+                  [-84.49857395364987, 41.4471478395379],
+                  [-84.49874561502682, 41.45126520137156],
+                  [-84.50526874735104, 41.451136537769564]]]),
+            {
+              "cover_type": 2,
+              "system:index": "15"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.63092487528073, 41.40029445859638],
+                  [-84.62251346781002, 41.40029445859638],
+                  [-84.62251346781002, 41.40608860348363],
+                  [-84.63058155252682, 41.4062173563909]]]),
+            {
+              "cover_type": 2,
+              "system:index": "16"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.65942066385495, 41.379688870574874],
+                  [-84.65186756326901, 41.380075285428894],
+                  [-84.65221088602291, 41.38252252618747],
+                  [-84.65924900247799, 41.38226492623387]]]),
+            {
+              "cover_type": 2,
+              "system:index": "17"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.70285099222409, 41.321958483052505],
+                  [-84.70250766947018, 41.31718828308135],
+                  [-84.69203632547604, 41.3173172119955],
+                  [-84.69203632547604, 41.32273199609419]]]),
+            {
+              "cover_type": 2,
+              "system:index": "18"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.86386936380612, 41.36822418553191],
+                  [-84.8602644748901, 41.36848184109687],
+                  [-84.86043613626705, 41.37080069526514],
+                  [-84.86438434793698, 41.37080069526514]]]),
+            {
+              "cover_type": 2,
+              "system:index": "19"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.53307789041745, 41.30480991991797],
+                  [-84.52672641947018, 41.30442305819835],
+                  [-84.52706974222409, 41.30764683573179],
+                  [-84.53290622904049, 41.30738893939454]]]),
+            {
+              "cover_type": 2,
+              "system:index": "20"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.73426502420651, 41.26249944702766],
+                  [-84.72894352152096, 41.263144629648835],
+                  [-84.72877186014401, 41.26611238760598],
+                  [-84.73512333109127, 41.265854327051066]]]),
+            {
+              "cover_type": 2,
+              "system:index": "21"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.7225920505737, 41.217320824725284],
+                  [-84.71864383890377, 41.217320824725284],
+                  [-84.71881550028073, 41.221710974686175],
+                  [-84.72207706644284, 41.22145273872822]]]),
+            {
+              "cover_type": 2,
+              "system:index": "22"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.87519901468502, 41.126223378258985],
+                  [-84.86781757547604, 41.125835458907815],
+                  [-84.86781757547604, 41.128938749505814],
+                  [-84.87485569193112, 41.128938749505814]]]),
+            {
+              "cover_type": 2,
+              "system:index": "23"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.76070087625729, 41.11432614166668],
+                  [-84.75675266458737, 41.114455471049],
+                  [-84.75692432596432, 41.120016393452346],
+                  [-84.76001423074948, 41.120016393452346]]]),
+            {
+              "cover_type": 2,
+              "system:index": "24"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.77426212503659, 41.0707276296829],
+                  [-84.77065723612057, 41.07111587463328],
+                  [-84.77082889749752, 41.075904040512945],
+                  [-84.77409046365963, 41.07577463520966]]]),
+            {
+              "cover_type": 2,
+              "system:index": "25"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.90249317362057, 41.060761891374106],
+                  [-84.89219349100338, 41.0606324562668],
+                  [-84.8932234592651, 41.065291959651766],
+                  [-84.90317981912838, 41.06516253345995]]]),
+            {
+              "cover_type": 2,
+              "system:index": "26"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.90609107908966, 40.99428680063861],
+                  [-84.9026578515506, 40.994545931559124],
+                  [-84.90282951292755, 40.99856233057587],
+                  [-84.90626274046662, 40.99856233057587]]]),
+            {
+              "cover_type": 2,
+              "system:index": "27"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.82249198851349, 40.944644456629554],
+                  [-84.81802879271271, 40.944903782583495],
+                  [-84.81837211546662, 40.95009008781178],
+                  [-84.82300697264435, 40.95009008781178]]]),
+            {
+              "cover_type": 2,
+              "system:index": "28"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.98196540770294, 40.95112729997684],
+                  [-84.97836051878693, 40.95125695035183],
+                  [-84.97904716429474, 40.954498126984255],
+                  [-84.98230873045685, 40.954498126984255]]]),
+            {
+              "cover_type": 2,
+              "system:index": "29"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-85.04702506956818, 40.86926715612872],
+                  [-85.04273353514435, 40.86952677785059],
+                  [-85.04273353514435, 40.87095467912499],
+                  [-85.0480550378299, 40.87082487119065]]]),
+            {
+              "cover_type": 2,
+              "system:index": "30"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-85.08170066771271, 40.90287969898171],
+                  [-85.08255897459748, 40.89911698120564],
+                  [-85.0787824243045, 40.89950623779863],
+                  [-85.07895408568146, 40.90313918886904]]]),
+            {
+              "cover_type": 2,
+              "system:index": "31"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-85.13749061522248, 40.89042298711368],
+                  [-85.12976585325958, 40.89029321735431],
+                  [-85.12976585325958, 40.89483500749708],
+                  [-85.13731895384552, 40.89483500749708]]]),
+            {
+              "cover_type": 2,
+              "system:index": "32"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-85.13354240355255, 40.90910717527554],
+                  [-85.12925086912873, 40.90910717527554],
+                  [-85.12942253050568, 40.91624210422085],
+                  [-85.1330274194217, 40.9163718230745]]]),
+            {
+              "cover_type": 2,
+              "system:index": "33"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-85.15774665770294, 40.962405930162696],
+                  [-85.15156684813263, 40.962405930162696],
+                  [-85.15208183226349, 40.966294666161225],
+                  [-85.1579183190799, 40.966294666161225]]]),
+            {
+              "cover_type": 2,
+              "system:index": "34"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.97784553465607, 40.9907884335191],
+                  [-84.97767387327912, 40.98599407338136],
+                  [-84.97183738646271, 40.9865123993914],
+                  [-84.97218070921662, 40.99065886080155]]]),
+            {
+              "cover_type": 2,
+              "system:index": "35"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.93922172484162, 41.04531592571905],
+                  [-84.93458686766388, 41.04570432069101],
+                  [-84.93458686766388, 41.04932922988544],
+                  [-84.93922172484162, 41.04932922988544]]]),
+            {
+              "cover_type": 2,
+              "system:index": "36"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.99415336546662, 41.030425723646154],
+                  [-84.9934667199588, 41.02278509524951],
+                  [-84.9908917993045, 41.02265558543282],
+                  [-84.9908917993045, 41.030684712462744]]]),
+            {
+              "cover_type": 2,
+              "system:index": "37"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.69288764891388, 41.04957006337962],
+                  [-84.68893943724396, 41.04944060624941],
+                  [-84.688767775867, 41.05500703284128],
+                  [-84.69237266478302, 41.05500703284128]]]),
+            {
+              "cover_type": 2,
+              "system:index": "38"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.61551150817274, 41.019716362789985],
+                  [-84.61173495787978, 41.01984587838642],
+                  [-84.61207828063368, 41.02437876381545],
+                  [-84.61585483092665, 41.02424925713274]]]),
+            {
+              "cover_type": 2,
+              "system:index": "39"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.57929095763564, 41.00106345816839],
+                  [-84.57448443908095, 41.00145211420865],
+                  [-84.57448443908095, 41.00313626389912],
+                  [-84.57894763488173, 41.003265812092735]]]),
+            {
+              "cover_type": 2,
+              "system:index": "40"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.60538348693251, 40.962834421662606],
+                  [-84.60229358214735, 40.962834421662606],
+                  [-84.6021219207704, 40.9669823716486],
+                  [-84.60555514830946, 40.96711199088463]]]),
+            {
+              "cover_type": 2,
+              "system:index": "41"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.5277925445497, 40.96244553798461],
+                  [-84.52418765563368, 40.96231590958273],
+                  [-84.52453097838759, 40.96750084706505],
+                  [-84.52847919005751, 40.96750084706505]]]),
+            {
+              "cover_type": 2,
+              "system:index": "42"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.60950335997939, 40.8919307946365],
+                  [-84.6021219207704, 40.89167126077771],
+                  [-84.60229358214735, 40.89712125801875],
+                  [-84.60950335997939, 40.89712125801875]]]),
+            {
+              "cover_type": 2,
+              "system:index": "43"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.5420404388368, 40.889335410236235],
+                  [-84.5358606292665, 40.88972472438632],
+                  [-84.5362039520204, 40.89491536083949],
+                  [-84.54255542296767, 40.89491536083949]]]),
+            {
+              "cover_type": 2,
+              "system:index": "44"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4259973480165, 40.881808219776715],
+                  [-84.41844424743056, 40.882067792320655],
+                  [-84.4182725860536, 40.88401455395133],
+                  [-84.4263406707704, 40.88414433602403]]]),
+            {
+              "cover_type": 2,
+              "system:index": "45"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.57002124328017, 40.818182272224355],
+                  [-84.5636697723329, 40.818572004715165],
+                  [-84.56384143370985, 40.8227290088081],
+                  [-84.57036456603407, 40.822339300741795]]]),
+            {
+              "cover_type": 2,
+              "system:index": "46"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.3817032876863, 40.73258265462117],
+                  [-84.37638178500076, 40.73258265462117],
+                  [-84.37638178500076, 40.73453380659462],
+                  [-84.38238993319412, 40.73466388135837]]]),
+            {
+              "cover_type": 2,
+              "system:index": "47"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.46444407137771, 40.66946457620588],
+                  [-84.46427241000076, 40.66594902891224],
+                  [-84.45998087557693, 40.66594902891224],
+                  [-84.45929423006912, 40.66985518113196]]]),
+            {
+              "cover_type": 2,
+              "system:index": "48"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.51268091830154, 40.64901972550458],
+                  [-84.50873270663162, 40.64862899855902],
+                  [-84.50924769076248, 40.65214545870998],
+                  [-84.51302424105545, 40.65201522274968]]]),
+            {
+              "cover_type": 2,
+              "system:index": "49"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.6805657449617, 40.663176752049104],
+                  [-84.67404261263748, 40.663046537622364],
+                  [-84.67335596712967, 40.66773409682966],
+                  [-84.67936411532303, 40.66773409682966]]]),
+            {
+              "cover_type": 2,
+              "system:index": "50"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.36247721346756, 40.57965716820126],
+                  [-84.35887232455154, 40.579787545287644],
+                  [-84.3590439859285, 40.58200391687911],
+                  [-84.36264887484451, 40.58200391687911]]]),
+            {
+              "cover_type": 2,
+              "system:index": "51"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.53619852694412, 40.57483303737498],
+                  [-84.53276529940506, 40.575224196076455],
+                  [-84.53276529940506, 40.58030905109225],
+                  [-84.53688517245193, 40.57991792211995]]]),
+            {
+              "cover_type": 2,
+              "system:index": "52"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.36625081936607, 40.51300124092621],
+                  [-84.36264593045006, 40.51313174783338],
+                  [-84.3624742690731, 40.516263837402576],
+                  [-84.36590749661217, 40.51613333659164]]]),
+            {
+              "cover_type": 2,
+              "system:index": "53"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.30634099880943, 40.52748595687201],
+                  [-84.30187780300865, 40.52748595687201],
+                  [-84.30187780300865, 40.5300954828341],
+                  [-84.30651266018639, 40.529965008949254]]]),
+            {
+              "cover_type": 2,
+              "system:index": "54"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.41500265042076, 40.486894754224785],
+                  [-84.41500265042076, 40.48428354679828],
+                  [-84.41088277737389, 40.48415298376033],
+                  [-84.41139776150474, 40.486894754224785]]]),
+            {
+              "cover_type": 2,
+              "system:index": "55"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.24754537761565, 40.49616372013146],
+                  [-84.24754537761565, 40.493552873347824],
+                  [-84.2422238749301, 40.493552873347824],
+                  [-84.24205221355315, 40.4960331802051]]]),
+            {
+              "cover_type": 2,
+              "system:index": "56"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.18571765671346, 40.50584996880945],
+                  [-84.18571765671346, 40.503631075929164],
+                  [-84.18056781540487, 40.50337002488208],
+                  [-84.18039615402792, 40.50598048963409]]]),
+            {
+              "cover_type": 2,
+              "system:index": "57"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.33248813400839, 40.4481863247424],
+                  [-84.33300311813925, 40.444920417897826],
+                  [-84.32871158371542, 40.445051057218535],
+                  [-84.3280249382076, 40.44792505803483]]]),
+            {
+              "cover_type": 2,
+              "system:index": "58"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4045859123287, 40.41944089837167],
+                  [-84.40098102341268, 40.419310209288184],
+                  [-84.40115268478964, 40.42231599397789],
+                  [-84.40424258957479, 40.42218531047966]]]),
+            {
+              "cover_type": 2,
+              "system:index": "59"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.25867374191854, 40.519229813269135],
+                  [-84.25558383713339, 40.519229813269135],
+                  [-84.25592715988729, 40.52223112902818],
+                  [-84.25936038742636, 40.521970150383474]]]),
+            {
+              "cover_type": 2,
+              "system:index": "60"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.24545581589315, 40.55001953800021],
+                  [-84.2397909904537, 40.54988910291495],
+                  [-84.23927600632284, 40.552236895578304],
+                  [-84.24597080002401, 40.55210646481206]]]),
+            {
+              "cover_type": 2,
+              "system:index": "61"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.26844991013286, 40.57725545827028],
+                  [-84.26209843918559, 40.57764660280926],
+                  [-84.26209843918559, 40.57973266839451],
+                  [-84.26930821701762, 40.57947191375371]]]),
+            {
+              "cover_type": 2,
+              "system:index": "62"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.18055928513286, 40.59785262581029],
+                  [-84.17609608933208, 40.597982967428074],
+                  [-84.17575276657817, 40.60072008269905],
+                  [-84.18279088303325, 40.60045940988259]]]),
+            {
+              "cover_type": 2,
+              "system:index": "63"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.27840626999614, 40.64124233599959],
+                  [-84.27840626999614, 40.637204243398564],
+                  [-84.27480138108012, 40.637204243398564],
+                  [-84.27428639694926, 40.64163310619128]]]),
+            {
+              "cover_type": 2,
+              "system:index": "64"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.19171727463481, 40.638592159573356],
+                  [-84.19154561325786, 40.63468417669639],
+                  [-84.18536580368755, 40.63429336582699],
+                  [-84.1855374650645, 40.63924346781229]]]),
+            {
+              "cover_type": 2,
+              "system:index": "65"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.23188603684184, 40.663858259161394],
+                  [-84.22896779343364, 40.663728046065145],
+                  [-84.2269078569102, 40.66607184290274],
+                  [-84.2269078569102, 40.66711350394767],
+                  [-84.23222935959575, 40.66724371043432]]]),
+            {
+              "cover_type": 2,
+              "system:index": "66"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.1719762162852, 40.6806536169337],
+                  [-84.16699803635356, 40.680263075267256],
+                  [-84.16665471359966, 40.683257169568826],
+                  [-84.1719762162852, 40.68286664315663]]]),
+            {
+              "cover_type": 2,
+              "system:index": "67"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.11721623703716, 40.66997798792901],
+                  [-84.11515630051372, 40.66932697964672],
+                  [-84.11292470261333, 40.67010818882282],
+                  [-84.11309636399028, 40.67167057971902],
+                  [-84.1170445756602, 40.67154038187589]]]),
+            {
+              "cover_type": 2,
+              "system:index": "68"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.06228459641216, 40.6039334004371],
+                  [-84.05902303025005, 40.60289075319596],
+                  [-84.05902303025005, 40.607061244573586],
+                  [-84.06245625778911, 40.60719156823592]]]),
+            {
+              "cover_type": 2,
+              "system:index": "69"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.12615233572724, 40.59865114629898],
+                  [-84.12598067435029, 40.593176634267394],
+                  [-84.12289076956513, 40.593176634267394],
+                  [-84.12254744681123, 40.598520805983924]]]),
+            {
+              "cover_type": 2,
+              "system:index": "70"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.10641127737763, 40.54975570924196],
+                  [-84.10194808157685, 40.54975570924196],
+                  [-84.10246306570771, 40.5541903684467],
+                  [-84.10641127737763, 40.5541903684467]]]),
+            {
+              "cover_type": 2,
+              "system:index": "71"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.0856402507663, 40.51309331195739],
+                  [-84.07997542532685, 40.51309331195739],
+                  [-84.07997542532685, 40.51531189178749],
+                  [-84.08649855765107, 40.51518138912367]]]),
+            {
+              "cover_type": 2,
+              "system:index": "72"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.40699034842255, 40.528882781901714],
+                  [-84.4068186870456, 40.52496838402312],
+                  [-84.40287047537568, 40.52522935099437],
+                  [-84.40321379812958, 40.52966563404256]]]),
+            {
+              "cover_type": 2,
+              "system:index": "73"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.3628733745456, 40.6274501216751],
+                  [-84.35944014700654, 40.627319837525924],
+                  [-84.35961180838349, 40.63057686500582],
+                  [-84.36338835867646, 40.63057686500582]]]),
+            {
+              "cover_type": 2,
+              "system:index": "74"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.38793593558076, 40.64230084859255],
+                  [-84.38295775564912, 40.64191008231],
+                  [-84.38295775564912, 40.64594789024651],
+                  [-84.3874209514499, 40.64594789024651]]]),
+            {
+              "cover_type": 2,
+              "system:index": "75"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4643252483249, 40.6265381272934],
+                  [-84.4614070049167, 40.62692898355339],
+                  [-84.46072035940888, 40.63227045651597],
+                  [-84.46518355520966, 40.63227045651597]]]),
+            {
+              "cover_type": 2,
+              "system:index": "76"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.51736861380341, 40.61429013911007],
+                  [-84.51736861380341, 40.6092078678552],
+                  [-84.5137637248874, 40.60933818733143],
+                  [-84.51342040213349, 40.614811375843914]]]),
+            {
+              "cover_type": 2,
+              "system:index": "77"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.60817748221162, 40.59148205160061],
+                  [-84.60096770437958, 40.59161240563813],
+                  [-84.60096770437958, 40.59539256218557],
+                  [-84.60834914358857, 40.59513186859521]]]),
+            {
+              "cover_type": 2,
+              "system:index": "78"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.71649581106904, 40.626407841365086],
+                  [-84.71014434012177, 40.62666841296757],
+                  [-84.71065932425263, 40.629274073076324],
+                  [-84.71580916556123, 40.629143792485465]]]),
+            {
+              "cover_type": 2,
+              "system:index": "79"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.80095320852998, 40.64985521373104],
+                  [-84.7964900127292, 40.64998545390719],
+                  [-84.79546004446748, 40.653241375697505],
+                  [-84.80146819266083, 40.6535018425774]]]),
+            {
+              "cover_type": 2,
+              "system:index": "80"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.75460463675263, 40.666542385185785],
+                  [-84.74842482718232, 40.66667259278749],
+                  [-84.74842482718232, 40.66927669143549],
+                  [-84.75563460501435, 40.668755879840916]]]),
+            {
+              "cover_type": 2,
+              "system:index": "81"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.88455229910615, 40.65964101851566],
+                  [-84.88111907156708, 40.65964101851566],
+                  [-84.87974578055146, 40.66224539171514],
+                  [-84.88644057425263, 40.66211517547016]]]),
+            {
+              "cover_type": 2,
+              "system:index": "82"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.83923369559052, 40.68922058977606],
+                  [-84.83614379080537, 40.6896110789572],
+                  [-84.83133727225068, 40.690131727639226],
+                  [-84.83253890188935, 40.69364599983925],
+                  [-84.83889037283662, 40.69299522267493]]]),
+            {
+              "cover_type": 2,
+              "system:index": "83"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.77898055227998, 40.700413705539916],
+                  [-84.7667925945163, 40.70028356383697],
+                  [-84.7667925945163, 40.70392743540707],
+                  [-84.77915221365693, 40.70366716547728]]]),
+            {
+              "cover_type": 2,
+              "system:index": "84"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.60852080496552, 40.780662653479695],
+                  [-84.60371428641083, 40.780272698347154],
+                  [-84.60371428641083, 40.78326229585815],
+                  [-84.60852080496552, 40.7836522334391]]]),
+            {
+              "cover_type": 2,
+              "system:index": "85"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.56457549246552, 40.75153970775025],
+                  [-84.55856734427216, 40.751409665985975],
+                  [-84.55891066702607, 40.754270526048856],
+                  [-84.56457549246552, 40.7544005622178]]]),
+            {
+              "cover_type": 2,
+              "system:index": "86"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.50261005898456, 40.72773848499448],
+                  [-84.5020950748537, 40.724876483593626],
+                  [-84.4966019107912, 40.724876483593626],
+                  [-84.4966019107912, 40.7274783081349]]]),
+            {
+              "cover_type": 2,
+              "system:index": "87"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.48424229165057, 40.78339293005855],
+                  [-84.48132404824237, 40.78339293005855],
+                  [-84.48080906411151, 40.78573251660185],
+                  [-84.48492893715839, 40.78573251660185]]]),
+            {
+              "cover_type": 2,
+              "system:index": "88"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.3925751163576, 40.76064265420232],
+                  [-84.3893135501955, 40.759992531861954],
+                  [-84.3893135501955, 40.762983041978465],
+                  [-84.39343342324237, 40.762592983071876]]]),
+            {
+              "cover_type": 2,
+              "system:index": "89"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.33953175087909, 40.795090038586295],
+                  [-84.33609852334003, 40.79560986225229],
+                  [-84.33592686196307, 40.79950841000815],
+                  [-84.33970341225604, 40.79911856553545]]]),
+            {
+              "cover_type": 2,
+              "system:index": "90"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.41626438637714, 40.83354599548343],
+                  [-84.41386112709979, 40.83354599548343],
+                  [-84.41334614296893, 40.83692281857259],
+                  [-84.41643604775409, 40.83679294394199]]]),
+            {
+              "cover_type": 2,
+              "system:index": "91"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.32528385659198, 40.83614356697234],
+                  [-84.32099232216815, 40.83614356697234],
+                  [-84.32150730629901, 40.83822155088421],
+                  [-84.32562717934589, 40.83835142271592]]]),
+            {
+              "cover_type": 2,
+              "system:index": "92"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.383820386133, 40.858997807306004],
+                  [-84.38399204750995, 40.85367451235423],
+                  [-84.37987217446307, 40.85315514360325],
+                  [-84.37987217446307, 40.858478480287765]]]),
+            {
+              "cover_type": 2,
+              "system:index": "93"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.51195595937197, 40.85671842682708],
+                  [-84.50594781117861, 40.856848262412996],
+                  [-84.50629113393252, 40.86009406935784],
+                  [-84.51315758901065, 40.86009406935784]]]),
+            {
+              "cover_type": 2,
+              "system:index": "94"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.42166207509463, 40.92367977405772],
+                  [-84.42200539784854, 40.918880537570885],
+                  [-84.41840050893252, 40.91901025124706],
+                  [-84.41857217030947, 40.92380947831545]]]),
+            {
+              "cover_type": 2,
+              "system:index": "95"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.66610787587588, 40.91849139501515],
+                  [-84.65958474355166, 40.91797253471049],
+                  [-84.65958474355166, 40.92432829280084],
+                  [-84.66662286000674, 40.924068886067246]]]),
+            {
+              "cover_type": 2,
+              "system:index": "96"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.8393990539722, 41.04005165505049],
+                  [-84.83613748781009, 41.040310605999046],
+                  [-84.83613748781009, 41.04471261624616],
+                  [-84.83974237672611, 41.04471261624616]]]),
+            {
+              "cover_type": 2,
+              "system:index": "97"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.49020789625273, 41.11846717325556],
+                  [-84.48488639356718, 41.11846717325556],
+                  [-84.48488639356718, 41.12053628225929],
+                  [-84.49072288038359, 41.12053628225929]]]),
+            {
+              "cover_type": 2,
+              "system:index": "98"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.53415320875273, 41.1157513686997],
+                  [-84.53037665845976, 41.1157513686997],
+                  [-84.53037665845976, 41.12027764720098],
+                  [-84.53380988599882, 41.120148329289655]]]),
+            {
+              "cover_type": 2,
+              "system:index": "99"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.46600364210234, 41.078410452539764],
+                  [-84.45896552564726, 41.07892805146852],
+                  [-84.4587938642703, 41.08099840642374],
+                  [-84.46600364210234, 41.08099840642374]]]),
+            {
+              "cover_type": 2,
+              "system:index": "100"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.62976859571562, 41.15154652763254],
+                  [-84.62307380201445, 41.15154652763254],
+                  [-84.62290214063749, 41.15645807751419],
+                  [-84.63011191846952, 41.156716569945914]]]),
+            {
+              "cover_type": 2,
+              "system:index": "101"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.77430747511015, 41.13939532325205],
+                  [-84.7744791364871, 41.13719752458461],
+                  [-84.76795600416288, 41.13668038478393],
+                  [-84.76726935865507, 41.13874891952388]]]),
+            {
+              "cover_type": 2,
+              "system:index": "102"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.87541602613554, 41.2037452156779],
+                  [-84.8759310102664, 41.19819139294382],
+                  [-84.86940787794218, 41.19832055696485],
+                  [-84.86940787794218, 41.20116210093925]]]),
+            {
+              "cover_type": 2,
+              "system:index": "103"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.9253679574698, 41.4670384793209],
+                  [-84.92605460297762, 41.46099248472238],
+                  [-84.92159140717683, 41.46137841611418],
+                  [-84.92141974579988, 41.46665258161514]]]),
+            {
+              "cover_type": 2,
+              "system:index": "104"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.42784420027442, 41.54910886619424],
+                  [-84.42767253889747, 41.546539430539035],
+                  [-84.42561260237403, 41.54448380849204],
+                  [-84.42149272932716, 41.54486924260393],
+                  [-84.4209777451963, 41.547053325839315],
+                  [-84.42406764998145, 41.54898039683674]]]),
+            {
+              "cover_type": 2,
+              "system:index": "105"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.4032733186952, 41.51259585932948],
+                  [-84.40052673666395, 41.5128529423416],
+                  [-84.4006983980409, 41.517737325579944],
+                  [-84.40378830282606, 41.517737325579944]]]),
+            {
+              "cover_type": 2,
+              "system:index": "106"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.38353226034559, 41.494597511354975],
+                  [-84.37409088461317, 41.49434035585448],
+                  [-84.37391922323621, 41.49858329106114],
+                  [-84.3842189058534, 41.498454721350726]]]),
+            {
+              "cover_type": 2,
+              "system:index": "107"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.29976150839246, 41.46077280356349],
+                  [-84.30010483114637, 41.4576852592879],
+                  [-84.2959849580995, 41.457813909900736],
+                  [-84.2959849580995, 41.46038686856762]]]),
+            {
+              "cover_type": 2,
+              "system:index": "108"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.44567367880262, 41.438468022156066],
+                  [-84.44000885336317, 41.438854087564756],
+                  [-84.44035217611707, 41.44078438016021],
+                  [-84.44584534017957, 41.440655695773366]]]),
+            {
+              "cover_type": 2,
+              "system:index": "109"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.41357300131239, 41.4125964084963],
+                  [-84.41357300131239, 41.406931595435104],
+                  [-84.4058482393495, 41.407832848734955],
+                  [-84.40567657797254, 41.41208144590176]]]),
+            {
+              "cover_type": 2,
+              "system:index": "110"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.47657272665418, 41.4008799995168],
+                  [-84.47262451498426, 41.40036494405378],
+                  [-84.4717662080995, 41.405000296266984],
+                  [-84.47674438803114, 41.40487154094805]]]),
+            {
+              "cover_type": 2,
+              "system:index": "111"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.29461166708387, 41.40139505089775],
+                  [-84.29152176229871, 41.40165257505748],
+                  [-84.29203674642957, 41.405772822822826],
+                  [-84.29529831259168, 41.4055153149914]]]),
+            {
+              "cover_type": 2,
+              "system:index": "112"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.06041661237994, 41.19108310184835],
+                  [-84.05646840071002, 41.19095392354592],
+                  [-84.05664006208697, 41.19469999083249],
+                  [-84.06178990339556, 41.19469999083249]]]),
+            {
+              "cover_type": 2,
+              "system:index": "113"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.03964558576861, 41.097986993364465],
+                  [-84.03552571272174, 41.09837507730045],
+                  [-84.03569737409869, 41.10018610535032],
+                  [-84.03998890852252, 41.10018610535032]]]),
+            {
+              "cover_type": 2,
+              "system:index": "114"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.96394291853228, 41.04211485841484],
+                  [-83.96394291853228, 41.03641785837481],
+                  [-83.95862141584674, 41.03654734112447],
+                  [-83.95844975446978, 41.041855914565005]]]),
+            {
+              "cover_type": 2,
+              "system:index": "115"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.09200230573931, 40.9965250522865],
+                  [-84.0883974168233, 40.99639549084337],
+                  [-84.08856907820025, 41.00222550368253],
+                  [-84.09080067610064, 41.00222550368253]]]),
+            {
+              "cover_type": 2,
+              "system:index": "116"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.78404179548541, 40.92095984163359],
+                  [-83.78387013410845, 40.9159009688543],
+                  [-83.77803364729205, 40.916419845419206],
+                  [-83.77683201765338, 40.92095984163359]]]),
+            {
+              "cover_type": 2,
+              "system:index": "117"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.91604939436236, 40.92705591745713],
+                  [-83.91656437849322, 40.92407280167308],
+                  [-83.90849629377642, 40.92381339393662],
+                  [-83.90901127790728, 40.926926219571]]]),
+            {
+              "cover_type": 2,
+              "system:index": "118"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.96678467251147, 40.89957309331268],
+                  [-83.9630081222185, 40.899313589434165],
+                  [-83.9630081222185, 40.90242756878155],
+                  [-83.96695633388842, 40.902557314739454]]]),
+            {
+              "cover_type": 2,
+              "system:index": "119"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.99287720180834, 40.93809811730139],
+                  [-83.98995895840014, 40.93809811730139],
+                  [-83.98669739223803, 40.940432245569],
+                  [-83.99270554043139, 40.940432245569]]]),
+            {
+              "cover_type": 2,
+              "system:index": "120"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.89468689419115, 40.83592525633528],
+                  [-83.88679047085131, 40.83566550291092],
+                  [-83.88730545498217, 40.83982143556758],
+                  [-83.89468689419115, 40.83982143556758]]]),
+            {
+              "cover_type": 2,
+              "system:index": "121"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.68749161220873, 40.79860508031075],
+                  [-83.68251343227709, 40.79899492779912],
+                  [-83.682856755031, 40.80068424045832],
+                  [-83.6886932418474, 40.80094413089766]]]),
+            {
+              "cover_type": 2,
+              "system:index": "122"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.87855072475756, 40.78573882879199],
+                  [-83.87322922207201, 40.78625872567077],
+                  [-83.87271423794115, 40.789637956175525],
+                  [-83.87872238613451, 40.7900278563221]]]),
+            {
+              "cover_type": 2,
+              "system:index": "123"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.72645874477709, 40.76649978314547],
+                  [-83.72628708340014, 40.762209236302176],
+                  [-83.71976395107592, 40.762599297460824],
+                  [-83.72045059658373, 40.76675980738528]]]),
+            {
+              "cover_type": 2,
+              "system:index": "124"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.65813751674975, 40.76506963164053],
+                  [-83.65298767544115, 40.764419552600664],
+                  [-83.6528160140642, 40.76740986353364],
+                  [-83.6583091781267, 40.76831993145854]]]),
+            {
+              "cover_type": 2,
+              "system:index": "125"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.59427948452318, 40.77676996699557],
+                  [-83.59136124111498, 40.77702995104686],
+                  [-83.59153290249193, 40.78027966583927],
+                  [-83.59513779140795, 40.78027966583927]]]),
+            {
+              "cover_type": 2,
+              "system:index": "126"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.56544037319506, 40.805492048863314],
+                  [-83.56217880703295, 40.80614172598978],
+                  [-83.5623504684099, 40.808740370894746],
+                  [-83.56578369594897, 40.808740370894746]]]),
+            {
+              "cover_type": 2,
+              "system:index": "127"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.5230788987586, 40.75336723605926],
+                  [-83.5175857346961, 40.75336723605926],
+                  [-83.51775739607305, 40.75908866462554],
+                  [-83.52393720564336, 40.75908866462554]]]),
+            {
+              "cover_type": 2,
+              "system:index": "128"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.6878636343984, 40.727523222584594],
+                  [-83.68305711584371, 40.727653311053714],
+                  [-83.68288545446676, 40.729864776121154],
+                  [-83.68666200475973, 40.73012494365029]]]),
+            {
+              "cover_type": 2,
+              "system:index": "129"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.59001664953512, 40.67208240822147],
+                  [-83.5893300040273, 40.667785771705475],
+                  [-83.58246354894918, 40.667785771705475],
+                  [-83.58177690344137, 40.67273338960302]]]),
+            {
+              "cover_type": 2,
+              "system:index": "130"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.57216386633199, 40.69408205573138],
+                  [-83.57233552770894, 40.69186940191998],
+                  [-83.56426744299215, 40.69160908487607],
+                  [-83.56426744299215, 40.69395190165884]]]),
+            {
+              "cover_type": 2,
+              "system:index": "131"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.63977403385579, 40.815921320623175],
+                  [-83.63582582218586, 40.815921320623175],
+                  [-83.63565416080891, 40.81877940312666],
+                  [-83.64114732487141, 40.81877940312666]]]),
+            {
+              "cover_type": 2,
+              "system:index": "132"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.5496518109554, 40.85021018309266],
+                  [-83.54278535587727, 40.85021018309266],
+                  [-83.54261369450032, 40.85319663055155],
+                  [-83.54862184269368, 40.85371599897733]]]),
+            {
+              "cover_type": 2,
+              "system:index": "133"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.61282319767415, 40.88603866778622],
+                  [-83.60887498600422, 40.88616844588951],
+                  [-83.60921830875813, 40.88967235847447],
+                  [-83.61385316593586, 40.88980212945151]]]),
+            {
+              "cover_type": 2,
+              "system:index": "134"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.49266023380696, 40.91639980549866],
+                  [-83.48751039249836, 40.91678896036759],
+                  [-83.48751039249836, 40.91873470034841],
+                  [-83.49386186344563, 40.91847527166008]]]),
+            {
+              "cover_type": 2,
+              "system:index": "135"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.54107429864665, 41.00252703579988],
+                  [-83.53643944146891, 41.002267936253574],
+                  [-83.53643944146891, 41.006024779977395],
+                  [-83.54210426690837, 41.00589523720729]]]),
+            {
+              "cover_type": 2,
+              "system:index": "136"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.52938002102675, 41.06584630063269],
+                  [-83.52440184109511, 41.065199172581515],
+                  [-83.52457350247207, 41.06895242663099],
+                  [-83.5292083596498, 41.068434749154015]]]),
+            {
+              "cover_type": 2,
+              "system:index": "137"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.71666053019304, 41.08241061040358],
+                  [-83.71339896403093, 41.08266939462678],
+                  [-83.71288397990007, 41.086551035691976],
+                  [-83.71648886881609, 41.08629226675412]]]),
+            {
+              "cover_type": 2,
+              "system:index": "138"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.84660819254655, 40.93188473328135],
+                  [-83.83974173746843, 40.93175504487324],
+                  [-83.83939841471452, 40.93499717870607],
+                  [-83.8460932084157, 40.93499717870607]]]),
+            {
+              "cover_type": 2,
+              "system:index": "139"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.7746349529886, 40.891592801373534],
+                  [-83.77480661436556, 40.88795921614652],
+                  [-83.76828348204134, 40.88756989160889],
+                  [-83.76759683653353, 40.88951649139119]]]),
+            {
+              "cover_type": 2,
+              "system:index": "140"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.03659021421907, 40.848236315320776],
+                  [-84.03092538877962, 40.84836616752959],
+                  [-84.03109705015657, 40.850184071734986],
+                  [-84.03693353697298, 40.8500542230886]]]),
+            {
+              "cover_type": 2,
+              "system:index": "141"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.79283105894564, 40.77079913525923],
+                  [-83.78613626524447, 40.77079913525923],
+                  [-83.78647958799837, 40.77339916364393],
+                  [-83.7933460430765, 40.77339916364393]]]),
+            {
+              "cover_type": 2,
+              "system:index": "142"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.92758523985384, 40.6898874740816],
+                  [-83.92312204405306, 40.6898874740816],
+                  [-83.9229503826761, 40.69483345179903],
+                  [-83.92878686949251, 40.69470329919436]]]),
+            {
+              "cover_type": 2,
+              "system:index": "143"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.9167705731058, 40.65942257308302],
+                  [-83.91024744078157, 40.659943457563344],
+                  [-83.91024744078157, 40.66241760330016],
+                  [-83.9167705731058, 40.66241760330016]]]),
+            {
+              "cover_type": 2,
+              "system:index": "144"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.00886655517921, 40.66775623668202],
+                  [-84.00543332764015, 40.66749582545587],
+                  [-84.00509000488624, 40.67231326853164],
+                  [-84.00903821655616, 40.67257366094535]]]),
+            {
+              "cover_type": 2,
+              "system:index": "145"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.03177128644657, 40.92870329327407],
+                  [-84.02971134992313, 40.92974084133191],
+                  [-84.02953968854618, 40.932853387753134],
+                  [-84.03262959333134, 40.932464327469276]]]),
+            {
+              "cover_type": 2,
+              "system:index": "146"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.01752339215946, 40.949580812521944],
+                  [-84.01082859845829, 40.949580812521944],
+                  [-84.0115152439661, 40.95165523655869],
+                  [-84.01786671491337, 40.95178488589698]]]),
+            {
+              "cover_type": 2,
+              "system:index": "147"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.02782307477665, 40.9713590142052],
+                  [-84.02061329694462, 40.97213667421799],
+                  [-84.02044163556766, 40.97369196674503],
+                  [-84.02868138166141, 40.97369196674503]]]),
+            {
+              "cover_type": 2,
+              "system:index": "148"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.2913232883997, 40.95087733518258],
+                  [-84.28428517194462, 40.95113663665963],
+                  [-84.28445683332157, 40.953859240685155],
+                  [-84.29012165876102, 40.95398888569539]]]),
+            {
+              "cover_type": 2,
+              "system:index": "149"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.10919056745243, 40.92001318871302],
+                  [-84.10266743512821, 40.920791453615315],
+                  [-84.10301075788212, 40.92286678188701],
+                  [-84.10919056745243, 40.9226073694168]]]),
+            {
+              "cover_type": 2,
+              "system:index": "150"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.07035934367603, 40.89852624005598],
+                  [-84.06520950236744, 40.89891550012534],
+                  [-84.06520950236744, 40.90189975122099],
+                  [-84.07087432780689, 40.90125101243643]]]),
+            {
+              "cover_type": 2,
+              "system:index": "151"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.21936141887134, 40.878930523992864],
+                  [-84.21592819133228, 40.87931989935541],
+                  [-84.21609985270923, 40.88217524869327],
+                  [-84.22004806437916, 40.8823050343728]]]),
+            {
+              "cover_type": 2,
+              "system:index": "152"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.23292266765064, 40.849201444518954],
+                  [-84.2276011649651, 40.849980542607334],
+                  [-84.22777282634205, 40.85205809272465],
+                  [-84.23326599040455, 40.85192824775078]]]),
+            {
+              "cover_type": 2,
+              "system:index": "153"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.15533172526783, 40.889523510246995],
+                  [-84.14829360881275, 40.889393738723506],
+                  [-84.14880859294361, 40.893027245175304],
+                  [-84.15567504802173, 40.89289748052367]]]),
+            {
+              "cover_type": 2,
+              "system:index": "154"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.40812595399989, 40.96272810838157],
+                  [-84.40417774232996, 40.96311699039455],
+                  [-84.40452106508387, 40.96713530368469],
+                  [-84.40846927675379, 40.966746445350154]]]),
+            {
+              "cover_type": 2,
+              "system:index": "155"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.52331073793543, 41.02699213562685],
+                  [-84.51661594423426, 41.027121636915396],
+                  [-84.51661594423426, 41.02958211300772],
+                  [-84.52331073793543, 41.02958211300772]]]),
+            {
+              "cover_type": 2,
+              "system:index": "156"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.62877072680789, 41.27379110561551],
+                  [-84.62877072680789, 41.27108173759188],
+                  [-84.62241925586062, 41.27121075766662],
+                  [-84.62241925586062, 41.27366209064039]]]),
+            {
+              "cover_type": 2,
+              "system:index": "157"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.62868431048099, 41.464196820412496],
+                  [-84.62507942156498, 41.464068182461524],
+                  [-84.62542274431888, 41.46728405467578],
+                  [-84.62954261736576, 41.46651225989072]]]),
+            {
+              "cover_type": 2,
+              "system:index": "158"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.29823615984623, 41.53015444058518],
+                  [-84.2887947841138, 41.53105398255052],
+                  [-84.28896644549076, 41.53478052315517],
+                  [-84.29823615984623, 41.534523527247224]]]),
+            {
+              "cover_type": 2,
+              "system:index": "159"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.32484367327396, 41.566126362285544],
+                  [-84.3214104457349, 41.56638323259003],
+                  [-84.32123878435794, 41.56997930962275],
+                  [-84.32570198015873, 41.56985088174685]]]),
+            {
+              "cover_type": 2,
+              "system:index": "160"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.35900428728763, 41.60265616235294],
+                  [-84.35282447771732, 41.60329797299223],
+                  [-84.35368278460209, 41.6058651517122],
+                  [-84.35831764177982, 41.6058651517122]]]),
+            {
+              "cover_type": 2,
+              "system:index": "161"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.34034219739756, 41.723232959463054],
+                  [-84.32901254651865, 41.72400169060292],
+                  [-84.32987085340342, 41.72669217716536],
+                  [-84.34051385877451, 41.726564061312395]]]),
+            {
+              "cover_type": 2,
+              "system:index": "162"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.16730752942881, 41.731944707170406],
+                  [-84.16799417493662, 41.7274608669182],
+                  [-84.1611277198585, 41.72669217716536],
+                  [-84.1611277198585, 41.73181660179207]]]),
+            {
+              "cover_type": 2,
+              "system:index": "163"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.18189874646983, 41.77254123433876],
+                  [-84.177607212046, 41.77266925846718],
+                  [-84.177607212046, 41.77561374289628],
+                  [-84.18258539197764, 41.77561374289628]]]),
+            {
+              "cover_type": 2,
+              "system:index": "164"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.35973993299326, 41.80325969645433],
+                  [-84.35407510755381, 41.80325969645433],
+                  [-84.3537317847999, 41.80748233389105],
+                  [-84.36025491712412, 41.80748233389105]]]),
+            {
+              "cover_type": 2,
+              "system:index": "165"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.2278804005591, 41.67738257680813],
+                  [-84.22547714128176, 41.67751079068694],
+                  [-84.22616378678957, 41.68058784715021],
+                  [-84.22805206193605, 41.6802032231383]]]),
+            {
+              "cover_type": 2,
+              "system:index": "166"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.24061490035932, 41.63687778399915],
+                  [-84.24027157760541, 41.633157131253654],
+                  [-84.23460675216596, 41.633157131253654],
+                  [-84.23460675216596, 41.63700607853893]]]),
+            {
+              "cover_type": 2,
+              "system:index": "167"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.070329928798, 41.53403917556764],
+                  [-84.0670683626359, 41.5342961734],
+                  [-84.0670683626359, 41.53827950922818],
+                  [-84.07084491292886, 41.537765544196574]]]),
+            {
+              "cover_type": 2,
+              "system:index": "168"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.05553553463598, 41.48094724849609],
+                  [-84.04832575680395, 41.4817188714279],
+                  [-84.04798243405004, 41.48570544354138],
+                  [-84.05553553463598, 41.48544825274187]]]),
+            {
+              "cover_type": 2,
+              "system:index": "169"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.10978052975317, 41.45226207990459],
+                  [-84.11012385250707, 41.44685807195021],
+                  [-84.10566065670629, 41.446729399607776],
+                  [-84.10566065670629, 41.452133418279786]]]),
+            {
+              "cover_type": 2,
+              "system:index": "170"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.12694666744848, 41.41751417465724],
+                  [-84.12059519650121, 41.41764290492143],
+                  [-84.12042353512426, 41.42034618153024],
+                  [-84.12626002194067, 41.42034618153024]]]),
+            {
+              "cover_type": 2,
+              "system:index": "171"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.02309153439184, 41.4350191482892],
+                  [-84.01897166134496, 41.43463306006907],
+                  [-84.01897166134496, 41.43849383892813],
+                  [-84.02240488888403, 41.43849383892813]]]),
+            {
+              "cover_type": 2,
+              "system:index": "172"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.11458650319611, 41.33555460266585],
+                  [-84.11080995290314, 41.33594127963325],
+                  [-84.11029496877228, 41.33813240575594],
+                  [-84.11407151906525, 41.33774574179633]]]),
+            {
+              "cover_type": 2,
+              "system:index": "173"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.30375734059845, 41.25533400818209],
+                  [-84.30032411305939, 41.25533400818209],
+                  [-84.29980912892853, 41.26036681572632],
+                  [-84.30375734059845, 41.26023777422334]]]),
+            {
+              "cover_type": 2,
+              "system:index": "174"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.19767060964142, 41.37214984457069],
+                  [-84.19337907521759, 41.37369566937358],
+                  [-84.19389405934845, 41.37601433770194],
+                  [-84.19870057790314, 41.37575671196923]]]),
+            {
+              "cover_type": 2,
+              "system:index": "175"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.18925920217072, 41.5016139234035],
+                  [-84.18462434499298, 41.506499154636344],
+                  [-84.1908041545633, 41.50662770837577]]]),
+            {
+              "cover_type": 2,
+              "system:index": "176"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.23749604909455, 41.476925014298416],
+                  [-84.23183122365509, 41.47769668512116],
+                  [-84.23200288503205, 41.48142629791025],
+                  [-84.2376677104715, 41.481683504673676]]]),
+            {
+              "cover_type": 2,
+              "system:index": "177"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.87255518889872, 41.55995248174663],
+                  [-84.8660320565745, 41.560723163228],
+                  [-84.8660320565745, 41.563420476034274],
+                  [-84.87221186614481, 41.56316359395113]]]),
+            {
+              "cover_type": 2,
+              "system:index": "178"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.82926065413182, 41.45651035728314],
+                  [-84.82479745833103, 41.45715361944796],
+                  [-84.82428247420017, 41.45985525087338],
+                  [-84.83046228377049, 41.46011254323495]]]),
+            {
+              "cover_type": 2,
+              "system:index": "179"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.55288583723728, 41.16565621069036],
+                  [-84.54498941389744, 41.165914666845765],
+                  [-84.5451610752744, 41.16836994947852],
+                  [-84.55288583723728, 41.16824072637049]]]),
+            {
+              "cover_type": 2,
+              "system:index": "180"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.76112172435292, 40.88127895992536],
+                  [-84.75185200999745, 40.88140874736241],
+                  [-84.75185200999745, 40.88556181097115],
+                  [-84.76146504710682, 40.88569159000959]]]),
+            {
+              "cover_type": 2,
+              "system:index": "181"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.77416798900136, 40.81570379155499],
+                  [-84.76867482493886, 40.816223453782236],
+                  [-84.76884648631581, 40.81960115903657],
+                  [-84.7736530048705, 40.81934134166154]]]),
+            {
+              "cover_type": 2,
+              "system:index": "182"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.49393239991609, 40.82225547117029],
+                  [-84.49376073853914, 40.81965735559374],
+                  [-84.48740926759187, 40.8191377202662],
+                  [-84.48809591309968, 40.82212556780849]]]),
+            {
+              "cover_type": 2,
+              "system:index": "183"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.29051366822664, 40.81770870212584],
+                  [-84.28742376344148, 40.81796852589567],
+                  [-84.28725210206453, 40.821605951817006],
+                  [-84.29120031373445, 40.821605951817006]]]),
+            {
+              "cover_type": 2,
+              "system:index": "184"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.13670507447664, 40.804586278422676],
+                  [-84.13395849244539, 40.804716216130174],
+                  [-84.13327184693757, 40.80887408844531],
+                  [-84.1372200586075, 40.80874415887874]]]),
+            {
+              "cover_type": 2,
+              "system:index": "185"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.17464223878328, 40.858588121696236],
+                  [-84.16743246095125, 40.858588121696236],
+                  [-84.16811910645906, 40.8609250573466],
+                  [-84.17498556153718, 40.860795229751254]]]),
+            {
+              "cover_type": 2,
+              "system:index": "186"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.12983861939851, 40.968464570012834],
+                  [-84.12966695802156, 40.96237231556126],
+                  [-84.12554708497468, 40.962761199670695],
+                  [-84.12554708497468, 40.968464570012834]]]),
+            {
+              "cover_type": 2,
+              "system:index": "187"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.98564306275789, 40.96042786064261],
+                  [-83.98152318971101, 40.96055749275274],
+                  [-83.98203817384187, 40.962890827197974],
+                  [-83.9859863855118, 40.962761199670695]]]),
+            {
+              "cover_type": 2,
+              "system:index": "188"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.85661550097315, 40.98043485618734],
+                  [-83.85266728930323, 40.98056444899523],
+                  [-83.85335393481104, 40.985747952516434],
+                  [-83.8567871623501, 40.985877534884516]]]),
+            {
+              "cover_type": 2,
+              "system:index": "189"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.88810812943994, 41.09670662664087],
+                  [-83.88295828813135, 41.09644789769986],
+                  [-83.8827866267544, 41.1016222828933],
+                  [-83.8886231135708, 41.101751637300275]]]),
+            {
+              "cover_type": 2,
+              "system:index": "190"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.83437811845361, 41.17595901746968],
+                  [-83.82888495439111, 41.1763466403591],
+                  [-83.82905661576807, 41.18009354336476],
+                  [-83.83454977983057, 41.17996434338102]]]),
+            {
+              "cover_type": 2,
+              "system:index": "191"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.7756603945581, 41.3367383661464],
+                  [-83.77188384426513, 41.3367383661464],
+                  [-83.77188384426513, 41.3420226566377],
+                  [-83.77634704006591, 41.342409295205684]]]),
+            {
+              "cover_type": 2,
+              "system:index": "192"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.79540145290771, 41.40591571222537],
+                  [-83.7892216433374, 41.40617321846997],
+                  [-83.78939330471435, 41.40952070678096],
+                  [-83.79522979153076, 41.40939196041973]]]),
+            {
+              "cover_type": 2,
+              "system:index": "193"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.62751662624756, 41.41853231804472],
+                  [-83.62099349392334, 41.418017402508546],
+                  [-83.62065017116943, 41.42046321494697],
+                  [-83.62871825588623, 41.42072066352972]]]),
+            {
+              "cover_type": 2,
+              "system:index": "194"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.68553817165771, 41.46948874702833],
+                  [-83.68553817165771, 41.467044781799835],
+                  [-83.6767834414331, 41.466787516942865],
+                  [-83.67661178005615, 41.469360119576294]]]),
+            {
+              "cover_type": 2,
+              "system:index": "195"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.57644125587656, 41.52704918572386],
+                  [-83.57644125587656, 41.52332219974155],
+                  [-83.57438131935312, 41.52357924014968],
+                  [-83.57232138282968, 41.5267921591]]]),
+            {
+              "cover_type": 2,
+              "system:index": "196"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.50039526588633, 41.56109618227313],
+                  [-83.49747702247812, 41.560839290950064],
+                  [-83.49816366798593, 41.564820991698284],
+                  [-83.50125357277109, 41.56443567654226]]]),
+            {
+              "cover_type": 2,
+              "system:index": "197"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.76627247946732, 41.54718328405029],
+                  [-83.76180928366654, 41.547697174233015],
+                  [-83.7623242677974, 41.5533496966561],
+                  [-83.7652425112056, 41.55283585140467]]]),
+            {
+              "cover_type": 2,
+              "system:index": "198"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.85227482932083, 41.61138789829609],
+                  [-83.84575169699662, 41.61202962207918],
+                  [-83.84678166525833, 41.61587983071442],
+                  [-83.85330479758255, 41.61575149412929]]]),
+            {
+              "cover_type": 2,
+              "system:index": "199"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.94241551689439, 41.67662936976368],
+                  [-83.9376089983397, 41.67765508564638],
+                  [-83.93812398247056, 41.68227060481993],
+                  [-83.94464711479478, 41.682142400424]]]),
+            {
+              "cover_type": 2,
+              "system:index": "200"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-83.97812108330064, 41.607869170116174],
+                  [-83.9709113054686, 41.608382577655924],
+                  [-83.97125462822251, 41.611077900209175],
+                  [-83.9786360674315, 41.61094955406972]]]),
+            {
+              "cover_type": 2,
+              "system:index": "201"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.05279378227524, 41.65572684901734],
+                  [-84.0529654436522, 41.65200728457339],
+                  [-84.04901723198228, 41.65162248978548],
+                  [-84.04850224785142, 41.65534207644932]]]),
+            {
+              "cover_type": 2,
+              "system:index": "202"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.21618522486746, 41.56571067577682],
+                  [-84.21240867457449, 41.56622441866984],
+                  [-84.21258033595144, 41.56994893247839],
+                  [-84.21755851588308, 41.56994893247839]]]),
+            {
+              "cover_type": 2,
+              "system:index": "203"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.67885289908835, 41.582743938966985],
+                  [-84.67267308951804, 41.58312914492545],
+                  [-84.672844750895, 41.58556872929902],
+                  [-84.67988286735007, 41.58518353789424]]]),
+            {
+              "cover_type": 2,
+              "system:index": "204"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.62079009654825, 41.68077597586188],
+                  [-84.61701354625528, 41.68103238984307],
+                  [-84.618043514517, 41.685519469122035],
+                  [-84.62044677379434, 41.68526307302108]]]),
+            {
+              "cover_type": 2,
+              "system:index": "205"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.18596326211468, 41.52274024156981],
+                  [-84.18012677529828, 41.522997284289666],
+                  [-84.17944012979046, 41.527495366604015],
+                  [-84.18596326211468, 41.527880901966576]]]),
+            {
+              "cover_type": 2,
+              "system:index": "206"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.27402554849164, 41.38121206292422],
+                  [-84.26818906167523, 41.382242473298554],
+                  [-84.26887570718304, 41.38365926090472],
+                  [-84.27471219399945, 41.38340166545411]]]),
+            {
+              "cover_type": 2,
+              "system:index": "207"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.13154660562054, 41.27008970417275],
+                  [-84.12382184365765, 41.27073481179914],
+                  [-84.12382184365765, 41.27434729670659],
+                  [-84.1317182669975, 41.27434729670659]]]),
+            {
+              "cover_type": 2,
+              "system:index": "208"
+            }),
+        ee.Feature(
+            ee.Geometry.Polygon(
+                [[[-84.16894209535499, 41.16586571259485],
+                  [-84.16945707948585, 41.16185952463721],
+                  [-84.16259062440773, 41.162376465877564],
+                  [-84.16224730165382, 41.16586571259485]]]),
+            {
+              "cover_type": 2,
+              "system:index": "209"
+            })]);
+/***** End of imports. If edited, may not auto-convert in the playground. *****/
+
+
+//This script uses Sentinel and Landsat images, builds two median composites (October to December) and (January to March), ground data 
+//were manually digitized from the composite image themselves
+var roi = ee.FeatureCollection('users/kessi9400/Maumee_WGS84');
+
+var data = cover_crop_polygon.merge(no_cover_crop_polygon);
+
+
+//print(data);
+
+var withRandom = data.randomColumn('random');
+var split = 0.7;
+
+var training = withRandom.filter(ee.Filter.lt('random', split));
+var validation = withRandom.filter(ee.Filter.gte('random',split));
+
+//var training = ee.FeatureCollection('users/kessi9400/training_digitized');
+//var validation = ee.FeatureCollection('users/kessi9400/testing_digitized');
+
+//print(training);
+//print(validation);
+//a code to classify sentinel2 composite for march and april into cover crops
+
+//Cropland Data layer
+var cdl = ee.ImageCollection('USDA/NASS/CDL');
+var maumee = ee.FeatureCollection('users/kessi9400/Maumee_WGS84');
+
+//var training = ee.FeatureCollection('users/kessi9400/Training_data');
+//var validation = ee.FeatureCollection('users/kessi9400/Testing_data');
+
+
+//print(training);
+
+//function to generate annual cropland data layer
+var annual_cdl = function(year){
+  //var cdl = ee.ImageCollection('USDA/NASS/CDL');
+  var corn = 1;
+  var soybean = 5;
+  var cdl_year = ee.Image(cdl.filter(ee.Filter.eq('system:index', String(year))).first()).select('cropland');
+  var cdl_year_crop = cdl_year.eq(corn).or(cdl_year.eq(soybean)).updateMask(cdl_year.eq(corn).or(cdl_year.eq(soybean))).toFloat();
+  var cdl_annual_clip = cdl_year_crop.clip(maumee);
+  return(cdl_annual_clip);
+};
+
+//Annual Cropland data layer for corn and soybean
+var cdl_2019 = annual_cdl(2019);
+var cdl_2018 = annual_cdl(2018);
+var cdl_2017 = annual_cdl(2017);
+var cdl_2016 = annual_cdl(2016);
+var cdl_2015 = annual_cdl(2015);
+
+
+//for sentinel
+var getNDVIS2 = function(image){
+  //var scaled = image.select(['B4_median', 'B8_median', 'B11_median', 'B12_median']);//.multiply(0.0001); //already scaled while cloud masking
+  var ndvi = image.normalizedDifference(['B8','B4']).rename("ndvi");
+  var ngrdi = image.normalizedDifference(['B3','B4']).rename('ngrdi');
+  var dvi = image.select('B8').subtract(image.select('B4')).rename('dvi');
+  var rvi = image.select('B8').divide(image.select('B4')).rename('rvi');
+  var image1 = image.addBands(ndvi);
+  var image2 = image1.addBands(ngrdi);
+  var image3 = image2.addBands(dvi);
+  var image4 = image3.addBands(rvi);
+  var image5 = image4.select(['B3','B4','B5','B11','B12','ndvi','ngrdi','dvi','rvi']);
+  return(image5);
+};
+
+//mask coud
+function maskS2clouds(image) {
+  var qa = image.select('QA60');
+
+  // Bits 10 and 11 are clouds and cirrus, respectively.
+  var cloudBitMask = 1 << 10;
+  var cirrusBitMask = 1 << 11;
+
+  // Both flags should be set to zero, indicating clear conditions.
+  var mask = qa.bitwiseAnd(cloudBitMask).eq(0)
+      .and(qa.bitwiseAnd(cirrusBitMask).eq(0));
+
+  return image.updateMask(mask).divide(10000);
+}
+
+var roi = ee.FeatureCollection('users/kessi9400/Maumee_WGS84');
+//print(roi);
+Map.addLayer(roi);
+
+
+
+//for 15-16 season
+var first_composite15 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2015-11-15', '2015-11-20').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+ var first_composite15_indices = first_composite15.map(getNDVIS2); 
+ //print(oct15_ndvi);
+var first_composite15_median = ee.ImageCollection(first_composite15_indices)
+    .reduce(ee.Reducer.median());
+//print(oct15_median);
+//projection
+Map.addLayer(cdl_2019);
+
+/*
+
+var second_composite15 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2016-04-01', '2016-04-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+var second_composite15_indices = second_composite15.map(getNDVIS2);
+var second_composite15_median = ee.ImageCollection(second_composite15_indices)
+    .reduce(ee.Reducer.median());
+//print(feb15_median);    
+    
+//for 16-17 season
+var first_composite16 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2016-10-01', '2016-12-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+ var first_composite16_indices = first_composite16.map(getNDVIS2); 
+ //print(oct16_ndvi);
+var first_composite16_median = ee.ImageCollection(first_composite16_indices)
+    .reduce(ee.Reducer.median());
+
+
+var second_composite16 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2017-01-01', '2017-03-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+var second_composite16_indices = second_composite16.map(getNDVIS2);
+var second_composite16_median = ee.ImageCollection(second_composite16_indices)
+    .reduce(ee.Reducer.median());
+
+
+//17-18
+var first_composite17 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2017-10-01', '2017-12-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+ var first_composite17_indices = first_composite17.map(getNDVIS2); 
+ //print(oct17_ndvi);
+var first_composite17_median = ee.ImageCollection(first_composite17_indices)
+    .reduce(ee.Reducer.median());
+
+
+var january17 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2018-01-01', '2018-01-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+var march17 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2018-03-01', '2018-03-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+var second_composite17 = january17.merge(march17);
+var second_composite17_indices = second_composite17.map(getNDVIS2);
+var second_composite17_median = ee.ImageCollection(second_composite17_indices)
+    .reduce(ee.Reducer.median());
+
+
+
+//for 2018-19 season
+//images for october
+var first_composite18 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2018-10-01', '2018-12-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+ var first_composite18_indices = first_composite18.map(getNDVIS2); 
+ //print(S2_oct_ndvi);
+var first_composite18_median = ee.ImageCollection(first_composite18_indices)
+    .reduce(ee.Reducer.median());
+    
+/*
+//landsat data
+var l7 = ee.ImageCollection("LANDSAT/LE07/C01/T1_SR").filterBounds(roi).filterDate('2018-10-01','2018-12-30').filterMetadata('CLOUD_COVER','less_than',20);//.map(getNDVI7);
+var l7_oct_median = ee.ImageCollection(l7).reduce(ee.Reducer.median());
+
+var rgbVis = {
+  min: 0.0,
+  max: 0.2,
+  bands: ['B3_median', 'B2_median', 'B1_median'],
+};
+
+
+
+//Map.addLayer(l7_oct_median, rgbVis);
+
+//print(S2_oct);
+
+//images for february
+var feb_19 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2019-01-01', '2019-01-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+var march_19 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2019-03-01', '2019-03-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+var second_composite18 = feb_19;//.merge(march_19);
+var second_composite18_indices = second_composite18.map(getNDVIS2);
+var second_composite18_median = ee.ImageCollection(second_composite18_indices)
+    .reduce(ee.Reducer.median());
+
+
+//for 2019-20 season
+var first_composite19 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2019-10-01', '2019-12-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+ var first_composite19_indices = first_composite19.map(getNDVIS2); 
+ //print(oct17_ndvi);
+var first_composite19_median = ee.ImageCollection(first_composite19_indices)
+    .reduce(ee.Reducer.median());
+
+
+var second_composite19 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2020-01-01', '2020-03-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+var second_composite19_indices = second_composite19.map(getNDVIS2);
+var second_composite19_median = ee.ImageCollection(second_composite19_indices)
+    .reduce(ee.Reducer.median());
+
+//for visualization
+
+var rgbVis = {
+  min: 0.0,
+  max: 0.2,
+  gamma: [1, 1.6, 1],
+  bands: ['B8_median', 'B4_median', 'B3_median'],
+};
+
+
+
+
+//for 2018-19 season
+var composite18 = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2018-10-01', '2019-03-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+var composite18_indices = composite18.map(getNDVIS2); 
+var composite18_median = ee.ImageCollection(composite18_indices)
+    .reduce(ee.Reducer.median());
+
+var first = first_composite18_median.updateMask(cdl_2018);
+var second = second_composite18_median.updateMask(cdl_2018);
+var comp2018 = composite18_median.updateMask(cdl_2018);
+
+
+
+//Map.addLayer(first, rgbVis, 'First composite18');
+//Map.addLayer(second, rgbVis, 'Second composite18');
+//Map.addLayer(comp2018, rgbVis, 'composite18');
+//Map.addLayer(dec, rgbVis, 'December image');
+//Map.addLayer(jan, rgbVis, 'January image');
+//Map.addLayer(feb, rgbVis, 'February image');
+//Map.addLayer(march, rgbVis, 'March image');
+//Map.addLayer(april, rgbVis, 'April image');
+
+
+
+first_composite19_median = first_composite19_median.updateMask(cdl_2019);
+second_composite19_median = second_composite19_median.updateMask(cdl_2019);
+
+first_composite18_median = first_composite18_median.updateMask(cdl_2018);
+second_composite18_median = second_composite18_median.updateMask(cdl_2018);
+
+first_composite17_median = first_composite17_median.updateMask(cdl_2017);
+first_composite17_median = first_composite17_median.updateMask(cdl_2017);
+
+first_composite16_median = first_composite16_median.updateMask(cdl_2016);
+first_composite16_median = first_composite16_median.updateMask(cdl_2016);
+
+first_composite15_median = first_composite15_median.updateMask(cdl_2015);
+first_composite15_median = first_composite15_median.updateMask(cdl_2015);
+
+
+
+var S2_all19 = ee.ImageCollection.fromImages([second_composite19_median]);//, second_composite19_median]);
+var S2_all18 = ee.ImageCollection.fromImages([second_composite18_median]);//, second_composite18_median]);
+var S2_all17 = ee.ImageCollection.fromImages([second_composite17_median]);//, second_composite17_median]);
+var S2_all16 = ee.ImageCollection.fromImages([second_composite16_median]);//, second_composite16_median]);
+var S2_all15 = ee.ImageCollection.fromImages([second_composite15_median]);//, second_composite15_median]);
+
+
+var stackCollection = function(collection) {
+  // Create an initial image.
+  var first = ee.Image(collection.first()).select([]);
+
+  // Write a function that appends a band to an image.
+  var appendBands = function(image, previous) {
+    return ee.Image(previous).addBands(image);
+  };
+  return ee.Image(collection.iterate(appendBands, first));
+};
+
+var merged19 = stackCollection(S2_all19);
+var merged18 = stackCollection(S2_all18);
+var merged17 = stackCollection(S2_all17);
+var merged16 = stackCollection(S2_all16);
+var merged15 = stackCollection(S2_all15);
+
+//var merged19 = merged19.updateMask(cdl_2019);
+//var merged18 = merged18.updateMask(cdl_2018);
+//var merged17 = merged17.updateMask(cdl_2017);
+//var merged16 = merged16.updateMask(cdl_2016);
+//var merged15 = merged15.updateMask(cdl_2015);
+
+
+var bands1 = merged18.bandNames();
+var bands2 = merged17.bandNames();
+//print(bands);
+
+
+var training_data = merged18.select(bands1).sampleRegions({
+  collection: training,
+  properties: ['cover_type'],
+  scale: 20
+});
+
+//print(training_data.size());
+
+
+
+//make a random forest classifier and train it
+var rf_classifier = ee.Classifier.smileRandomForest(100).train({
+  features: training_data,
+  classProperty: 'cover_type',
+  inputProperties: bands1
+  
+});
+
+var classified = merged18.select(bands1).classify(rf_classifier);
+//print(classified);
+//Map.addLayer(classified,{min:0,max:100,palette:"white,gray,black"},"primitive");
+
+var palette = [
+  '00FF00',// cover crop (1)green
+  'FF0000'//  no cover crop (2)red
+];
+Map.addLayer(classified, {min:1, max:2, palette: palette, maxPixels: 50000000000}, 'Cover crop classification');
+//print(classified);
+/*
+var classified_thres = classified.gte(0.95);
+//print(classified_thres);
+//var final = classified_thres.add(1);
+
+*/
+/*
+
+var testing_data = merged18.select(bands1).sampleRegions({
+  collection: validation,
+  properties: ['cover_type'],
+  scale: 10
+});
+//classify the validation data
+//var confMatrix = rf_classifier.confusionMatrix();
+//print(confMatrix);
+//print('training_accuracy', confMatrix.accuracy());
+
+//confusion matrix
+var validated = testing_data.classify(rf_classifier);
+/*
+//changing prob output based on threshold
+//prob output can be get by setting output mode = probability
+var conditional = function(feat) {
+  return ee.Algorithms.If(ee.Number(feat.get('classification')).gte(0.95),
+  feat.set({classification: 1}),
+  feat.set({classification: 0}));
+};
+*/
+
+//var test = validated.map(conditional);
+//print(test);
+
+/*
+//print(validated);
+var test_accuracy = validated.errorMatrix('cover_type','classification');
+print('validation error matrix:', test_accuracy);
+print('validation overall accuracy:', test_accuracy.accuracy());
+
+
+//Map.addLayer(final, {min:1, max:2, palette: palette, maxPixels: 50000000000}, 'Cover crop classification');
+
+Export.image.toDrive({
+  image: classified,
+  description: 'covercrop_classified_2018_19',
+  scale: 10,
+  maxPixels: 5000000000,
+  region: maumee
+});
+
+
+*/
+///Area calculation of study area
+var roi_area = roi.geometry().area();
+var roi_area_sqkm = ee.Number(roi_area).divide(1e6).round();
+print(roi_area_sqkm, 'Area of maumee watershed');
+
+//Area calculation for single class
+
+

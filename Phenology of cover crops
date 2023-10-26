@@ -1,0 +1,240 @@
+//a code to classify sentinel2 composite for march and april into cover crops
+
+//Cropland Data layer
+var cdl = ee.ImageCollection('USDA/NASS/CDL');
+var maumee = ee.FeatureCollection('users/kessi9400/Maumee_WGS84');
+
+var training = ee.FeatureCollection('users/kessi9400/training_data_maumee');
+var validation = ee.FeatureCollection('users/kessi9400/validation_data_maumee');
+var field_polygons = ee.FeatureCollection('users/kessi9400/Field_boundaries_cover_crops2019_UTM_WGS_buffer_joined');
+
+var ceg = field_polygons.filterMetadata('fsa_crop_t', 'equals', 'CEG');
+var bob = field_polygons.filterMetadata('fsa_crop_t', 'equals', 'BOB');
+var lum = field_polygons.filterMetadata('fsa_crop_t', 'equals', 'LUM');
+var mix = field_polygons.filterMetadata('fsa_crop_t', 'equals', 'MIX');
+
+var non_cover_crops = ee.FeatureCollection('users/kessi9400/Digitized_nocovercrop_S2');
+var cover_crops = ee.FeatureCollection('users/kessi9400/Digitized_covercrop_S2');
+
+Map.addLayer(non_cover_crops);
+
+print(ceg);
+print(bob);
+print(lum);
+print(mix);
+print(training);
+
+
+//function to generate annual cropland data layer
+var annual_cdl = function(year){
+  //var cdl = ee.ImageCollection('USDA/NASS/CDL');
+  var corn = 1;
+  var soybean = 5;
+  var cdl_year = ee.Image(cdl.filter(ee.Filter.eq('system:index', String(year))).first()).select('cropland');
+  var cdl_year_crop = cdl_year.eq(corn).or(cdl_year.eq(soybean)).updateMask(cdl_year.eq(corn).or(cdl_year.eq(soybean))).toFloat();
+  var cdl_annual_clip = cdl_year_crop.clip(maumee);
+  return(cdl_annual_clip);
+};
+
+//Annual Cropland data layer for corn and soybean
+//var cdl_2018 = annual_cdl(2018);
+var getNDVIS2 = function(image){
+  var scaled = image.select(['B2','B3','B4','B5', 'B6', 'B7', 'B8', 'B8A', 'B11', 'B12']).multiply(0.0001);
+  var ndvi = scaled.normalizedDifference(['B8','B4']);
+  var ngrdi = scaled.normalizedDifference(['B3','B4']).rename('ngrdi');
+  var dvi = scaled.select('B8').subtract(image.select('B4')).rename('dvi');
+  var rvi = scaled.select('B8').divide(image.select('B4')).rename('rvi');
+  var image1 = scaled.addBands(ndvi);
+  var image2 = image1.addBands(ngrdi);
+  var image3 = image2.addBands(dvi);
+  var image4 = image3.addBands(rvi);
+  return(image4);
+};
+
+var roi = ee.FeatureCollection('users/kessi9400/Maumee_WGS84');
+print(roi);
+
+Map.addLayer(roi);
+
+var yearrangeStart = 2019;
+var yearrangeStop = 2020;
+
+//mask coud
+function maskS2clouds(image) {
+  var qa = image.select('QA60');
+
+  // Bits 10 and 11 are clouds and cirrus, respectively.
+  var cloudBitMask = 1 << 10;
+  var cirrusBitMask = 1 << 11;
+
+  // Both flags should be set to zero, indicating clear conditions.
+  var mask = qa.bitwiseAnd(cloudBitMask).eq(0)
+      .and(qa.bitwiseAnd(cirrusBitMask).eq(0));
+
+  return image.updateMask(mask).divide(10000);
+}
+
+var cdl_2018 = annual_cdl(2018);
+//images for october
+var S2_oct = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2018-10-1', '2018-12-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+ var S2_oct_ndvi = S2_oct.map(getNDVIS2); 
+ print(S2_oct_ndvi);
+var S2_oct_median = ee.ImageCollection(S2_oct_ndvi)
+    .reduce(ee.Reducer.median());
+
+print(S2_oct);
+
+//images for february
+var S2_f = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2019-01-01', '2019-01-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+var S2_m = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2019-03-01', '2019-03-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+var S2_feb = S2_f.merge(S2_m);
+var S2_feb_ndvi = S2_feb.map(getNDVIS2);
+var S2_feb_median = ee.ImageCollection(S2_feb_ndvi)
+    .reduce(ee.Reducer.median());
+
+
+var S2_april = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2019-04-1', '2019-04-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20)).map(maskS2clouds);
+var S2_april_ndvi = S2_april.map(getNDVIS2);
+var S2_april_median = ee.ImageCollection(S2_april_ndvi)
+    .reduce(ee.Reducer.median());
+
+var oct = S2_oct_median.updateMask(cdl_2018);
+var feb = S2_feb_median.updateMask(cdl_2018);
+
+
+
+/*
+//images for october
+var S2_oct = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2018-10-1', '2018-10-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20))
+  .map(getNDVIS2);
+print(S2_oct);
+//images for november
+var S2_nov = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2018-11-1', '2018-11-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20))
+  .map(getNDVIS2);
+print(S2_nov);
+//images for december
+var S2_dec = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2018-12-1', '2018-12-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20))
+  .map(getNDVIS2);
+print(S2_dec);
+//images for january
+var S2_jan = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2019-01-1', '2019-01-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20))
+  .map(getNDVIS2);
+print(S2_jan);
+//images for february
+var S2_feb = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2019-02-1', '2019-02-28').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20))
+  .map(getNDVIS2);
+print(S2_feb);
+//images for march
+var S2_march = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2019-03-1', '2019-03-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20))
+  .map(getNDVIS2);
+print(S2_march);
+//images for april
+var S2_april = ee.ImageCollection('COPERNICUS/S2').filterBounds(roi).filterDate('2019-04-1', '2019-04-30').filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE',20))
+  .map(getNDVIS2);
+  
+print(S2_april);
+*/
+/*
+//var mergedCollection1 =S2.clip(maumee);
+var S2_oct_med = ee.ImageCollection(S2_oct)
+    .reduce(ee.Reducer.median());
+print(S2_oct_med, 'oct');
+var S2_nov_med = ee.ImageCollection(S2_nov)
+    .reduce(ee.Reducer.median());
+
+var S2_dec_med = ee.ImageCollection(S2_dec)
+    .reduce(ee.Reducer.median());
+
+var S2_jan_med = ee.ImageCollection(S2_jan)
+    .reduce(ee.Reducer.median());
+    
+var S2_feb_med = ee.ImageCollection(S2_feb)
+    .reduce(ee.Reducer.median());
+    
+var S2_march_med = ee.ImageCollection(S2_march)
+    .reduce(ee.Reducer.median());
+
+var S2_april_med= ee.ImageCollection(S2_april)
+    .reduce(ee.Reducer.median());
+    
+// var dt = S2_april_med.date().format();
+ //print(dt);
+
+var S2_all = ee.ImageCollection.fromImages([S2_oct_med, S2_nov_med, S2_dec_med, S2_jan_med, S2_feb_med, S2_march_med, S2_april_med]);
+print(S2_all);
+//var S2_cc = S2_c.select('nd_mean');
+/*
+var band = ['B3_median','B4_median', 'B5_median', 'B6_median', 'B7_median', 'B8_median', 'nd_median'];
+var rgbVis = {
+  min: 0.0,
+  max: 2000,
+  bands: ['B4_median', 'B3_median', 'B2_median'],
+};
+//Map.addLayer(mergedCollection1, rgbVis);
+Map.addLayer(training);
+Map.addLayer(validation);
+*/
+
+// Create a time series chart.
+/*
+var tempTimeSeries = ui.Chart.image.seriesByRegion(
+    S2, bob, ee.Reducer.mean(), 'nd', 10, 'system:index', 'Id')
+        .setChartType('ScatterChart')
+        .setOptions({
+          title: 'NDVI on cover cropped fields in Maumee 2017/18 season',
+          vAxis: {title: 'NDVI'},
+          lineWidth: 3,
+          pointSize: 4});
+
+// Display.
+print(tempTimeSeries);
+*/
+
+
+//Spatial reducer for an image
+var field_ndvi = oct.reduceRegions({
+  collection: cover_crops,
+  reducer: ee.Reducer.mean(),
+  scale:10
+  
+});
+print(field_ndvi);
+
+//export as csv
+//drop .geo column which is not needed here
+
+var data_out = field_ndvi.select(['.*'], null, false);
+
+//exporting table to drive
+Export.table.toDrive({
+  collection: data_out,
+  description: 'april_monthly_median_for_noncovercrops',
+  folder: 'classification_data_check',
+  fileFormat: 'CSV'
+});
+/*
+//sample imagery to get featurecollection of training data
+var train = mergedCollection1.select(band).sampleRegions({
+  collection: validation,
+  properties: ['Cover_crop'],
+  scale:10
+  
+});
+
+print(train);
+//make a Random Forest classifier and train it
+var classifier = ee.Classifier.randomForest().train({
+  features:train,
+  classProperty: 'Cover_crop',
+  inputProperties: band 
+});
+
+
+//classify the image
+
+var classified = mergedCollection1.select(band).classify(classifier);
+print(classified);
+var palette = [
+  '00FF00'];
+Map.addLayer(classified, {min:0, max:2, palette: palette});
+*/
