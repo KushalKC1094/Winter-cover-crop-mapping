@@ -2,7 +2,7 @@
 
 Historical research code for mapping winter cover crops in the Western Lake Erie Basin using Google Earth Engine (GEE).
 
-This repository contains Google Earth Engine scripts developed for previous research on mapping winter cover crops across the Maumee River watershed. They use Sentinel-2 and Landsat imagery, vegetation indices, and random forest classification. The repository is preserved as a reference resource for students and researchers who wish to understand, reuse, or extend the existing workflows.
+This repository contains Google Earth Engine scripts developed for previous research on mapping winter cover crops across the Maumee River watershed. We used Sentinel-2 and Landsat imagery, vegetation indices, and random forest classification. The repository is preserved as a reference resource for students and researchers who wish to understand, reuse, or extend the existing workflows.
 
 > **Repository status: Historical research code.** The scripts are preserved for future reference and are not actively maintained. Compatibility with current software, datasets, and Google Earth Engine assets has not necessarily been verified.
 
